@@ -1,0 +1,2331 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>API and Integrations | magicplan</title>
+    <link rel="shortcut icon" href="hubfs/favicon-96x96_new.png">
+    <meta name="description" content="magicplan has built-in support for many apps as well as a comprehensive API. Discover and connect the tools you need to grow your business.">
+
+    <style>@font-face {
+        font-family: "Inter";
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("_hcms/googlefonts/Inter/regular.woff") format("woff"),
+             url("_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("_hcms/googlefonts/Inter/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Inter";
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Inter/500.woff2") format("woff2"), url("_hcms/googlefonts/Inter/500.woff") format("woff"),
+             url("_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("_hcms/googlefonts/Inter/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Inter";
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Inter/700.woff2") format("woff2"), url("_hcms/googlefonts/Inter/700.woff") format("woff"),
+             url("_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("_hcms/googlefonts/Inter/regular.woff") format("woff");
+    }
+
+            body {
+                font-family: Inter;
+            }
+        @font-face {
+        font-family: "Poppins";
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/regular.woff") format("woff"),
+             url("_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Poppins";
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Poppins/500.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/500.woff") format("woff"),
+             url("_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Poppins";
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Poppins/700.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/700.woff") format("woff"),
+             url("_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Poppins";
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Poppins/italic.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/italic.woff") format("woff"),
+             url("_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/regular.woff") format("woff");
+    }
+
+            .pwr-header__skip {
+                font-family: Poppins;
+            }</style>
+
+    
+
+    
+
+    
+        
+        
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="hs/hsstatic/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
+<script>hsjQuery = window['jQuery'];</script>
+    <meta property="og:description" content="magicplan has built-in support for many apps as well as a comprehensive API. Discover and connect the tools you need to grow your business.">
+    <meta property="og:title" content="API and Integrations | magicplan">
+    <meta name="twitter:description" content="magicplan has built-in support for many apps as well as a comprehensive API. Discover and connect the tools you need to grow your business.">
+    <meta name="twitter:title" content="API and Integrations | magicplan">
+
+    
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "magicplan",
+        "logo": { 
+            "@type": "ImageObject",
+            "url": "https://6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Email%20Test/mp_logo_light.png"
+        },
+        "url": "https://www.magicplan.app/integrations",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Québec",
+            "addressLocality": "Montréal",
+            "postalCode":"H2Y 1V8",
+            "streetAddress": "465 Rue St Jean"
+        },
+        "knowsLanguage": "en"
+    }
+</script>
+    <style>a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/82659040910/1763437175482/template_pwr.min.css">
+
+        <style>body {
+                margin:0px;
+            }
+            img:not([src]):not([srcset]) {
+                visibility:hidden;
+            }
+        </style>
+    
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108199330606/1763437169068/template_pwr-defer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108199330606/1763437169068/template_pwr-defer.min.css"></noscript>
+<style>#hs_cos_wrapper_header_page .pwr-header-logo,
+#hs_cos_wrapper_header_page .pwr-header-logo__img {
+  max-width:140px;
+  height:auto;
+}
+
+@media (max-width:575px) {
+  #hs_cos_wrapper_header_page .pwr-header-logo,
+  #hs_cos_wrapper_header_page .pwr-header-logo__img { max-width:140px; }
+}
+
+#hs_cos_wrapper_header_page .pwr-header-logo img { vertical-align:middle; }
+</style>
+<link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108183947820/1763437144219/template_pwr-burger.min.css" fetchpriority="low">
+<link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108197159258/1763437157608/template_scroll-shadow.min.css" fetchpriority="low">
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108197156937/1763437149550/template_advanced-content.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="low">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108197156937/1763437149550/template_advanced-content.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108197159258/1763437157608/template_scroll-shadow.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="low">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108197159258/1763437157608/template_scroll-shadow.min.css"></noscript>
+<style type="text/css">#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu__link-container {
+  font-size:14px;
+  font-weight:800;
+  margin-left:-2.142857142857143em;
+  margin-right:-2.142857142857143em;
+  letter-spacing:0px;
+}
+
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu__link,
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu__link--external {
+  margin-left:2.142857142857143em;
+  margin-right:2.142857142857143em;
+  opacity:0.7;
+}
+
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu__content.pwr-scroll-shadow__wrapper--hor { --mask-width:calc(4*2.142857142857143em); }
+
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu__content.pwr-scroll-shadow__wrapper--hor-coloured::before,
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu__content.pwr-scroll-shadow__wrapper--hor-coloured::after { width:calc(4*2.142857142857143em); }
+
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu--mobile-open .pwr-sticky-sub-menu__link,
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu--mobile-open .pwr-sticky-sub-menu__link--external { font-size:13px; }
+
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu__progress-bar {
+  color:rgba(0,153,238,1.0);
+  opacity:1;
+}
+
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu__progress-bar::-webkit-progress-value { background-color:rgba(0,153,238,1.0); }
+
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu__progress-bar::-moz-progress-bar { background-color:rgba(0,153,238,1.0); }
+
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu__link:hover,
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu__link--external:hover,
+#hs_cos_wrapper_module_17218528646015 .pwr--dark .pwr-sticky-sub-menu__link:hover,
+#hs_cos_wrapper_module_17218528646015 .pwr--dark .pwr-sticky-sub-menu__link--external:hover,
+#hs_cos_wrapper_module_17218528646015 .pwr-sticky-sub-menu__link--active {
+  color:rgba(0,153,238,1.0) !important;
+  opacity:1;
+}
+</style>
+<link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108199330604/1763437155139/template_pwr-sticky.min.css">
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108196992296/1763437171188/template_pwr-sec-txt.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108196992296/1763437171188/template_pwr-sec-txt.min.css"></noscript>
+<style>#hs_cos_wrapper_module_17230401658384 .pwr-sec__title-intro { color:#161616; }
+</style>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108197156935/1763437154512/template_pwr-sec-clients.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108197156935/1763437154512/template_pwr-sec-clients.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/82658359736/1763437158350/template__swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/82658359736/1763437158350/template__swiper-bundle.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108184562266/1763437162690/template_pwr-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108184562266/1763437162690/template_pwr-slider.min.css"></noscript>
+<style>@media (min-width:992px) {
+  #hs_cos_wrapper_module_1722017827762 .pwr-sec-mockup__mockup {
+    --margin-center:calc(25.0% - min(700px,50%)/2);
+    --margin-side:calc(50% - min(700px,50%));
+  }
+
+  #hs_cos_wrapper_module_1722017827762 .pwr-sec-mockup__mockup--desktop-align-center:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-center); }
+
+  #hs_cos_wrapper_module_1722017827762 .pwr-sec-mockup__mockup--desktop-align-right:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-side); }
+
+  #hs_cos_wrapper_module_1722017827762 .pwr-sec-mockup__mockup--desktop-align-center.pwr-sec-mockup__mockup--right,
+  #hs_cos_wrapper_module_1722017827762 .pwr-sec-mockup--mockup-bottom .pwr-sec-mockup__mockup--desktop-align-center { margin-right:var(--margin-center); }
+
+  #hs_cos_wrapper_module_1722017827762 .pwr-sec-mockup__mockup--desktop-align-left.pwr-sec-mockup__mockup--right { margin-right:var(--margin-side); }
+
+  #hs_cos_wrapper_module_1722017827762 .pwr-sec-mockup__content { text-align:left; }
+
+  #hs_cos_wrapper_module_1722017827762 .pwr-sec-mockup__title-intro {}
+
+  #hs_cos_wrapper_module_1722017827762 .pwr-sec-mockup__title-intro--has-background { margin-left:0.825em; }
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_1722017827762 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_1722017827762 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_1722017827762 .pwr-sec-mockup__title-intro--has-background {}
+}
+</style>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108197336724/1763437148485/template_pwr-sec-mockup.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108197336724/1763437148485/template_pwr-sec-mockup.min.css"></noscript>
+<style>@media (min-width:992px) {
+  #hs_cos_wrapper_module_17218529347982 .pwr-sec-mockup__mockup {
+    --margin-center:calc(25.0% - min(700px,50%)/2);
+    --margin-side:calc(50% - min(700px,50%));
+  }
+
+  #hs_cos_wrapper_module_17218529347982 .pwr-sec-mockup__mockup--desktop-align-center:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-center); }
+
+  #hs_cos_wrapper_module_17218529347982 .pwr-sec-mockup__mockup--desktop-align-right:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-side); }
+
+  #hs_cos_wrapper_module_17218529347982 .pwr-sec-mockup__mockup--desktop-align-center.pwr-sec-mockup__mockup--right,
+  #hs_cos_wrapper_module_17218529347982 .pwr-sec-mockup--mockup-bottom .pwr-sec-mockup__mockup--desktop-align-center { margin-right:var(--margin-center); }
+
+  #hs_cos_wrapper_module_17218529347982 .pwr-sec-mockup__mockup--desktop-align-left.pwr-sec-mockup__mockup--right { margin-right:var(--margin-side); }
+
+  #hs_cos_wrapper_module_17218529347982 .pwr-sec-mockup__content { text-align:left; }
+
+  #hs_cos_wrapper_module_17218529347982 .pwr-sec-mockup__title-intro {}
+
+  #hs_cos_wrapper_module_17218529347982 .pwr-sec-mockup__title-intro--has-background { margin-left:0.825em; }
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_17218529347982 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_17218529347982 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_17218529347982 .pwr-sec-mockup__title-intro--has-background {}
+}
+</style>
+<style>@media (min-width:992px) {
+  #hs_cos_wrapper_module_17218529347983 .pwr-sec-mockup__mockup {
+    --margin-center:calc(25.0% - min(400px,50%)/2);
+    --margin-side:calc(50% - min(400px,50%));
+  }
+
+  #hs_cos_wrapper_module_17218529347983 .pwr-sec-mockup__mockup--desktop-align-center:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-center); }
+
+  #hs_cos_wrapper_module_17218529347983 .pwr-sec-mockup__mockup--desktop-align-right:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-side); }
+
+  #hs_cos_wrapper_module_17218529347983 .pwr-sec-mockup__mockup--desktop-align-center.pwr-sec-mockup__mockup--right,
+  #hs_cos_wrapper_module_17218529347983 .pwr-sec-mockup--mockup-bottom .pwr-sec-mockup__mockup--desktop-align-center { margin-right:var(--margin-center); }
+
+  #hs_cos_wrapper_module_17218529347983 .pwr-sec-mockup__mockup--desktop-align-left.pwr-sec-mockup__mockup--right { margin-right:var(--margin-side); }
+
+  #hs_cos_wrapper_module_17218529347983 .pwr-sec-mockup__content { text-align:left; }
+
+  #hs_cos_wrapper_module_17218529347983 .pwr-sec-mockup__title-intro {}
+
+  #hs_cos_wrapper_module_17218529347983 .pwr-sec-mockup__title-intro--has-background { margin-left:0.825em; }
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_17218529347983 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_17218529347983 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_17218529347983 .pwr-sec-mockup__title-intro--has-background {}
+}
+</style>
+<style>@media (min-width:992px) {
+  #hs_cos_wrapper_module_172185294457410 .pwr-sec-mockup__mockup {
+    --margin-center:calc(25.0% - min(700px,50%)/2);
+    --margin-side:calc(50% - min(700px,50%));
+  }
+
+  #hs_cos_wrapper_module_172185294457410 .pwr-sec-mockup__mockup--desktop-align-center:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-center); }
+
+  #hs_cos_wrapper_module_172185294457410 .pwr-sec-mockup__mockup--desktop-align-right:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-side); }
+
+  #hs_cos_wrapper_module_172185294457410 .pwr-sec-mockup__mockup--desktop-align-center.pwr-sec-mockup__mockup--right,
+  #hs_cos_wrapper_module_172185294457410 .pwr-sec-mockup--mockup-bottom .pwr-sec-mockup__mockup--desktop-align-center { margin-right:var(--margin-center); }
+
+  #hs_cos_wrapper_module_172185294457410 .pwr-sec-mockup__mockup--desktop-align-left.pwr-sec-mockup__mockup--right { margin-right:var(--margin-side); }
+
+  #hs_cos_wrapper_module_172185294457410 .pwr-sec-mockup__content { text-align:left; }
+
+  #hs_cos_wrapper_module_172185294457410 .pwr-sec-mockup__title-intro {}
+
+  #hs_cos_wrapper_module_172185294457410 .pwr-sec-mockup__title-intro--has-background { margin-left:0.825em; }
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_172185294457410 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_172185294457410 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_172185294457410 .pwr-sec-mockup__title-intro--has-background {}
+}
+</style>
+<style>@media (min-width:992px) {
+  #hs_cos_wrapper_module_172185294457411 .pwr-sec-mockup__mockup {
+    --margin-center:calc(25.0% - min(150px,50%)/2);
+    --margin-side:calc(50% - min(150px,50%));
+  }
+
+  #hs_cos_wrapper_module_172185294457411 .pwr-sec-mockup__mockup--desktop-align-center:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-center); }
+
+  #hs_cos_wrapper_module_172185294457411 .pwr-sec-mockup__mockup--desktop-align-right:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-side); }
+
+  #hs_cos_wrapper_module_172185294457411 .pwr-sec-mockup__mockup--desktop-align-center.pwr-sec-mockup__mockup--right,
+  #hs_cos_wrapper_module_172185294457411 .pwr-sec-mockup--mockup-bottom .pwr-sec-mockup__mockup--desktop-align-center { margin-right:var(--margin-center); }
+
+  #hs_cos_wrapper_module_172185294457411 .pwr-sec-mockup__mockup--desktop-align-left.pwr-sec-mockup__mockup--right { margin-right:var(--margin-side); }
+
+  #hs_cos_wrapper_module_172185294457411 .pwr-sec-mockup__content { text-align:left; }
+
+  #hs_cos_wrapper_module_172185294457411 .pwr-sec-mockup__title-intro {}
+
+  #hs_cos_wrapper_module_172185294457411 .pwr-sec-mockup__title-intro--has-background { margin-left:0.825em; }
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_172185294457411 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_172185294457411 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_172185294457411 .pwr-sec-mockup__title-intro--has-background {}
+}
+</style>
+<style>@media (min-width:992px) {
+  #hs_cos_wrapper_module_172185294457412 .pwr-sec-mockup__mockup {
+    --margin-center:calc(25.0% - min(450px,50%)/2);
+    --margin-side:calc(50% - min(450px,50%));
+  }
+
+  #hs_cos_wrapper_module_172185294457412 .pwr-sec-mockup__mockup--desktop-align-center:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-center); }
+
+  #hs_cos_wrapper_module_172185294457412 .pwr-sec-mockup__mockup--desktop-align-right:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-side); }
+
+  #hs_cos_wrapper_module_172185294457412 .pwr-sec-mockup__mockup--desktop-align-center.pwr-sec-mockup__mockup--right,
+  #hs_cos_wrapper_module_172185294457412 .pwr-sec-mockup--mockup-bottom .pwr-sec-mockup__mockup--desktop-align-center { margin-right:var(--margin-center); }
+
+  #hs_cos_wrapper_module_172185294457412 .pwr-sec-mockup__mockup--desktop-align-left.pwr-sec-mockup__mockup--right { margin-right:var(--margin-side); }
+
+  #hs_cos_wrapper_module_172185294457412 .pwr-sec-mockup__content { text-align:left; }
+
+  #hs_cos_wrapper_module_172185294457412 .pwr-sec-mockup__title-intro {}
+
+  #hs_cos_wrapper_module_172185294457412 .pwr-sec-mockup__title-intro--has-background { margin-left:0.825em; }
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_172185294457412 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_172185294457412 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_172185294457412 .pwr-sec-mockup__title-intro--has-background {}
+}
+</style>
+<style>@media (min-width:992px) {
+  #hs_cos_wrapper_module_17218529538667 .pwr-sec-mockup__mockup {
+    --margin-center:calc(25.0% - min(900px,50%)/2);
+    --margin-side:calc(50% - min(900px,50%));
+  }
+
+  #hs_cos_wrapper_module_17218529538667 .pwr-sec-mockup__mockup--desktop-align-center:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-center); }
+
+  #hs_cos_wrapper_module_17218529538667 .pwr-sec-mockup__mockup--desktop-align-right:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-side); }
+
+  #hs_cos_wrapper_module_17218529538667 .pwr-sec-mockup__mockup--desktop-align-center.pwr-sec-mockup__mockup--right,
+  #hs_cos_wrapper_module_17218529538667 .pwr-sec-mockup--mockup-bottom .pwr-sec-mockup__mockup--desktop-align-center { margin-right:var(--margin-center); }
+
+  #hs_cos_wrapper_module_17218529538667 .pwr-sec-mockup__mockup--desktop-align-left.pwr-sec-mockup__mockup--right { margin-right:var(--margin-side); }
+
+  #hs_cos_wrapper_module_17218529538667 .pwr-sec-mockup__content { text-align:left; }
+
+  #hs_cos_wrapper_module_17218529538667 .pwr-sec-mockup__title-intro {}
+
+  #hs_cos_wrapper_module_17218529538667 .pwr-sec-mockup__title-intro--has-background { margin-left:0.825em; }
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_17218529538667 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_17218529538667 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_17218529538667 .pwr-sec-mockup__title-intro--has-background {}
+}
+</style>
+<style>#hs_cos_wrapper_module_17218529717707 .pwr-sec__title-intro { color:#0099EE; }
+</style>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108199228729/1763437166727/template_pwr-mini.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108199228729/1763437166727/template_pwr-mini.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108199270435/1763437167369/template_pwr-image.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108199270435/1763437167369/template_pwr-image.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108196831313/1763437184602/template_pwr-touch.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="low">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108196831313/1763437184602/template_pwr-touch.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108196658561/1763437168814/template_pwr-sec-image.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108196658561/1763437168814/template_pwr-sec-image.min.css"></noscript>
+<style>#hs_cos_wrapper_module_17218529940777 .pwr-sec__title-intro { color:#0099EE; }
+</style>
+<style>#hs_cos_wrapper_module_17218529940777 .pwr-sec__title-intro:before {
+  background-color:rgba(230,240,250,1.0);
+  content:'';
+  width:calc(100% + 1.65em);
+  height:calc(100% + 0.6em);
+  z-index:-1;
+  left:-0.825em;
+  top:-0.3em;
+  position:absolute;
+  border-radius:6px;
+}
+
+#hs_cos_wrapper_module_17218529940777 .pwr-sec__title-intro { margin-top:.3em; }
+
+#hs_cos_wrapper_module_17218529940777 .pwr-sec__title-intro--left { margin-left:0.825em; }
+</style>
+<style>#hs_cos_wrapper_module_17218529940777 .pwr-image-box__img { height:250px; }
+
+@media (max-width:1199px) {
+  #hs_cos_wrapper_module_17218529940777 .pwr-image-box__img { height:250px; }
+}
+
+@media (max-width:767px) {
+  #hs_cos_wrapper_module_17218529940777 .pwr-image-box__img { height:200px; }
+}
+</style>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108196628006/1763437165373/template_pwr-social.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108196628006/1763437165373/template_pwr-social.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108183947819/1763437163514/template_pwr-footer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="low">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108183947819/1763437163514/template_pwr-footer.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108196658562/1763437161454/template_pwr-transitions.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108196658562/1763437161454/template_pwr-transitions.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/82658359966/1763437144110/template_custom-styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/82658359966/1763437144110/template_custom-styles.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/83099875151/1763437143847/template_child.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/83099875151/1763437143847/template_child.min.css"></noscript>
+<!-- Editor Styles -->
+<style id="hs_editor_style" type="text/css">.dnd_area-row-0-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-1-max-width-section-centering > .row-fluid {
+  max-width: 1000px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.dnd_area-row-4-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-6-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-7-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-8-max-width-section-centering > .row-fluid {
+  max-width: 600px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.dnd_area-row-9-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-10-max-width-section-centering > .row-fluid {
+  max-width: 1232px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.dnd_area-row-11-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-12-max-width-section-centering > .row-fluid {
+  max-width: 1232px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.module_17218529717708-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.module_17218529717708-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+.module_17218529802415-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.module_17218529802415-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+.module_17218530343565-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.module_17218530343565-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+/* HubSpot Non-stacked Media Query Styles */
+@media (min-width:768px) {
+  .dnd_area-row-8-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .cell_17218529717703-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_17218529717703-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_17218529717703-row-2-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .cell_17218529717709-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_17218529717709-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_17218529717709-row-0-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .module_172185297177011-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .module_172185297177011-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+}
+/* HubSpot Styles (default) */
+.dnd_area-row-0-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.dnd_area-row-0-background-layers {
+  background-image: linear-gradient(rgba(238, 238, 238, 1), rgba(238, 238, 238, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-1-padding {
+  padding-bottom: 0px !important;
+}
+.dnd_area-row-2-padding {
+  padding-top: 32px !important;
+  padding-bottom: 45px !important;
+}
+.dnd_area-row-3-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.dnd_area-row-4-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.dnd_area-row-6-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.dnd_area-row-6-background-layers {
+  background-image: linear-gradient(rgba(238, 238, 238, 1), rgba(238, 238, 238, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-8-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.dnd_area-row-8-background-layers {
+  background-image: linear-gradient(rgba(58, 58, 60, 1), rgba(58, 58, 60, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-9-padding {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
+.dnd_area-row-9-background-layers {
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-10-padding {
+  padding-top: 48px !important;
+  padding-bottom: 40px !important;
+}
+.dnd_area-row-11-padding {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
+.dnd_area-row-11-background-layers {
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-12-padding {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+.cell_17218529717703-padding {
+  padding-top: 24px !important;
+}
+.cell_17218529717703-row-2-margin {
+  margin-top: 8px !important;
+  margin-bottom: 40px !important;
+}
+.cell_17218529717703-row-2-padding {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+/* HubSpot Styles (mobile) */
+@media (max-width: 767px) {
+  .dnd_area-row-3-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .dnd_area-row-10-padding {
+    padding-top: 48px !important;
+    padding-bottom: 32px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .dnd_area-row-12-padding {
+    padding-top: 32px !important;
+    padding-bottom: 40px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .cell_17218529717703-row-2-padding {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+</style>
+    
+
+    
+<!--  Added by GoogleAnalytics4 integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = true;
+var waitForUpdateMillis = 1000;
+
+
+if (!window._hsGoogleConsentRunOnce) {
+  window._hsGoogleConsentRunOnce = true;
+
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'wait_for_update': waitForUpdateMillis
+  });
+
+  if (useGoogleConsentModeV2) {
+    _hsp.push(['useGoogleConsentModeV2'])
+  } else {
+    _hsp.push(['addPrivacyConsentListener', function(consent){
+      var hasAnalyticsConsent = consent && (consent.allowed || (consent.categories && consent.categories.analytics));
+      var hasAdsConsent = consent && (consent.allowed || (consent.categories && consent.categories.advertisement));
+
+      gtag('consent', 'update', {
+        'ad_storage': hasAdsConsent ? 'granted' : 'denied',
+        'analytics_storage': hasAnalyticsConsent ? 'granted' : 'denied',
+        'ad_user_data': hasAdsConsent ? 'granted' : 'denied',
+        'ad_personalization': hasAdsConsent ? 'granted' : 'denied'
+      });
+    }]);
+  }
+}
+
+gtag('js', new Date());
+gtag('set', 'developer_id.dZTQ1Zm', true);
+gtag('config', 'G-Z9HSFLLP25');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9HSFLLP25"></script>
+
+<!-- /Added by GoogleAnalytics4 integration -->
+
+<!--  Added by GoogleTagManager integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = true;
+var waitForUpdateMillis = 1000;
+
+
+
+var hsLoadGtm = function loadGtm() {
+    if(window._hsGtmLoadOnce) {
+      return;
+    }
+
+    if (useGoogleConsentModeV2) {
+
+      gtag('set','developer_id.dZTQ1Zm',true);
+
+      gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'wait_for_update': waitForUpdateMillis
+      });
+
+      _hsp.push(['useGoogleConsentModeV2'])
+    }
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M26P32G5');
+
+    window._hsGtmLoadOnce = true;
+};
+
+_hsp.push(['addPrivacyConsentListener', function(consent){
+  if(consent.allowed || (consent.categories && consent.categories.analytics)){
+    hsLoadGtm();
+  }
+}]);
+
+</script>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    <link rel="canonical" href="integrations.html">
+
+<script type="application/ld+json">
+{
+"@context" : "http://schema.org",
+"@type" : "WebSite",
+"name" : "magicplan",
+"url" : "https://www.magicplan.app/"
+}
+</script>
+<meta property="og:site_name" content="magicplan">
+
+<script id="vtag-ai-js" async src="../r2.leadsy.ai/tag.js" data-pid="10YzmxlBp33rN4ROZ" data-version="062024"></script>
+
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id=' + i + dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M26P32G5');
+</script>
+<!-- End Google Tag Manager -->
+<meta property="og:url" content="https://www.magicplan.app/integrations">
+<meta name="twitter:card" content="summary">
+<meta http-equiv="content-language" content="en">
+
+
+
+
+
+
+    
+    
+  <meta name="generator" content="HubSpot"></head>
+  <body>
+<!--  Added by GoogleTagManager integration -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M26P32G5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    <div class="body-wrapper   hs-content-id-97128585794 hs-site-page page  
+    pwr-v--46 line-numbers" data-aos-global-disable="phone" data-aos-global-offset="64" data-aos-global-delay="50" data-aos-global-duration="380">
+      
+        <div id="hs_cos_wrapper_page_settings" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"></div> 
+      
+
+      
+
+      
+        <div data-global-resource-path="POWER x magicplan main website/templates/partials/header.html"><header class="header">
+
+    
+    <a href="#main-content" class="pwr-header__skip">Skip to content</a><div class="header__container"><div id="hs_cos_wrapper_header_page" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div id="pwr-header-top" class="pwr-header-top vanilla  pwr-header-top--flip-order   pwr--light   ">
+  <div class="pwr-header-top__content-wrapper page-center pwr--clearfix"><div class="pwr-header-top__menu  pwr-js-menu"><span id="hs_cos_wrapper_header_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_header_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="100001491370" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://help.magicplan.app" role="menuitem">Customer Support</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="contact.html" role="menuitem">Contact Us</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="tel:+18337502616" role="menuitem">833-750-2616</a></li>
+ </ul>
+</div></span></div></div>
+</div>
+
+<div id="pwr-js-burger" class="pwr-burger vanilla pwr--light  ">
+  <a href="#" id="pwr-js-burger__trigger-close" aria-label="Close" burger menu” class="pwr-burger__trigger-close vanilla">
+    <span class="pwr-burger__icon-close"></span>Close
+  </a>
+          
+          <div class="pwr-burger__menu pwr-js-menu pwr-scroll-shadow__wrapper pwr-scroll-shadow__wrapper--vert pwr-scroll-shadow__root pwr-scroll-shadow__root--vert"><span id="hs_cos_wrapper_header_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_header_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-vertical" role="navigation" data-sitemap-name="default" data-menu-id="107176816016" aria-label="Navigation Menu">
+ <ul role="menu" class="active-branch">
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Features</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="sketches.html" role="menuitem">Sketches</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="visual-documentation.html" role="menuitem">Photos</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="sops.html" role="menuitem">SOPs</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="equipment.html" role="menuitem">Equipment Placement</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="360-tours.html" role="menuitem">360º Panoramas</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="features.html" role="menuitem">Explore all of our features -&gt;</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Industries</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="industries/restoration.html" role="menuitem">Restoration</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="industries/remodeling.html" role="menuitem">Remodeling</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="industries/inspection.html" role="menuitem">Inspection</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Teams</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="field-teams.html" role="menuitem">Field teams</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="admin-teams.html" role="menuitem">Admin teams</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children active-branch" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Resources</a>
+   <ul role="menu" class="hs-menu-children-wrapper active-branch">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://help.magicplan.app" role="menuitem">Help Center</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="magicplanacademy.html" role="menuitem">Academy</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.youtube.com/@magicplan/streams" role="menuitem">Webinars</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://community.magicplan.app/" role="menuitem">Community</a></li>
+    <li class="hs-menu-item hs-menu-depth-2 active active-branch" role="none"><a href="integrations.html" role="menuitem">Integrations &amp; API Documentation</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://blog.magicplan.app" role="menuitem">Blog</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="events.html" role="menuitem">Events</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="pricing.html" role="menuitem">Pricing</a></li>
+ </ul>
+</div></span></div><div class="pwr-burger-bottom-bar"><div class="pwr-burger-bottom-bar__item pwr-cta pwr-cta--custom-02  ">
+      <a class="cta_button" href="https://cloud.magicplan.app/login" rel="noopener" target="_blank" title="Button LOGIN">LOGIN</a>                    
+    </div><div class="pwr-burger-bottom-bar__item pwr-cta pwr-cta--primary-solid  ">  
+      <a class="cta_button" href="talk-to-sales.html" rel="noopener" target="_blank" title="Button TALK TO SALES">TALK TO SALES</a>                    
+    </div></div>
+</div><div id="pwr-header-fixed__spacer" class="pwr-header-fixed__spacer vanilla"></div><div id="pwr-header-fixed" class="pwr-header vanilla pwr-header-fixed pwr-header--blurry pwr--light  pwr-header--light-on-scroll   " data-mm-anim-fot-reveal="true" data-mm-anim-slide="true" data-mm-anim-fade="true">
+  <div class="page-center pwr-header--padding">
+    <div class="pwr-header-full pwr--clearfix">
+      <div class="pwr-header-logo pwr-header-logo--has-sticky"><a href="index.html" aria-label="Back to Home"><img src="hubfs/magicplan_logo_light_bg.svg" alt="magicplan logo" class="pwr-header-logo__img" width="300" height="63"></a><a href="index.html" aria-label="Back to Home"><img src="hubfs/magicplan_logo_light_bg.svg" alt="magicplan logo" class="pwr-header-logo__img--sticky" width="1100" height="230" fetchpriority="low" decoding="async"></a></div><div id="pwr-js-header__menu" class="pwr-header__menu pwr-header__menu--narrow-32  pwr-header__menu--adv-mega-menu pwr-header__menu--dropdown " style="left: 13.5%;"><div class="pwr-js-menu"><span id="hs_cos_wrapper_header_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_header_page_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="84704338442" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Solutions</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="mobile-field-reporting-solution.html" role="menuitem">Report</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="talk-to-sales.html" role="menuitem">Talk to Sales</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Resources</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://help.magicplan.app" role="menuitem">Help Center</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.youtube.com/@magicplan/streams" role="menuitem">Webinars</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://community.magicplan.app/" role="menuitem">Community</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://blog.magicplan.app" role="menuitem">Blog</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="events.html" role="menuitem">Events</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="pricing.html" role="menuitem">Pricing</a></li>
+ </ul>
+</div></span></div></div><div id="pwr-js-header-right-bar" class="pwr-header-right-bar "><div class="pwr-header-right-bar__item pwr-header-right-bar__cta pwr-cta pwr-cta--custom-02  ">
+            <a class="cta_button" href="https://cloud.magicplan.app/login" rel="noopener" target="_blank" title="Button LOGIN">LOGIN</a>                    
+          </div><div class="pwr-header-right-bar__item pwr-header-right-bar__cta pwr-header-right-bar__cta--second pwr-cta pwr-cta--primary-solid  ">
+          <a class="cta_button" href="talk-to-sales.html" rel="noopener" target="_blank" title="Button TALK TO SALES">TALK TO SALES</a>                    
+        </div></div><a href="#" id="pwr-js-burger__trigger-open" aria-label="”Open" burger menu” class="pwr-burger__trigger-open vanilla  pwr-burger__trigger-open--mobile-only">
+        <div class="pwr-burger__icon-open">
+          <span></span>
+        </div>
+      </a></div>
+  </div><div class="pwr-header-advanced-mms"><div class="pwr-header-advanced-mm pwr-header-advanced-mm--custom-width pwr-header-advanced-mm--shadow pwr-header-advanced-mm--border-radius  pwr--relative" data-target="1" style="max-width: 680px;">
+                    <div class="pwr-adc pwr-adc--border-top pwr--light lazyload" style="">
+                        
+                        <div class="pwr-adc__wrapper"><div class="pwr-adc-main  pwr--relative"><div class="pwr-adc__cols pwr-adc-main__cols   pwr--relative">
+	<div class="pwr-adc__col pwr-adc__col--width-6 pwr-adc__col--border-right  pwr--align-fcol-t   pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-1-1-1 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small  pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--spacer "><div class="pwr-adc-content__spacer" style="height: 4px;"></div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #9a9a9a;"><strong>OUR FEATURES</strong></span></div></div></div><a href="sketches.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-2 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">SKETCHES</div></div></a><a href="visual-documentation.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-3 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">VISUAL DOCUMENTATION</div></div></a><a href="360-tours.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-4 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">360º TOURS</div></div></a><a href="sops.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-5 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">SOPs</div></div></a><a href="estimate.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-6 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">ESTIMATES</div></div></a><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-1-1-7 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--button "><div class="pwr-adc-content__button pwr-cta pwr-cta--link pwr-cta--large">
+            <a class="cta_button" href="features.html" title="Button Explore all of our features">Explore all of our features</a>                    
+        </div></div></div></div>								
+	</div>
+	<div class="pwr-adc__col pwr-adc__col--width-6   pwr--align-fcol-t   pwr--relative lazyload" style="background-color: rgba(250, 250, 250, 1.0); ">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-1-2-1 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--spacer "><div class="pwr-adc-content__spacer" style="height: 4px;"></div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #9a9a9a;"><strong>INDUSTRIES</strong></span></div></div></div><a href="industries/restoration.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-2 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">RESTORATION</div></div></a><a href="industries/remodeling.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-3 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">REMODELING</div></div></a><a href="industries/inspection.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-4 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">INSPECTION</div></div></a><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-1-2-5 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--spacer "><div class="pwr-adc-content__spacer" style="height: 4px;"></div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #9a9a9a;"><strong>TEAMS</strong></span></div></div></div><a href="field-teams.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-6 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">FIELD TEAMS</div></div></a><a href="admin-teams.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-7 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">ADMIN TEAMS</div></div></a></div>								
+	</div></div>
+                            </div></div>
+                    </div>				
+                </div><div class="pwr-header-advanced-mm pwr-header-advanced-mm--custom-width pwr-header-advanced-mm--shadow pwr-header-advanced-mm--border-radius  pwr--relative" data-target="2" style="max-width: 450px;">
+                    <div class="pwr-adc  pwr--light lazyload" style="">
+                        
+                        <div class="pwr-adc__wrapper"><div class="pwr-adc-main  pwr--relative"><div class="pwr-adc__cols pwr-adc-main__cols  pwr--relative">
+	<div class="pwr-adc__col pwr-adc__col--width-12 pwr-adc__col--border- pwr--light    pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-2-1-1 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small  pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #9a9a9a;"><strong>RESOURCES</strong></span></div></div></div><a href="https://help.magicplan.app/" rel="noopener" target="_blank" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-2-1-2 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">HELP CENTER</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #666666;">How-to articles, guides, and product updates.</span></div></div></a><a href="magicplanacademy.html" rel="noopener" target="_blank" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-2-1-3 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">ACADEMY</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #666666;">Premium courses, certifications, and strategies.</span></div></div></a><a href="https://community.magicplan.app/c/webinar?sort=asc" target="_blank" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-2-1-4 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">WEBINARS</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #656565;">Live and on-demand webinars.</span></div></div></a><a href="https://community.magicplan.app" rel="noopener" target="_blank" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-2-1-5 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">COMMUNITY</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><p style="font-size: 14px;"><span style="color: #656565;">Connect with other magicplan users.</span></p></div></div></a></div>								
+	</div></div>
+                            </div><div class="pwr-adc-sub pwr-adc-sub--border-bottom    pwr--light pwr--relative lazyload" style="background-color: rgba(229, 239, 252, 1.0); ">
+                
+
+                <div class=" pwr--relative">
+                    <div class="pwr-adc__cols pwr-adc-sub__cols    pwr--relative">
+    <div class="pwr-adc__col pwr-adc__col--width-12 pwr--align-l pwr--relative lazyload" style="">
+        <div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><p style="text-align: center;"><strong><span style="color: #0099ee;"><a href="integrations.html" rel="noopener" style="color: #0099ee;">INTEGRATIONS &amp; API DOCUMENTATION</a></span></strong></p></div></div></div></div>	
+                </div>
+
+            </div></div>
+                    </div>				
+                </div></div></div></div></div>
+
+    <div class="container-fluid header-bottom__container">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+
+</header></div>
+      
+
+      <main id="main-content" class="body-container-wrapper">
+    <div class="body-container"><div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 dnd_area-row-0-background-color dnd_area-row-0-force-full-width-section dnd_area-row-0-background-layers dnd-section dnd_area-row-0-padding">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218528646015" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+        
+            
+        
+<div id="pwr-js-sticky-sub-menu--position-probe" class="pwr-sticky-sub-menu--position-probe vanilla"></div>
+<div id="pwr-js-sticky-sub-menu" class="pwr-sticky-sub-menu vanilla pwr-sticky-sub-menu--match-height pwr-sticky-sub-menu--has-shadow pwr--light     pwr--margin-t-0 pwr--margin-b-0 " style="background-color: rgba(238, 238, 238, 1.0); ">
+  
+  
+
+  <div class="pwr-sticky-sub-menu__content-wrapper">
+    <div class="pwr-sticky-sub-menu__content pwr--relative pwr-sticky-sub-menu__content--full-width pwr--align-c pwr-scroll-shadow__wrapper pwr-scroll-shadow__wrapper--hor ">
+        <nav class="pwr-sticky-sub-menu__link-container pwr-scroll-shadow__root pwr-scroll-shadow__root--hor" aria-label="On-Page Navigation">
+            <ul class="pwr-sticky-sub-menu__link-list pwr--reset"><li class="pwr-sticky-sub-menu__link-wrapper"><a class="pwr-sticky-sub-menu__link" href="#integrations" rel="nofollow">Integrations &amp; Partnerships</a></li><li class="pwr-sticky-sub-menu__link-wrapper"><a class="pwr-sticky-sub-menu__link" href="#compatiblehardware" rel="nofollow">Compatible hardware</a></li><li class="pwr-sticky-sub-menu__link-wrapper"><a class="pwr-sticky-sub-menu__link" href="#api" rel="nofollow">API Documentation</a></li></ul>
+        </nav>
+    </div><progress id="pwr-js-sticky-sub-menu__progress-bar" class="pwr-sticky-sub-menu__progress-bar" style="height:8%;"></progress></div>
+  
+  <a href="#" id="pwr-js-sticky-sub-menu__btn" class="pwr-sticky-sub-menu__btn pwr-sticky-sub-menu__btn--bottom-right" aria-label="Show On-Page Navigation" style="bottom:10px;">
+    <div class="pwr-sticky-sub-menu__btn--icon-open">
+      <span></span>
+    </div>
+    <span class="pwr-sticky-sub-menu__btn--icon-close"></span>
+  </a>
+</div>
+<div id="pwr-js-sticky-sub-menu--placeholder" class="pwr-sticky-sub-menu--placeholder pwr-sticky-sub-menu--match-height"></div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 dnd_area-row-1-padding dnd_area-row-1-max-width-section-centering dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218528552363" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+    
+    
+    
+<div class="pwr-sec-txt pwr-sec-txt--1col vanilla pwr-mh-group pwr--align-c pwr--light pwr--padding-t-0 pwr--padding-b-0 pwr--margin-t-0 pwr--margin-b-0    lazyload" style="">
+    
+    
+
+    
+    <div class="page-center pwr--relative pwr--clearfix"><div class="pwr-sec-txt__intro-sec pwr-sec__intro-sec"><h1 class="pwr-sec__title pwr-heading-style--default  pwr-sec-txt__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Working together with key industry players</h1></div><div class="pwr-sec-txt__content pwr-sec-txt__content--top  pwr--clearfix "><div class="pwr-rich-text pwr-sec-txt__left" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <p><span>Connect with tools you know. Export sketches and photos and simplify the claims submission process like never before.</span></p>
+<p>&nbsp;</p>
+          </div></div>
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-5 dnd_area-row-2-padding dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17230401658384" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+    
+    
+    
+
+<div class="pwr-sec-clients vanilla  pwr--light pwr--padding-t-0 pwr--sec-padding-b-sm pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: transparent; ">
+    
+    
+
+    
+    <div class="pwr-sec-clients__slider pwr-sec-clients__slider--pagination pwr-sec-clients__slider--top  pwr--relative" data-nr-elements="5" data-loop="true" data-autoplay="true" data-reverse-transition="false" data-autoplay-timeout="1000" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+    
+    
+    
+    
+    <div class="pwr-swiper ">
+      <div class="swiper-wrapper "><div class="swiper-slide"><a href="https://www.candrmagazine.com/about-cr/subscribe-now/?utm_source=mp&amp;utm_medium=website&amp;utm_id=mp" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/C%20&amp;%20R%20?width=300&amp;name=C%20&amp;%20R%20.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/C%20&amp;%20R%20?width=300&amp;name=C%20&amp;%20R%20.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/C%20&amp;%20R%20?width=600&amp;name=C%20&amp;%20R%20.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="C &amp; R " width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://www.cleanclaims.com" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/CleanClaimsLogosquare?width=300&amp;name=CleanClaimsLogosquare.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/CleanClaimsLogosquare?width=300&amp;name=CleanClaimsLogosquare.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/CleanClaimsLogosquare?width=600&amp;name=CleanClaimsLogosquare.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="CleanClaimsLogosquare" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://www.cotality.com" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/cotality?width=300&amp;name=cotality.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/cotality?width=300&amp;name=cotality.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/cotality?width=600&amp;name=cotality.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="cotality" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://www.dewalt.com" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Dewalt?width=300&amp;name=Dewalt.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Dewalt?width=300&amp;name=Dewalt.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Dewalt?width=600&amp;name=Dewalt.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="Dewalt" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://www.epicestimates.com/" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Epic%20Estimates?width=300&amp;name=Epic%20Estimates.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Epic%20Estimates?width=300&amp;name=Epic%20Estimates.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Epic%20Estimates?width=600&amp;name=Epic%20Estimates.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="Epic Estimates" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://www.floodlightgrp.com" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/FloodLight?width=300&amp;name=FloodLight.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/FloodLight?width=300&amp;name=FloodLight.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/FloodLight?width=600&amp;name=FloodLight.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="FloodLight" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://www.floodlightgrp.com/podcasts/head-heart-boots" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Head%20Heart%20and%20Boots?width=300&amp;name=Head%20Heart%20and%20Boots.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Head%20Heart%20and%20Boots?width=300&amp;name=Head%20Heart%20and%20Boots.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Head%20Heart%20and%20Boots?width=600&amp;name=Head%20Heart%20and%20Boots.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="Head Heart and Boots" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://www.hilti.com/content/hilti/W1/US/en/landing-pages/no-index/profis-engineering/dg.html?cinfo=sof_all_all_all_all_na&amp;https:%2F%2Fwww.hilti.com%2Fcontent%2Fhilti%2FW1%2FUS%2Fen%2Flanding-pages%2Fno-index%2Fprofis-engineering%2Fdg.html=&amp;gad_source=1&amp;gbraid=0AAAAAoRcjpyZco1t761J4JNAT9Qt-XmDY&amp;gclid=CjwKCAjwk8e1BhALEiwAc8MHiIcEnLfkiWfI6xzQBYUaK2w7a7QAUcQf6b0kK7cUrwpr30USovpRSRoC5F0QAvD_BwE" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/HILTI?width=300&amp;name=HILTI.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/HILTI?width=300&amp;name=HILTI.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/HILTI?width=600&amp;name=HILTI.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="HILTI" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://store.insta360.com/collections/360-camera" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Insta360?width=300&amp;name=Insta360.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Insta360?width=300&amp;name=Insta360.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Insta360?width=600&amp;name=Insta360.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="Insta360" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://jocanalytics.com/" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/JOC%20Analytics?width=300&amp;name=JOC%20Analytics.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/JOC%20Analytics?width=300&amp;name=JOC%20Analytics.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/JOC%20Analytics?width=600&amp;name=JOC%20Analytics.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="JOC Analytics" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://tryknowhow.com" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/KnowHow-3?width=300&amp;name=KnowHow-3.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/KnowHow-3?width=300&amp;name=KnowHow-3.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/KnowHow-3?width=600&amp;name=KnowHow-3.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="KnowHow" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://shop.leica-geosystems.com/leica-blk/laser-scanners" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Leica-1?width=300&amp;name=Leica-1.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Leica-1?width=300&amp;name=Leica-1.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Leica-1?width=600&amp;name=Leica-1.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="Leica " width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://drylink.usephoenix.com" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Phoenix%20Drylink?width=300&amp;name=Phoenix%20Drylink.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Phoenix%20Drylink?width=300&amp;name=Phoenix%20Drylink.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Phoenix%20Drylink?width=600&amp;name=Phoenix%20Drylink.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="Phoenix Drylink" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://canamsys.com" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/PSA_integration_logo?width=300&amp;name=PSA_integration_logo.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/PSA_integration_logo?width=300&amp;name=PSA_integration_logo.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/PSA_integration_logo?width=600&amp;name=PSA_integration_logo.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="PSA_integration_logo" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://www.reekon.tools" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/REEKON?width=300&amp;name=REEKON.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/REEKON?width=300&amp;name=REEKON.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/REEKON?width=600&amp;name=REEKON.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="REEKON" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://lp.ricoh360.com/theta-magicplan-1" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/RICOH%20logo?width=300&amp;name=RICOH%20logo.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/RICOH%20logo?width=300&amp;name=RICOH%20logo.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/RICOH%20logo?width=600&amp;name=RICOH%20logo.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="RICOH" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://rtilearning.com" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/RTI?width=300&amp;name=RTI.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/RTI?width=300&amp;name=RTI.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/RTI?width=600&amp;name=RTI.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="RTI" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://www.stanleyblackanddecker.com" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Stanley%20black%20and%20decker?width=300&amp;name=Stanley%20black%20and%20decker.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Stanley%20black%20and%20decker?width=300&amp;name=Stanley%20black%20and%20decker.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Stanley%20black%20and%20decker?width=600&amp;name=Stanley%20black%20and%20decker.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="Stanley black and decker" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://www.flir.com" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/flir?width=300&amp;name=flir.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/flir?width=300&amp;name=flir.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/flir?width=600&amp;name=flir.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="Teledyne Flir" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://tramexmeters.com" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Tramex?width=300&amp;name=Tramex.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Tramex?width=300&amp;name=Tramex.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Tramex?width=600&amp;name=Tramex.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="Tramex" width="200" height="200" style="object-fit: contain;"></a></div><div class="swiper-slide"><a href="https://www.verisk.com" target="_blank" rel="noopener" class="item pwr-sec-clients__logo  "><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Verisk-1?width=300&amp;name=Verisk-1.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Verisk-1?width=300&amp;name=Verisk-1.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Verisk-1?width=600&amp;name=Verisk-1.png 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-clients__logo-img" alt="Verisk-1" width="200" height="200" style="object-fit: contain;"></a></div></div>
+    </div><div class="pwr--light">
+        <div class="swiper-pagination swiper-pagination-below"></div>
+      </div><div class="swiper-buttons-beside pwr--light">
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div></div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-section dnd_area-row-3-padding">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218529156605" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+    
+    
+    
+<div class="pwr-sec-txt pwr-sec-txt--1col vanilla pwr-mh-group pwr--align-c pwr--light pwr--padding-t-0 pwr--sec-padding-b-md pwr--margin-t-0 pwr--margin-b-0    lazyload" style="">
+    
+    
+
+    
+    <div class="page-center pwr--relative pwr--clearfix"><div class="pwr-sec-txt__content pwr-sec-txt__content--center  pwr--clearfix "><div class="pwr-rich-text pwr-sec-txt__left" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <p style="line-height: 2.5; text-align: center;"><span style="color: #ffffff;"><a href="https://apps.apple.com/us/app/magicplan/id427424432" rel="noopener" target="_blank" style="color: #ffffff; text-decoration: underline;"><img src="hubfs/apple_store_logo.svg" loading="lazy" alt="apple_store_logo" width="168" height="60" style="width: 168px; height: auto; max-width: 100%;"></a>&nbsp; &nbsp; &nbsp;</span><a href="https://play.google.com/store/apps/details?id=com.sensopia.magicplan&amp;hl=en_US&amp;gl=US" rel="noopener" target="_blank"><span style="color: #ffffff;"><img src="hubfs/google_paly_logo.svg" loading="lazy" alt="google_paly_logo" width="186" height="60" style="width: 186px; height: auto; max-width: 100%;"></span></a></p>
+          </div></div>
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-section dnd_area-row-4-force-full-width-section dnd_area-row-4-padding">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218529206625" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+    
+    
+    <div class="pwr-anchor vanilla" id="integrations"></div>
+<div class="pwr-sec-txt pwr-sec-txt--1col vanilla pwr-mh-group pwr--align-c pwr--light pwr--sec-padding-t-sm pwr--padding-b-0 pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: rgba(238, 238, 238, 1.0); ">
+    
+    
+
+    
+    <div class="page-center pwr--relative pwr--clearfix"><div class="pwr-sec-txt__intro-sec pwr-sec__intro-sec"><h3 class="pwr-sec__title pwr-heading-style--default pwr-sec__title--narrow pwr-sec-txt__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">INTEGRATIONS &amp; PARTNERSHIPS</h3></div><div class="pwr-sec-txt__content pwr-sec-txt__content--top  pwr--clearfix "><div class="pwr-rich-text pwr-sec-txt__left" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            
+          </div></div>
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-12 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1722017827762" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+    
+    
+    
+<div class="pwr-sec-mockup pwr-sec-mockup--mockup-right vanilla pwr-mh-group  pwr--light pwr--sec-padding-t-md pwr--sec-padding-b-md pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: rgba(255, 255, 255, 1.0); ">
+    
+    
+
+    
+    
+
+    <div class="pwr-sec-mockup__content--pos-vert">
+    <div class="page-center">
+      <div class="pwr-sec-mockup__content pwr-sec-mockup__content--center pwr-sec-mockup__content--left" style="width: 45%;" data-pwr-mh="sec-mockup-content-height"><span class="pwr-sec__title-intro pwr-sec-mockup__title-intro " tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        XACTIMATE®</span><h2 class="pwr-sec__title pwr-heading-style--default pwr-sec-mockup__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Efficient workflow for faster claims submission</h2><span class="pwr-rich-text pwr-sec__desc pwr-sec-mockup__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        <span>Streamlining your claim documentation process like never before. Get the ESX file delivered directly to your inbox in seconds - no turnaround, no waiting time.</span></span><div class="pwr-cta-container pwr-sec-mockup__cta-container pwr--clearfix" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <div class="pwr--neg-margin-lr-10"><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--primary-solid  ">
+                <a href="integrations/xactimate.html" target="_blank" rel="noopener" class="pwr-cta_button " role="button">LEARN MORE</a>
+              </div></div>
+          </div></div>
+    </div>
+  </div>
+  <div class="pwr-sec-mockup__mockup-wrapper pwr-sec-mockup__mockup-wrapper--center page-center pwr--relative pwr--clearfix" data-pwr-mh="sec-mockup-content-height">
+    <div class="pwr-sec-mockup__mockup pwr-sec-mockup__mockup--desktop-align-center pwr-sec-mockup__mockup--mobile-align-default pwr-sec-mockup__mockup--right pwr-sec-mockup__mockup--not-fw " style="width: 50%;max-width: 700px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-ratio-box" style="padding-bottom: calc(0.7295673076923077 * 100%);">
+
+            <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ESX%20Xactimate%20TRY?width=300&amp;name=ESX%20Xactimate%20TRY.gif" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ESX%20Xactimate%20TRY?width=300&amp;name=ESX%20Xactimate%20TRY.gif 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ESX%20Xactimate%20TRY?width=575&amp;name=ESX%20Xactimate%20TRY.gif 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ESX%20Xactimate%20TRY?width=767&amp;name=ESX%20Xactimate%20TRY.gif 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ESX%20Xactimate%20TRY?width=991&amp;name=ESX%20Xactimate%20TRY.gif 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ESX%20Xactimate%20TRY?width=1199&amp;name=ESX%20Xactimate%20TRY.gif 1199w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ESX%20Xactimate%20TRY?width=1664&amp;name=ESX%20Xactimate%20TRY.gif 1664w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-mockup__mockup-img" alt="ESX Xactimate TRY" style="object-fit: cover;"></div></div> 
+  </div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218529347982" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+    
+    
+    
+<div class="pwr-sec-mockup pwr-sec-mockup--mockup-left vanilla pwr-mh-group  pwr--light pwr--sec-padding-t-md pwr--sec-padding-b-md pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: rgba(255, 255, 255, 1.0); ">
+    
+    
+
+    
+    
+
+    <div class="pwr-sec-mockup__content--pos-vert">
+    <div class="page-center">
+      <div class="pwr-sec-mockup__content pwr-sec-mockup__content--center " style="width: 45%;left: 55%;" data-pwr-mh="sec-mockup-content-height"><span class="pwr-sec__title-intro pwr-sec-mockup__title-intro " tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        COTALITY</span><h2 class="pwr-sec__title pwr-heading-style--default pwr-sec-mockup__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Accelerate your claims submission process</h2><span class="pwr-rich-text pwr-sec__desc pwr-sec-mockup__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        <div>
+<div>
+<div data-widget-type="cell" data-x="0" data-w="12">
+<div>
+<div>
+<div data-widget-type="custom_widget" data-x="0" data-w="12">
+<div>
+<div>
+<div>
+<div tmp-data-aos="fade-in" tmp-data-aos-delay="50">Optimize your estimating process by seamlessly importing magicplan sketches into Cotality's Claims Connect and Mobile Claims platforms.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></span><div class="pwr-cta-container pwr-sec-mockup__cta-container pwr--clearfix" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <div class="pwr--neg-margin-lr-10"><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--primary-solid  ">
+                <a href="integrations/cotality.html" target="_blank" rel="noopener" class="pwr-cta_button " role="button">LEARN MORE</a>
+              </div></div>
+          </div></div>
+    </div>
+  </div>
+  <div class="pwr-sec-mockup__mockup-wrapper pwr-sec-mockup__mockup-wrapper--center page-center pwr--relative pwr--clearfix" data-pwr-mh="sec-mockup-content-height">
+    <div class="pwr-sec-mockup__mockup pwr-sec-mockup__mockup--desktop-align-center pwr-sec-mockup__mockup--mobile-align-default pwr-sec-mockup__mockup--not-fw " style="width: 50%;max-width: 700px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-ratio-box" style="padding-bottom: calc(0.6158583525789069 * 100%);">
+
+            <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/CoreLogic%20Integration%209updated%20magicplan%20screens0?width=300&amp;name=CoreLogic%20Integration%209updated%20magicplan%20screens0.gif" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/CoreLogic%20Integration%209updated%20magicplan%20screens0?width=300&amp;name=CoreLogic%20Integration%209updated%20magicplan%20screens0.gif 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/CoreLogic%20Integration%209updated%20magicplan%20screens0?width=575&amp;name=CoreLogic%20Integration%209updated%20magicplan%20screens0.gif 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/CoreLogic%20Integration%209updated%20magicplan%20screens0?width=767&amp;name=CoreLogic%20Integration%209updated%20magicplan%20screens0.gif 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/CoreLogic%20Integration%209updated%20magicplan%20screens0?width=991&amp;name=CoreLogic%20Integration%209updated%20magicplan%20screens0.gif 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/CoreLogic%20Integration%209updated%20magicplan%20screens0?width=1199&amp;name=CoreLogic%20Integration%209updated%20magicplan%20screens0.gif 1199w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/CoreLogic%20Integration%209updated%20magicplan%20screens0?width=1299&amp;name=CoreLogic%20Integration%209updated%20magicplan%20screens0.gif 1299w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-mockup__mockup-img" alt="CoreLogic Integration updated magicplan screens" style="object-fit: cover;"></div></div> 
+  </div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-14 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218529347983" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+    
+    
+    
+<div class="pwr-sec-mockup pwr-sec-mockup--mockup-right vanilla pwr-mh-group  pwr--light pwr--sec-padding-t-md pwr--sec-padding-b-md pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: rgba(255, 255, 255, 1.0); ">
+    
+    
+
+    
+    
+
+    <div class="pwr-sec-mockup__content--pos-vert">
+    <div class="page-center">
+      <div class="pwr-sec-mockup__content pwr-sec-mockup__content--center pwr-sec-mockup__content--left" style="width: 45%;" data-pwr-mh="sec-mockup-content-height"><span class="pwr-sec__title-intro pwr-sec-mockup__title-intro " tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        CLEAN CLAIMS</span><h2 class="pwr-sec__title pwr-heading-style--default pwr-sec-mockup__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Connect with Clean Claims for 100% job accuracy</h2><span class="pwr-rich-text pwr-sec__desc pwr-sec-mockup__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        <p><span>Monitor the field with 100% accuracy and ensure your technicians don't make mistakes.</span></p></span><div class="pwr-cta-container pwr-sec-mockup__cta-container pwr--clearfix" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <div class="pwr--neg-margin-lr-10"><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--primary-solid  ">
+                <a href="clean-claims-integration.html" target="_blank" rel="noopener" class="pwr-cta_button " role="button">LEARN MORE</a>
+              </div></div>
+          </div></div>
+    </div>
+  </div>
+  <div class="pwr-sec-mockup__mockup-wrapper pwr-sec-mockup__mockup-wrapper--center page-center pwr--relative pwr--clearfix" data-pwr-mh="sec-mockup-content-height">
+    <div class="pwr-sec-mockup__mockup pwr-sec-mockup__mockup--desktop-align-center pwr-sec-mockup__mockup--mobile-align-default pwr-sec-mockup__mockup--right pwr-sec-mockup__mockup--not-fw " style="width: 50%;max-width: 400px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-ratio-box" style="padding-bottom: calc(1.4232209737827715 * 100%);">
+
+            <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/How%20Clean%20Claims%20Work_movingmock_iPad_2-1?width=300&amp;name=How%20Clean%20Claims%20Work_movingmock_iPad_2-1.gif" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/How%20Clean%20Claims%20Work_movingmock_iPad_2-1?width=300&amp;name=How%20Clean%20Claims%20Work_movingmock_iPad_2-1.gif 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/How%20Clean%20Claims%20Work_movingmock_iPad_2-1?width=534&amp;name=How%20Clean%20Claims%20Work_movingmock_iPad_2-1.gif 534w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-mockup__mockup-img" alt="How Clean Claims Work_movingmock_iPad_2-1" style="object-fit: cover;"></div></div> 
+  </div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-15 dnd_area-row-6-padding dnd-section dnd_area-row-6-force-full-width-section dnd_area-row-6-background-layers dnd_area-row-6-background-color">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-16 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218529445749" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+    
+    
+    <div class="pwr-anchor vanilla" id="compatiblehardware"></div>
+<div class="pwr-sec-txt pwr-sec-txt--1col vanilla pwr-mh-group pwr--align-c pwr--light pwr--sec-padding-t-sm pwr--padding-b-0 pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: rgba(238, 238, 238, 1.0); ">
+    
+    
+
+    
+    <div class="page-center pwr--relative pwr--clearfix"><div class="pwr-sec-txt__intro-sec pwr-sec__intro-sec"><h3 class="pwr-sec__title pwr-heading-style--default pwr-sec__title--narrow pwr-sec-txt__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">COMPATIBLE HARDWARE</h3></div><div class="pwr-sec-txt__content pwr-sec-txt__content--top  pwr--clearfix "><div class="pwr-rich-text pwr-sec-txt__left" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            
+          </div></div>
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-17 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_172185294457410" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+    
+    
+    
+<div class="pwr-sec-mockup pwr-sec-mockup--mockup-right vanilla pwr-mh-group  pwr--light pwr--sec-padding-t-md pwr--sec-padding-b-md pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: rgba(255, 255, 255, 1.0); ">
+    
+    
+
+    
+    
+
+    <div class="pwr-sec-mockup__content--pos-vert">
+    <div class="page-center">
+      <div class="pwr-sec-mockup__content pwr-sec-mockup__content--center pwr-sec-mockup__content--left" style="width: 45%;" data-pwr-mh="sec-mockup-content-height"><span class="pwr-sec__title-intro pwr-sec-mockup__title-intro " tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        BLUETOOTH LASER METERS</span><h2 class="pwr-sec__title pwr-heading-style--default pwr-sec-mockup__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Laser meter for 100% accuracy</h2><span class="pwr-rich-text pwr-sec__desc pwr-sec-mockup__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        Connect a Bluetooth laser meter for 100% accuracy of every measurement.</span><div class="pwr-cta-container pwr-sec-mockup__cta-container pwr--clearfix" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <div class="pwr--neg-margin-lr-10"><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--primary-solid  ">
+                <a href="https://help.magicplan.app/laser-distance-meters" target="_blank" rel="noopener" class="pwr-cta_button " role="button">See compatible devices</a>
+              </div></div>
+          </div></div>
+    </div>
+  </div>
+  <div class="pwr-sec-mockup__mockup-wrapper pwr-sec-mockup__mockup-wrapper--center page-center pwr--relative pwr--clearfix" data-pwr-mh="sec-mockup-content-height">
+    <div class="pwr-sec-mockup__mockup pwr-sec-mockup__mockup--desktop-align-center pwr-sec-mockup__mockup--mobile-align-default pwr-sec-mockup__mockup--right pwr-sec-mockup__mockup--not-fw " style="width: 50%;max-width: 700px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-ratio-box" style="padding-bottom: calc(0.7745504840940526 * 100%);">
+
+            <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Bluetooth_laser_measurer__integration_ipad?width=300&amp;name=Bluetooth_laser_measurer__integration_ipad.gif" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Bluetooth_laser_measurer__integration_ipad?width=300&amp;name=Bluetooth_laser_measurer__integration_ipad.gif 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Bluetooth_laser_measurer__integration_ipad?width=575&amp;name=Bluetooth_laser_measurer__integration_ipad.gif 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Bluetooth_laser_measurer__integration_ipad?width=767&amp;name=Bluetooth_laser_measurer__integration_ipad.gif 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Bluetooth_laser_measurer__integration_ipad?width=991&amp;name=Bluetooth_laser_measurer__integration_ipad.gif 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Bluetooth_laser_measurer__integration_ipad?width=1199&amp;name=Bluetooth_laser_measurer__integration_ipad.gif 1199w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Bluetooth_laser_measurer__integration_ipad?width=1446&amp;name=Bluetooth_laser_measurer__integration_ipad.gif 1446w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-mockup__mockup-img" alt="Bluetooth_laser_measurer__integration_ipad" style="object-fit: cover;"></div></div> 
+  </div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-18 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_172185294457411" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+    
+    
+    
+<div class="pwr-sec-mockup pwr-sec-mockup--mockup-left vanilla pwr-mh-group  pwr--light pwr--sec-padding-t-md pwr--sec-padding-b-md pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: rgba(255, 255, 255, 1.0); ">
+    
+    
+
+    
+    
+
+    <div class="pwr-sec-mockup__content--pos-vert">
+    <div class="page-center">
+      <div class="pwr-sec-mockup__content pwr-sec-mockup__content--center " style="width: 45%;left: 55%;" data-pwr-mh="sec-mockup-content-height"><span class="pwr-sec__title-intro pwr-sec-mockup__title-intro " tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        THERMAL CAMERAS</span><h2 class="pwr-sec__title pwr-heading-style--default pwr-sec-mockup__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Detect moisture with ease</h2><span class="pwr-rich-text pwr-sec__desc pwr-sec-mockup__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        Connect a thermal camera for a more comprehensive reporting.</span><div class="pwr-cta-container pwr-sec-mockup__cta-container pwr--clearfix" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <div class="pwr--neg-margin-lr-10"><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--primary-solid  ">
+                <a href="https://help.magicplan.app/using-a-flir-one-thermal-imaging" target="_blank" rel="noopener" class="pwr-cta_button " role="button">Learn how it works</a>
+              </div></div>
+          </div></div>
+    </div>
+  </div>
+  <div class="pwr-sec-mockup__mockup-wrapper pwr-sec-mockup__mockup-wrapper--center page-center pwr--relative pwr--clearfix" data-pwr-mh="sec-mockup-content-height">
+    <div class="pwr-sec-mockup__mockup pwr-sec-mockup__mockup--desktop-align-center pwr-sec-mockup__mockup--mobile-align-default pwr-sec-mockup__mockup--not-fw " style="width: 50%;max-width: 150px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-ratio-box" style="padding-bottom: calc(3.5714285714285716 * 100%);">
+
+            <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/iphone-flir-one-edge-front-and-front.webp" class="lazyload pwr-sec-mockup__mockup-img" alt="iphone-flir-one-edge-front-and-front" style="object-fit: cover;"></div></div> 
+  </div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-19 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_172185294457412" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+    
+    
+    
+<div class="pwr-sec-mockup pwr-sec-mockup--mockup-right vanilla pwr-mh-group  pwr--light pwr--sec-padding-t-md pwr--sec-padding-b-md pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: rgba(255, 255, 255, 1.0); ">
+    
+    
+
+    
+    
+
+    <div class="pwr-sec-mockup__content--pos-vert">
+    <div class="page-center">
+      <div class="pwr-sec-mockup__content pwr-sec-mockup__content--center pwr-sec-mockup__content--left" style="width: 45%;" data-pwr-mh="sec-mockup-content-height"><span class="pwr-sec__title-intro pwr-sec-mockup__title-intro " tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        360 CAMERAS</span><h2 class="pwr-sec__title pwr-heading-style--default pwr-sec-mockup__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Capture every angle</h2><span class="pwr-rich-text pwr-sec__desc pwr-sec-mockup__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        Connect a 360-Camera to create virtual tours of any job site.</span><div class="pwr-cta-container pwr-sec-mockup__cta-container pwr--clearfix" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <div class="pwr--neg-margin-lr-10"><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--primary-solid  ">
+                <a href="ricoh.html" target="_blank" rel="noopener" class="pwr-cta_button " role="button">Learn more</a>
+              </div></div>
+          </div></div>
+    </div>
+  </div>
+  <div class="pwr-sec-mockup__mockup-wrapper pwr-sec-mockup__mockup-wrapper--center page-center pwr--relative pwr--clearfix" data-pwr-mh="sec-mockup-content-height">
+    <div class="pwr-sec-mockup__mockup pwr-sec-mockup__mockup--desktop-align-center pwr-sec-mockup__mockup--mobile-align-default pwr-sec-mockup__mockup--right pwr-sec-mockup__mockup--not-fw " style="width: 50%;max-width: 450px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-ratio-box" style="padding-bottom: calc(1.0 * 100%);">
+
+            <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/RICOH%20X%20mockup?width=300&amp;name=RICOH%20X%20mockup.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/RICOH%20X%20mockup?width=300&amp;name=RICOH%20X%20mockup.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/RICOH%20X%20mockup?width=575&amp;name=RICOH%20X%20mockup.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/RICOH%20X%20mockup?width=767&amp;name=RICOH%20X%20mockup.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/RICOH%20X%20mockup?width=991&amp;name=RICOH%20X%20mockup.png 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/RICOH%20X%20mockup?width=1080&amp;name=RICOH%20X%20mockup.png 1080w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-mockup__mockup-img" alt="RICOH X mockup" style="object-fit: cover;"></div></div> 
+  </div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-20 dnd-section dnd_area-row-7-force-full-width-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-21 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218529538666" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+    
+    
+    <div class="pwr-anchor vanilla" id="api"></div>
+<div class="pwr-sec-txt pwr-sec-txt--1col vanilla pwr-mh-group pwr--align-c pwr--light pwr--sec-padding-t-sm pwr--padding-b-0 pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: rgba(238, 238, 238, 1.0); ">
+    
+    
+
+    
+    <div class="page-center pwr--relative pwr--clearfix"><div class="pwr-sec-txt__intro-sec pwr-sec__intro-sec"><h3 class="pwr-sec__title pwr-heading-style--default pwr-sec__title--narrow pwr-sec-txt__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">API DOCUMENTATION</h3></div><div class="pwr-sec-txt__content pwr-sec-txt__content--top  pwr--clearfix "><div class="pwr-rich-text pwr-sec-txt__left" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            
+          </div></div>
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-22 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218529538667" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+    
+    
+    
+<div class="pwr-sec-mockup pwr-sec-mockup--mockup-right vanilla pwr-mh-group  pwr--light pwr--sec-padding-t-md pwr--sec-padding-b-md pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: rgba(255, 255, 255, 1.0); ">
+    
+    
+
+    
+    
+
+    <div class="pwr-sec-mockup__content--pos-vert">
+    <div class="page-center">
+      <div class="pwr-sec-mockup__content pwr-sec-mockup__content--center pwr-sec-mockup__content--left" style="width: 45%;" data-pwr-mh="sec-mockup-content-height"><span class="pwr-sec__title-intro pwr-sec-mockup__title-intro " tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        MAGICPLAN API</span><h2 class="pwr-sec__title pwr-heading-style--default pwr-sec-mockup__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Get Started with Our API</h2><span class="pwr-rich-text pwr-sec__desc pwr-sec-mockup__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        magicplan has built-in support for many popular apps as well as a comprehensive API&nbsp;documentation.</span><div class="pwr-cta-container pwr-sec-mockup__cta-container pwr--clearfix" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <div class="pwr--neg-margin-lr-10"><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--primary-solid  ">
+                <a href="https://apidocs.magicplan.app/#getting-started" target="_blank" rel="noopener" class="pwr-cta_button " role="button">VIEW API DOCUMENTATION</a>
+              </div></div>
+          </div></div>
+    </div>
+  </div>
+  <div class="pwr-sec-mockup__mockup-wrapper pwr-sec-mockup__mockup-wrapper--center page-center pwr--relative pwr--clearfix" data-pwr-mh="sec-mockup-content-height">
+    <div class="pwr-sec-mockup__mockup pwr-sec-mockup__mockup--desktop-align-center pwr-sec-mockup__mockup--mobile-align-default pwr-sec-mockup__mockup--right pwr-sec-mockup__mockup--not-fw " style="width: 50%;max-width: 900px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-ratio-box" style="padding-bottom: calc(0.6642453591606134 * 100%);">
+
+            <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/export-settings?width=300&amp;name=export-settings.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/export-settings?width=300&amp;name=export-settings.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/export-settings.png?width=575&amp;name=export-settings.png.jpeg 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/export-settings?width=767&amp;name=export-settings.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/export-settings?width=991&amp;name=export-settings.png 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/export-settings?width=1199&amp;name=export-settings.png 1199w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/export-settings?width=2000&amp;name=export-settings.png 2000w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/export-settings?width=2478&amp;name=export-settings.png 2478w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-mockup__mockup-img" alt="export-settings" style="object-fit: cover;"></div></div> 
+  </div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-23 dnd_area-row-8-max-width-section-centering dnd-section dnd_area-row-8-background-layers dnd_area-row-8-padding dnd_area-row-8-vertical-alignment dnd_area-row-8-background-color">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell cell_17218529717703-padding cell_17218529717703-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-24 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218529717707" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+    
+    
+    
+<div class="pwr-sec-txt pwr-sec-txt--1col vanilla pwr-mh-group pwr--align-c pwr--light pwr--sec-padding-t-sm pwr--padding-b-0 pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: transparent; ">
+    
+    
+
+    
+    <div class="page-center pwr--relative pwr--clearfix"><div class="pwr-sec-txt__intro-sec pwr-sec__intro-sec"><span class="pwr-sec__title-intro pwr--margin-centered pwr-sec__title-intro--narrow pwr-sec-txt__title-intro" data-pwr-mh="intro" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        READY TO KICKSTART THE WORK?
+      </span></div><div class="pwr-sec-txt__content pwr-sec-txt__content--top  pwr--clearfix "><div class="pwr-rich-text pwr-sec-txt__left" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <h2 style="line-height: 1.25; text-align: center;"><span style="color: #ffffff;"><strong>Let's connect to discuss </strong></span></h2>
+<h2 style="line-height: 1.25; text-align: center;"><span style="color: #ffffff;"><strong>tailored solutions for you.</strong></span></h2>
+          </div></div>
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-25 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget module_17218529717708-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218529717708" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+    
+
+
+
+
+
+
+  
+
+
+
+<span id="hs_cos_wrapper_module_17218529717708_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><img src="hs-fs/hubfs/SalesTeam2025?width=300&amp;height=70&amp;name=SalesTeam2025.png" class="hs-image-widget " width="300" height="70" alt="SalesTeam2025" title="SalesTeam2025" loading="lazy" srcset="hs-fs/hubfs/SalesTeam2025?width=150&amp;height=35&amp;name=SalesTeam2025.png 150w, hs-fs/hubfs/SalesTeam2025?width=300&amp;height=70&amp;name=SalesTeam2025.png 300w, hs-fs/hubfs/SalesTeam2025?width=450&amp;height=105&amp;name=SalesTeam2025.png 450w, hs-fs/hubfs/SalesTeam2025?width=600&amp;height=140&amp;name=SalesTeam2025.png 600w, hs-fs/hubfs/SalesTeam2025?width=750&amp;height=175&amp;name=SalesTeam2025.png 750w, hs-fs/hubfs/SalesTeam2025?width=900&amp;height=210&amp;name=SalesTeam2025.png 900w" sizes="(max-width: 300px) 100vw, 300px"></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-26 cell_17218529717703-row-2-vertical-alignment cell_17218529717703-row-2-padding dnd-row cell_17218529717703-row-2-margin">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell cell_17218529717709-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-27 cell_17218529717709-row-0-vertical-alignment dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget module_172185297177011-vertical-alignment dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_172185297177011" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<div class="pwr-mini-cta vanilla pwr--clearfix  pwr-mini-cta--align-c   " style="margin-top: 8px; margin-bottom: 8px; margin-right: 8px; margin-left: 8px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-cta pwr-cta--primary-solid pwr-cta--long">
+		<a class="pwr-cta_button " href="talk-to-sales.html" target="_blank" rel="noopener" title="Button Talk to sales">Talk to sales</a>                    
+	</div></div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-28 dnd-section dnd_area-row-9-padding dnd_area-row-9-force-full-width-section dnd_area-row-9-background-color dnd_area-row-9-background-layers">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-29 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget module_17218529802415-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218529802415" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+    
+
+
+
+
+
+
+  
+
+
+
+<span id="hs_cos_wrapper_module_17218529802415_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><img src="hs-fs/hubfs/divider_light?width=2000&amp;height=37&amp;name=divider_light.png" class="hs-image-widget " width="2000" height="37" style="max-width: 100%; height: auto;" alt="divider_light" title="divider_light" loading="eager" srcset="hs-fs/hubfs/divider_light?width=1000&amp;height=19&amp;name=divider_light.png 1000w, hs-fs/hubfs/divider_light?width=2000&amp;height=37&amp;name=divider_light.png 2000w, hs-fs/hubfs/divider_light?width=3000&amp;height=56&amp;name=divider_light.png 3000w, hs-fs/hubfs/divider_light?width=4000&amp;height=74&amp;name=divider_light.png 4000w, hs-fs/hubfs/divider_light?width=5000&amp;height=93&amp;name=divider_light.png 5000w, hs-fs/hubfs/divider_light?width=6000&amp;height=111&amp;name=divider_light.png 6000w" sizes="(max-width: 2000px) 100vw, 2000px"></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-30 dnd-section dnd_area-row-10-padding dnd_area-row-10-max-width-section-centering">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-31 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218529940776" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+    
+    
+    <div class="pwr-anchor vanilla" id="zapier"></div>
+<div class="pwr-sec-txt pwr-sec-txt--1col vanilla pwr-mh-group pwr--align-c pwr--light pwr--padding-t-0 pwr--padding-b-0 pwr--margin-t-0 pwr--margin-b-0    lazyload" style="">
+    
+    
+
+    
+    <div class="page-center pwr--relative pwr--clearfix"><div class="pwr-sec-txt__intro-sec pwr-sec__intro-sec"><h2 class="pwr-sec__title pwr-heading-style--h2  pwr-sec-txt__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Looking for more integrations?<br>We've got you covered.</h2></div><div class="pwr-sec-txt__content pwr-sec-txt__content--top  pwr--clearfix "><div class="pwr-rich-text pwr-sec-txt__left" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            
+          </div></div>
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-32 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218529940777" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+    
+    
+    
+<div class="pwr-sec-image-boxes  pwr-js-masonry vanilla pwr--light  pwr--padding-t-0 pwr--padding-b-0 pwr--margin-t-0 pwr--margin-b-0    lazyload" style="">
+   
+   
+
+   
+   <div class="page-center pwr--relative">
+   <div class="row-fluid ">
+     <div class="span12">
+        
+        
+        <div class="pwr-sec-image-boxes__container  pwr-js-masonry__container pwr--neg-margin-lr-10 pwr-js-masonry__container--no-gutter   pwr-sec-image-boxes__container--centered pwr--align-c pwr--clearfix "><a href="integrations/asana.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/Asana_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="Asana_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-alt-circle-up1_layer"><path d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm292 116V256h70.9c10.7 0 16.1-13 8.5-20.5L264.5 121.2c-4.7-4.7-12.2-4.7-16.9 0l-115 114.3c-7.6 7.6-2.2 20.5 8.5 20.5H212v116c0 6.6 5.4 12 12 12h64c6.6 0 12-5.4 12-12z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/box.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/Box_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="Box_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/companycam.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/CompanyCam_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="CompanyCam_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/dropbox.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/Dropbox_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="Dropbox_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/gmail.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/Gmail_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="Gmail_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/google-drive.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/GoogleDrive_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="GoogleDrive_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/google-sheets.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/GoogleSheets_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="GoogleSheets_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/housecall-pro.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/HousecallPro_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="HousecallPro_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/hubspot.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/HubSpot_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="HubSpot_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/jobber.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/JObber_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="JObber_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/jobnimbus.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/JobNimbus_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="JobNimbus_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/onedrive.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/OneDrive_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="OneDrive_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/pipedrive.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/Pipedrive_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="Pipedrive_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/salesforce.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/Salesforce_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="Salesforce_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/servicem8.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/ServiceM8_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="ServiceM8_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/servicetrade.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/ServiceTrade_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="ServiceTrade_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/slack.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/Slack__rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="Slack__rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/trello.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/Trello_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="Trello_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/zendesk-sell.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/ZendescSell_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="ZendescSell_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="integrations/zoho-crm.html" class="pwr-image-box pwr-image-box--4cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-image-box--smaller pwr-touch-btn-container " data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Integrations%20Boxes%20%20(LIGHT)/ZohoCRM_rectangle_lightBG.svg" class="lazyload pwr-background-img" alt="ZohoCRM_rectangle_lightBG" style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front pwr-image-box__front--hide pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title"></span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__more-link">GO TO INTEGRATION<span class="pwr-image-box__icon "><span id="hs_cos_wrapper_module_17218529940777_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="arrow-circle-right1_layer"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a></div>
+     
+     </div>    
+   </div>
+  
+  
+ </div>
+
+   
+   
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-33 dnd_area-row-11-background-layers dnd-section dnd_area-row-11-force-full-width-section dnd_area-row-11-background-color dnd_area-row-11-padding">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-34 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget module_17218530343565-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218530343565" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+    
+
+
+
+
+
+
+  
+
+
+
+<span id="hs_cos_wrapper_module_17218530343565_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><img src="hs-fs/hubfs/divider_light?width=2000&amp;height=37&amp;name=divider_light.png" class="hs-image-widget " width="2000" height="37" style="max-width: 100%; height: auto;" alt="divider_light" title="divider_light" loading="eager" srcset="hs-fs/hubfs/divider_light?width=1000&amp;height=19&amp;name=divider_light.png 1000w, hs-fs/hubfs/divider_light?width=2000&amp;height=37&amp;name=divider_light.png 2000w, hs-fs/hubfs/divider_light?width=3000&amp;height=56&amp;name=divider_light.png 3000w, hs-fs/hubfs/divider_light?width=4000&amp;height=74&amp;name=divider_light.png 4000w, hs-fs/hubfs/divider_light?width=5000&amp;height=93&amp;name=divider_light.png 5000w, hs-fs/hubfs/divider_light?width=6000&amp;height=111&amp;name=divider_light.png 6000w" sizes="(max-width: 2000px) 100vw, 2000px"></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-35 dnd_area-row-12-padding dnd-section dnd_area-row-12-max-width-section-centering">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-36 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17218530104395" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+    
+    
+    
+<div class="pwr-sec-txt pwr-sec-txt--1col vanilla pwr-mh-group  pwr--light pwr--padding-t-0 pwr--padding-b-0 pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: transparent; ">
+    
+    
+
+    
+    <div class="page-center pwr--relative pwr--clearfix"><div class="pwr-sec-txt__content pwr-sec-txt__content--top  pwr--clearfix "><div class="pwr-rich-text pwr-sec-txt__left" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <h4 style="text-align: center;">Don't see an integration you'd like? <a href="https://magicplan.canny.io/feature-requests" rel="noopener">Send us your request</a>.</h4>
+          </div></div>
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div></div>
+</main>
+
+      
+        <div data-global-resource-path="POWER x magicplan main website/templates/partials/footer.html"><footer class="footer"><div class="container-fluid footer-top__container">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+
+	<div class="footer__container"><div id="hs_cos_wrapper_footer_page" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+    
+
+<div class="pwr-footer vanilla pwr-footer-advanced  pwr--light  lazyload" style="background-color: rgba(238, 238, 238, 1.0); ">
+  
+
+  
+  
+    
+
+    
+
+    <div class="pwr-footer__content pwr-adc pwr--light">
+        <div class="pwr-adc__wrapper"><div class="pwr-adc-main page-center pwr--padding-t-0 pwr--padding-b-0">
+                
+                
+                
+                <div class="pwr-adc__cols pwr-adc-main__cols   pwr--relative">
+                    
+                    
+                    
+                        
+	<div class="pwr-adc__col pwr-adc__col--width-4   pwr--align-fcol-t pwr--align-fcol-t-t  pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-0-1-1   pwr--align-fcol-t pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-l pwr--align-t-l pwr--align-m-l  pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--logo pwr-footer__logo pwr-footer__logo--large"><a href="index.html"><img src="hubfs/magicplan_logo_200x50.svg" alt="magicplan_logo_200x50" width="133" height="32"></a></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><p style="font-size: 14px; font-family: Inter, Arial, Helvetica, sans-serif; line-height: 1.75;">With magicplan, restorers capture what counts instantly. Create real-time floor plans with your mobile device - no processing time for the fastest claim submissions.</p></div></div></div></div>								
+	</div>
+                    
+                
+                    
+                    
+                    
+                        
+	<div class="pwr-adc__col pwr-adc__col--width-2   pwr--align-fcol-t pwr--align-fcol-t-t  pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-0-2-1   pwr--align-fcol-t pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-l pwr--align-t-l pwr--align-m-l  pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">RESOURCES</div></div><div class="pwr-adc-content pwr-adc-content--menu "><div class="pwr-adc-content__menu pwr-js-menu"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-vertical" role="navigation" data-sitemap-name="default" data-menu-id="84488216487" aria-label="Navigation Menu">
+ <ul role="menu" class="active-branch">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://help.magicplan.app/" role="menuitem">Help Center</a></li>
+  <li class="hs-menu-item hs-menu-depth-1 active active-branch" role="none"><a href="integrations.html" role="menuitem">Integrations</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://apidocs.magicplan.app/" role="menuitem" target="_blank" rel="noopener">API Docs</a></li>
+ </ul>
+</div></span></div></div></div></div>								
+	</div>
+                    
+                
+                    
+                    
+                    
+                        
+	<div class="pwr-adc__col pwr-adc__col--width-2   pwr--align-fcol-t pwr--align-fcol-t-t  pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-0-3-1   pwr--align-fcol-t pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-l pwr--align-t-l pwr--align-m-l  pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">COMPANY</div></div><div class="pwr-adc-content pwr-adc-content--menu "><div class="pwr-adc-content__menu pwr-js-menu"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-vertical" role="navigation" data-sitemap-name="default" data-menu-id="84487672667" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="about.html" role="menuitem">About us</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="contact.html" role="menuitem">Contact us</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="careers.html" role="menuitem">Careers</a></li>
+ </ul>
+</div></span></div></div></div></div>								
+	</div>
+                    
+                
+                    
+                    
+                    
+                        
+	<div class="pwr-adc__col pwr-adc__col--width-4   pwr--align-fcol-t pwr--align-fcol-t-t  pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-0-4-1   pwr--align-fcol-t pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-l pwr--align-t-l pwr--align-m-l  pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">WANT TO LEARN MORE?</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text">Schedule a call with a member of our sales team and learn what magicplan can do for your business.</div></div><div class="pwr-adc-content pwr-adc-content--cta "><div class="pwr-adc-content__cta pwr-cta pwr-cta--primary-solid  "><span id="hs_cos_wrapper_footer_page_cta_name" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style="" data-hs-cos-general-type="widget" data-hs-cos-type="cta"><div class="hs-web-interactive-inline" style="" data-hubspot-wrapper-cta-id="167697367671"> 
+ <style data-hubspot-cta-style="hs-inline-web-interactive-167697367671">a.hs-inline-web-interactive-167697367671 {
+    -webkit-font-smoothing: antialiased !important;cursor: pointer !important;-moz-user-select: none !important;-webkit-user-select: none !important;-o-user-select: none !important;user-select: none !important;display: inline-block !important;font-weight: normal !important;text-align: center !important;text-decoration: none !important;-moz-transition: all .4s ease !important;-webkit-transition: all .4s ease !important;-o-transition: all .4s ease !important;background: #0099EE !important;border-radius: 6px !important;border-width: 0px !important;color: #FFFFFF !important;font-family: sans-serif !important;height: auto !important;transition: all .4s ease !important;padding:6px 19px;text-shadow: none !important;width: auto !important;font-size: 24px !important;line-height: 1.5em !important;
+  }
+
+  a.hs-inline-web-interactive-167697367671:hover {
+    background: #0099EE !important;color: rgb(242, 242, 242) !important;
+  }
+
+  a.hs-inline-web-interactive-167697367671:active {
+    background: #0099EE !important;color: rgb(242, 242, 242) !important;
+  }
+
+  a.hs-inline-web-interactive-167697367671:active:hover {
+    background: #0099EE !important;color: rgb(242, 242, 242) !important;
+  }
+
+</style> 
+ <a href="talk-to-sales%EF%B9%96hsCtaAttrib=167697367671.html" target="_blank" class="hs-inline-web-interactive-167697367671   " data-hubspot-cta-id="167697367671"> <span style="font-size: 14px;"><strong>TALK TO SALES</strong></span> </a> 
+</div></span></div></div></div></div>								
+	</div>
+                    
+                
+                </div>
+            </div>
+                
+        
+        
+        
+    
+        <div class="pwr-adc-sub pwr-adc-sub--border-none pwr-adc-sub--content-width  pwr--padding-t-0 pwr--sec-padding-b-sm pwr--light pwr--relative lazyload" style="">
+            
+
+            <div class="page-center pwr--relative">
+                <div class="pwr-adc__cols pwr-adc-sub__cols  pwr--align-frow-m    pwr--relative">
+                    
+                    
+                        
+    <div class="pwr-adc__col pwr-adc__col--width-8 pwr--align-l pwr--relative lazyload" style="">
+        <div class="pwr-adc-content pwr-adc-content--menu "><div class="pwr-adc-content__menu pwr-js-menu"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="84483248486" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="javascript:;" role="menuitem">© 2025 magicplan</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://help.magicplan.app/legal-privacy" role="menuitem" target="_blank" rel="noopener">Legal</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://help.magicplan.app/privacy-app" role="menuitem" target="_blank" rel="noopener">Privacy Policy</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="imprint.html" role="menuitem">Imprint</a></li>
+ </ul>
+</div></span></div></div></div>
+                    
+                
+                    
+                    
+                        
+    <div class="pwr-adc__col pwr-adc__col--width-4 pwr--align-l pwr--relative lazyload" style="">
+        <div class="pwr-adc-content pwr-adc-content--social-icons pwr-footer-company-info__icons"><a href="https://www.facebook.com/magicplan/" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon facebook-square"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="facebook-square1_layer"><path d="M448 80v352c0 26.5-21.5 48-48 48h-85.3V302.8h60.6l8.7-67.6h-69.3V192c0-19.6 5.4-32.9 33.5-32.9H384V98.7c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9H184v67.6h60.9V480H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48z" /></g></svg></span></a><a href="https://www.instagram.com/magicplan_app/" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon instagram"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="instagram2_layer"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" /></g></svg></span></a><a href="https://www.youtube.com/channel/UCqmjz2x7NffJRMg4mmeDTvg" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon youtube"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" aria-hidden="true"><g id="youtube3_layer"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" /></g></svg></span></a><a href="https://twitter.com/magicplan" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon twitter"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="twitter4_layer"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" /></g></svg></span></a><a href="https://www.linkedin.com/company/magicplanapp" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon linkedin"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="linkedin5_layer"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></g></svg></span></a></div></div>
+                    
+                
+                </div>	
+            </div>
+
+        </div>
+    
+            </div>
+    </div>
+
+
+  
+
+</div></div></div>
+
+    <div class="container-fluid footer-bottom__container">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+        
+</footer></div>
+      
+    </div>
+    
+<!-- HubSpot performance collection script -->
+<script defer src="hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
+
+        <script>
+            function isElementUnderViewport(el) {
+                var rect = el.getBoundingClientRect();
+                var windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+                return (rect.top >= windowHeight);
+            }
+            document.addEventListener("DOMContentLoaded", () => {
+                document.querySelectorAll('[tmp-data-aos]').forEach((elem) => {
+                    if (isElementUnderViewport(elem)) {
+                        elem.setAttribute("data-aos", elem.getAttribute("tmp-data-aos"))
+                        elem.setAttribute("data-aos-delay", elem.getAttribute("tmp-data-aos-delay"))
+                        elem.removeAttribute('tmp-data-aos');
+                        elem.removeAttribute('tmp-data-aos-delay');
+                    }
+                });
+                if(typeof AOS !== 'undefined') {
+                    AOS.refreshHard();
+                }
+            });
+        </script>
+    
+<script defer src="hubfs/hub_generated/template_assets/1/82656084152/1763437150295/template_pwr.min.js"></script>
+<script src="hubfs/hub_generated/template_assets/1/83100446469/1763437142433/template_child.min.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+<script defer fetchpriority="low" src="hubfs/hub_generated/template_assets/1/108197159255/1763437162671/template_pwr-burger.min.js"></script>
+<script defer fetchpriority="low" src="hubfs/hub_generated/template_assets/1/108196628002/1763437146447/template_scroll-shadow.min.js"></script>
+<script src="hs/hsstatic/keyboard-accessible-menu-flyouts/static-1.17/bundles/project.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/104112487695/1763437145196/template_advanced-mm-custom.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/108199270432/1763437163843/template_pwr-sticky-sub-menu.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/82658572860/1763437147630/template__swiper-bundle.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/108183947816/1763437157032/template_pwr-swiper.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/82658359960/1763437143954/template_Isotope.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/95056448411/1763437157850/template_fitrows.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/82656408462/1763437155186/template_Packery.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/108183796010/1763437143743/template_pwr-masonry.min.js"></script>
+<!-- Start of Web Interactives Embed Code -->
+<script defer src="../js.hubspot.com/web-interactives-embed.js" type="text/javascript" id="hubspot-web-interactives-loader" data-loader="hs-previewer" data-hsjs-portal="6852598" data-hsjs-env="prod" data-hsjs-hublet="na1"></script>
+<!-- End of Web Interactives Embed Code -->
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.magicplan.app\/integrations"]);
+_hsq.push(["setPageId", "97128585794"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 97128585794,
+    "legacyPageId": "97128585794",
+    "contentFolderId": null,
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 97128585794,
+    "languageCode": "en",
+    
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="hs/scriptloader/6852598.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "2a2cc66b-cd46-4692-a434-e9a09fcfc0af",
+    ticks: 1767777511909,
+    page_id: 97128585794,
+    
+    content_group_id: 0,
+    portal_id: 6852598,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "standard-page",
+    scp_content_type: "",
+    
+    analytics_page_id: "97128585794",
+    category_id: 1,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="hs/hsstatic/HubspotToolsMenu/static-1.432/js/index.js"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M26P32G5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+    
+
+  
+</body></html>

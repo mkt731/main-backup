@@ -1,0 +1,1987 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>magicplan | Restoration App for On-Site Notes, Scoping &amp; Estimating</title>
+    <link rel="shortcut icon" href="hubfs/favicon-96x96_new.png">
+    <meta name="description" content="Restoration field software for water mitigation, scoping, estimating, moisture mapping, photo documentation, and insurance claim files — all in one app.">
+
+    <style>@font-face {
+        font-family: "Inter";
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("_hcms/googlefonts/Inter/regular.woff") format("woff"),
+             url("_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("_hcms/googlefonts/Inter/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Inter";
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Inter/500.woff2") format("woff2"), url("_hcms/googlefonts/Inter/500.woff") format("woff"),
+             url("_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("_hcms/googlefonts/Inter/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Inter";
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Inter/700.woff2") format("woff2"), url("_hcms/googlefonts/Inter/700.woff") format("woff"),
+             url("_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("_hcms/googlefonts/Inter/regular.woff") format("woff");
+    }
+
+            body {
+                font-family: Inter;
+            }
+        @font-face {
+        font-family: "Poppins";
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/regular.woff") format("woff"),
+             url("_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Poppins";
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Poppins/500.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/500.woff") format("woff"),
+             url("_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Poppins";
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Poppins/700.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/700.woff") format("woff"),
+             url("_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Poppins";
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap;
+        src: url("_hcms/googlefonts/Poppins/italic.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/italic.woff") format("woff"),
+             url("_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("_hcms/googlefonts/Poppins/regular.woff") format("woff");
+    }
+
+            .pwr-header__skip {
+                font-family: Poppins;
+            }</style>
+
+    
+
+    
+
+    
+        
+        
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="hs/hsstatic/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
+<script>hsjQuery = window['jQuery'];</script>
+    <meta property="og:description" content="Restoration field software for water mitigation, scoping, estimating, moisture mapping, photo documentation, and insurance claim files — all in one app.">
+    <meta property="og:title" content="magicplan | Restoration App for On-Site Notes, Scoping &amp; Estimating">
+    <meta name="twitter:description" content="Restoration field software for water mitigation, scoping, estimating, moisture mapping, photo documentation, and insurance claim files — all in one app.">
+    <meta name="twitter:title" content="magicplan | Restoration App for On-Site Notes, Scoping &amp; Estimating">
+
+    
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "magicplan",
+        "logo": { 
+            "@type": "ImageObject",
+            "url": "https://6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Email%20Test/mp_logo_light.png"
+        },
+        "url": "index.html",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Québec",
+            "addressLocality": "Montréal",
+            "postalCode":"H2Y 1V8",
+            "streetAddress": "465 Rue St Jean"
+        },
+        "knowsLanguage": "en"
+    }
+</script>
+    <style>a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/82659040910/1763437175482/template_pwr.min.css">
+
+        <style>body {
+                margin:0px;
+            }
+            img:not([src]):not([srcset]) {
+                visibility:hidden;
+            }
+        </style>
+    
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108199330606/1763437169068/template_pwr-defer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108199330606/1763437169068/template_pwr-defer.min.css"></noscript>
+<style>#hs_cos_wrapper_header_page .pwr-header-logo,
+#hs_cos_wrapper_header_page .pwr-header-logo__img {
+  max-width:140px;
+  height:auto;
+}
+
+@media (max-width:575px) {
+  #hs_cos_wrapper_header_page .pwr-header-logo,
+  #hs_cos_wrapper_header_page .pwr-header-logo__img { max-width:140px; }
+}
+
+#hs_cos_wrapper_header_page .pwr-header-logo img { vertical-align:middle; }
+</style>
+<link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108183947820/1763437144219/template_pwr-burger.min.css" fetchpriority="low">
+<link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108197159258/1763437157608/template_scroll-shadow.min.css" fetchpriority="low">
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108197156937/1763437149550/template_advanced-content.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="low">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108197156937/1763437149550/template_advanced-content.min.css"></noscript>
+<style>@media (min-width:992px) {
+  #hs_cos_wrapper_module_17377520685626 .pwr-sec-mockup__mockup {
+    --margin-center:auto;
+    --margin-side:auto;
+  }
+
+  #hs_cos_wrapper_module_17377520685626 .pwr-sec-mockup__mockup--desktop-align-center:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-center); }
+
+  #hs_cos_wrapper_module_17377520685626 .pwr-sec-mockup__mockup--desktop-align-right:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-side); }
+
+  #hs_cos_wrapper_module_17377520685626 .pwr-sec-mockup__mockup--desktop-align-center.pwr-sec-mockup__mockup--right,
+  #hs_cos_wrapper_module_17377520685626 .pwr-sec-mockup--mockup-bottom .pwr-sec-mockup__mockup--desktop-align-center { margin-right:var(--margin-center); }
+
+  #hs_cos_wrapper_module_17377520685626 .pwr-sec-mockup__mockup--desktop-align-left.pwr-sec-mockup__mockup--right { margin-right:var(--margin-side); }
+
+  #hs_cos_wrapper_module_17377520685626 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_17377520685626 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_17377520685626 .pwr-sec-mockup__title-intro--has-background {}
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_17377520685626 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_17377520685626 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_17377520685626 .pwr-sec-mockup__title-intro--has-background {}
+}
+</style>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108197336724/1763437148485/template_pwr-sec-mockup.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108197336724/1763437148485/template_pwr-sec-mockup.min.css"></noscript>
+<link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/179309242675/1763437183206/template_pwr-content-mask.min.css">
+<style>#hs_cos_wrapper_module_17377520777835 .pwr-content-hor-mask { --content-mask-width:10%; }
+</style>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108196831856/1763437184697/template_pwr-sec-testimonials.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108196831856/1763437184697/template_pwr-sec-testimonials.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/82658359736/1763437158350/template__swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/82658359736/1763437158350/template__swiper-bundle.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108184562266/1763437162690/template_pwr-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108184562266/1763437162690/template_pwr-slider.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108196991648/1763437185369/template_pwr-testimonial.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108196991648/1763437185369/template_pwr-testimonial.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108199386904/1763437153219/template_pwr-avatar.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108199386904/1763437153219/template_pwr-avatar.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108199270435/1763437167369/template_pwr-image.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108199270435/1763437167369/template_pwr-image.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108196831313/1763437184602/template_pwr-touch.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="low">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108196831313/1763437184602/template_pwr-touch.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108196658561/1763437168814/template_pwr-sec-image.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108196658561/1763437168814/template_pwr-sec-image.min.css"></noscript>
+<style>#hs_cos_wrapper_module_17377520866955 .pwr-image-box__img { height:550px; }
+
+@media (max-width:1199px) {
+  #hs_cos_wrapper_module_17377520866955 .pwr-image-box__img { height:550px; }
+}
+
+@media (max-width:767px) {
+  #hs_cos_wrapper_module_17377520866955 .pwr-image-box__img { height:550px; }
+}
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc__content-wrapper--border-radius { border-radius:20px; }
+
+#hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers {
+  display:grid;
+  grid-template-columns:repeat(12,1fr);
+  grid-auto-flow:row;
+}
+
+#hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='1'] {
+  grid-column:span 4;
+  grid-row:span 2;
+}
+
+#hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='2'] {
+  grid-column:span 5;
+  grid-row:span 1;
+}
+
+#hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='3'] {
+  grid-column:span 3;
+  grid-row:span 1;
+}
+
+#hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='4'] {
+  grid-column:span 5;
+  grid-row:span 1;
+}
+
+#hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='5'] {
+  grid-column:span 3;
+  grid-row:span 1;
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers {
+    display:grid;
+    grid-template-columns:repeat(9,1fr);
+    grid-auto-flow:row;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='1'] {
+    grid-column:span 4;
+    grid-row:span 2;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='2'] {
+    grid-column:span 5;
+    grid-row:span 1;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='3'] {
+    grid-column:span 3;
+    grid-row:span 1;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='4'] {
+    grid-column:span 5;
+    grid-row:span 1;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='5'] {
+    grid-column:span 3;
+    grid-row:span 1;
+  }
+}
+
+@media (max-width:767px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers {
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-auto-flow:row;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='1'] {
+    grid-column:span 4;
+    grid-row:span 2;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='2'] {
+    grid-column:span 5;
+    grid-row:span 1;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='3'] {
+    grid-column:span 3;
+    grid-row:span 1;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='4'] {
+    grid-column:span 5;
+    grid-row:span 1;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='5'] {
+    grid-column:span 3;
+    grid-row:span 1;
+  }
+}
+
+@media (max-width:575px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-auto-flow:row;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='1'] {
+    grid-column:span 3;
+    grid-row:span 2;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='2'] {
+    grid-column:span 3;
+    grid-row:span 1;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='3'] {
+    grid-column:span 3;
+    grid-row:span 1;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='4'] {
+    grid-column:span 3;
+    grid-row:span 1;
+  }
+
+  #hs_cos_wrapper_module_17377521044315 .pwr-bento-grid .pwr-adc__content-wrappers>[data-index='5'] {
+    grid-column:span 3;
+    grid-row:span 1;
+  }
+}
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-1-1 { color:#3A3A3C; }
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-1-1:before {
+  background-color:rgba(58,58,60,0.07);
+  content:'';
+  width:calc(100% + 1.65em);
+  height:calc(100% + 0.6em);
+  z-index:-1;
+  left:-0.825em;
+  top:-0.3em;
+  position:absolute;
+  border-radius:6px;
+}
+
+#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-1-1 { margin-top:.3em; }
+
+#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-1-1--left { margin-left:0.825em; }
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__title---1-1-2 { color:#161616; }
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-1-3 {
+  object-fit:cover;
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-1-3 {}
+}
+
+@media (max-width:575px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-1-3 {}
+}
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-2-2:before {
+  background-color:rgba(58,58,60,0.07);
+  content:'';
+  width:calc(100% + 1.65em);
+  height:calc(100% + 0.6em);
+  z-index:-1;
+  left:-0.825em;
+  top:-0.3em;
+  position:absolute;
+  border-radius:6px;
+}
+
+#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-2-2 { margin-top:.3em; }
+
+#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-2-2--left { margin-left:0.825em; }
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-2-4 {
+  object-fit:cover;
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-2-4 {}
+}
+
+@media (max-width:575px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-2-4 {}
+}
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-3-2:before {
+  background-color:rgba(58,58,60,0.07);
+  content:'';
+  width:calc(100% + 1.65em);
+  height:calc(100% + 0.6em);
+  z-index:-1;
+  left:-0.825em;
+  top:-0.3em;
+  position:absolute;
+  border-radius:6px;
+}
+
+#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-3-2 { margin-top:.3em; }
+
+#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-3-2--left { margin-left:0.825em; }
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-3-4 {
+  object-fit:cover;
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-3-4 {}
+}
+
+@media (max-width:575px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-3-4 {}
+}
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-4-1:before {
+  background-color:rgba(58,58,60,0.07);
+  content:'';
+  width:calc(100% + 1.65em);
+  height:calc(100% + 0.6em);
+  z-index:-1;
+  left:-0.825em;
+  top:-0.3em;
+  position:absolute;
+  border-radius:6px;
+}
+
+#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-4-1 { margin-top:.3em; }
+
+#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-4-1--left { margin-left:0.825em; }
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-4-3 {
+  object-fit:cover;
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-4-3 {}
+}
+
+@media (max-width:575px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-4-3 {}
+}
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-5-2:before {
+  background-color:rgba(58,58,60,0.07);
+  content:'';
+  width:calc(100% + 1.65em);
+  height:calc(100% + 0.6em);
+  z-index:-1;
+  left:-0.825em;
+  top:-0.3em;
+  position:absolute;
+  border-radius:6px;
+}
+
+#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-5-2 { margin-top:.3em; }
+
+#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__intro-title---1-5-2--left { margin-left:0.825em; }
+</style>
+<style>#hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-5-4 {
+  object-fit:contain;
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-5-4 {}
+}
+
+@media (max-width:575px) {
+  #hs_cos_wrapper_module_17377521044315 .pwr-adc-content__image---1-5-4 {}
+}
+</style>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108199227810/1763437148969/template_pwr-sec-images.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108199227810/1763437148969/template_pwr-sec-images.min.css"></noscript>
+<style>@media (min-width:992px) {
+  #hs_cos_wrapper_module_17377522471625 .pwr-sec-mockup__mockup {
+    --margin-center:auto;
+    --margin-side:auto;
+  }
+
+  #hs_cos_wrapper_module_17377522471625 .pwr-sec-mockup__mockup--desktop-align-center:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-center); }
+
+  #hs_cos_wrapper_module_17377522471625 .pwr-sec-mockup__mockup--desktop-align-right:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-side); }
+
+  #hs_cos_wrapper_module_17377522471625 .pwr-sec-mockup__mockup--desktop-align-center.pwr-sec-mockup__mockup--right,
+  #hs_cos_wrapper_module_17377522471625 .pwr-sec-mockup--mockup-bottom .pwr-sec-mockup__mockup--desktop-align-center { margin-right:var(--margin-center); }
+
+  #hs_cos_wrapper_module_17377522471625 .pwr-sec-mockup__mockup--desktop-align-left.pwr-sec-mockup__mockup--right { margin-right:var(--margin-side); }
+
+  #hs_cos_wrapper_module_17377522471625 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_17377522471625 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_17377522471625 .pwr-sec-mockup__title-intro--has-background {}
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_17377522471625 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_17377522471625 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_17377522471625 .pwr-sec-mockup__title-intro--has-background {}
+}
+</style>
+<style></style>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108196797461/1763437167892/template_pwr-sec-simple.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108196797461/1763437167892/template_pwr-sec-simple.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108197182026/1763437167351/template_pwr-simple.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108197182026/1763437167351/template_pwr-simple.min.css"></noscript>
+<style>@media (min-width:992px) {
+  #hs_cos_wrapper_module_17377522667565 .pwr-sec-mockup__mockup {
+    --margin-center:auto;
+    --margin-side:auto;
+  }
+
+  #hs_cos_wrapper_module_17377522667565 .pwr-sec-mockup__mockup--desktop-align-center:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-center); }
+
+  #hs_cos_wrapper_module_17377522667565 .pwr-sec-mockup__mockup--desktop-align-right:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-side); }
+
+  #hs_cos_wrapper_module_17377522667565 .pwr-sec-mockup__mockup--desktop-align-center.pwr-sec-mockup__mockup--right,
+  #hs_cos_wrapper_module_17377522667565 .pwr-sec-mockup--mockup-bottom .pwr-sec-mockup__mockup--desktop-align-center { margin-right:var(--margin-center); }
+
+  #hs_cos_wrapper_module_17377522667565 .pwr-sec-mockup__mockup--desktop-align-left.pwr-sec-mockup__mockup--right { margin-right:var(--margin-side); }
+
+  #hs_cos_wrapper_module_17377522667565 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_17377522667565 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_17377522667565 .pwr-sec-mockup__title-intro--has-background {}
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_module_17377522667565 .pwr-sec-mockup__content { text-align:center; }
+
+  #hs_cos_wrapper_module_17377522667565 .pwr-sec-mockup__title-intro {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #hs_cos_wrapper_module_17377522667565 .pwr-sec-mockup__title-intro--has-background {}
+}
+</style>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108196628006/1763437165373/template_pwr-social.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108196628006/1763437165373/template_pwr-social.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108183947819/1763437163514/template_pwr-footer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="low">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108183947819/1763437163514/template_pwr-footer.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/108196658562/1763437161454/template_pwr-transitions.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/108196658562/1763437161454/template_pwr-transitions.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/82658359966/1763437144110/template_custom-styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/82658359966/1763437144110/template_custom-styles.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="hubfs/hub_generated/template_assets/1/83099875151/1763437143847/template_child.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="hubfs/hub_generated/template_assets/1/83099875151/1763437143847/template_child.min.css"></noscript>
+<!-- Editor Styles -->
+<style id="hs_editor_style" type="text/css">.dnd_area-row-0-max-width-section-centering > .row-fluid {
+  max-width: 2000px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.dnd_area-row-1-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-2-max-width-section-centering > .row-fluid {
+  max-width: 750px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.dnd_area-row-3-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-5-max-width-section-centering > .row-fluid {
+  max-width: 1232px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.dnd_area-row-6-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-7-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.widget_1737752281480-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.widget_1737752281480-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+/* HubSpot Non-stacked Media Query Styles */
+@media (min-width:768px) {
+  .dnd_area-row-7-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .cell_17377522285003-row-0-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .cell_17377522285005-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_17377522285005-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_17377522667563-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_17377522667563-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+}
+/* HubSpot Styles (default) */
+.dnd_area-row-0-margin {
+  margin-top: 60px !important;
+}
+.dnd_area-row-0-padding {
+  padding-top: 0px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+.dnd_area-row-1-margin {
+  margin-top: 60px !important;
+  margin-bottom: 20px !important;
+}
+.dnd_area-row-1-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.dnd_area-row-2-padding {
+  padding-top: 120px !important;
+  padding-bottom: 150px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.dnd_area-row-3-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.dnd_area-row-3-background-layers {
+  background-image: linear-gradient(rgba(22, 22, 22, 1), rgba(22, 22, 22, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-4-padding {
+  padding-bottom: 80px !important;
+}
+.dnd_area-row-4-hidden {
+  display: block !important;
+}
+.dnd_area-row-5-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.dnd_area-row-5-hidden {
+  display: block !important;
+}
+.dnd_area-row-6-padding {
+  padding-top: 0px !important;
+  padding-bottom: 30px !important;
+}
+.dnd_area-row-7-padding {
+  padding-top: 80px !important;
+  padding-bottom: 0px !important;
+  padding-right: 10px !important;
+}
+.dnd_area-row-7-background-layers {
+  background-image: url('hubfs/Artboard%2014%20copy%208.svg') !important;
+  background-position: center center !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-8-margin {
+  margin-top: -65px !important;
+  margin-bottom: 60px !important;
+}
+.dnd_area-row-8-padding {
+  padding-top: 0px !important;
+}
+.cell_17377520685623-hidden {
+  display: block !important;
+}
+/* HubSpot Styles (mobile) */
+@media (max-width: 767px) {
+  .dnd_area-row-0-margin {
+    margin-top: 40px !important;
+  }
+  .dnd_area-row-0-padding {
+    padding-bottom: 0px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .dnd_area-row-2-padding {
+    padding-top: 50px !important;
+  }
+  .dnd_area-row-4-padding {
+    padding-bottom: 10px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .dnd_area-row-4-hidden {
+    display: block !important;
+  }
+  .dnd_area-row-5-hidden {
+    display: block !important;
+  }
+  .dnd_area-row-6-padding {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .dnd_area-row-7-padding {
+    padding-top: 40px !important;
+    padding-bottom: 3px !important;
+  }
+  .dnd_area-row-8-margin {
+    margin-bottom: 0px !important;
+  }
+  .widget_1737752281480-hidden {
+    display: none !important;
+  }
+}
+</style>
+    
+
+    
+<!--  Added by GoogleAnalytics4 integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = true;
+var waitForUpdateMillis = 1000;
+
+
+if (!window._hsGoogleConsentRunOnce) {
+  window._hsGoogleConsentRunOnce = true;
+
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'wait_for_update': waitForUpdateMillis
+  });
+
+  if (useGoogleConsentModeV2) {
+    _hsp.push(['useGoogleConsentModeV2'])
+  } else {
+    _hsp.push(['addPrivacyConsentListener', function(consent){
+      var hasAnalyticsConsent = consent && (consent.allowed || (consent.categories && consent.categories.analytics));
+      var hasAdsConsent = consent && (consent.allowed || (consent.categories && consent.categories.advertisement));
+
+      gtag('consent', 'update', {
+        'ad_storage': hasAdsConsent ? 'granted' : 'denied',
+        'analytics_storage': hasAnalyticsConsent ? 'granted' : 'denied',
+        'ad_user_data': hasAdsConsent ? 'granted' : 'denied',
+        'ad_personalization': hasAdsConsent ? 'granted' : 'denied'
+      });
+    }]);
+  }
+}
+
+gtag('js', new Date());
+gtag('set', 'developer_id.dZTQ1Zm', true);
+gtag('config', 'G-Z9HSFLLP25');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9HSFLLP25"></script>
+
+<!-- /Added by GoogleAnalytics4 integration -->
+
+<!--  Added by GoogleTagManager integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = true;
+var waitForUpdateMillis = 1000;
+
+
+
+var hsLoadGtm = function loadGtm() {
+    if(window._hsGtmLoadOnce) {
+      return;
+    }
+
+    if (useGoogleConsentModeV2) {
+
+      gtag('set','developer_id.dZTQ1Zm',true);
+
+      gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'wait_for_update': waitForUpdateMillis
+      });
+
+      _hsp.push(['useGoogleConsentModeV2'])
+    }
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M26P32G5');
+
+    window._hsGtmLoadOnce = true;
+};
+
+_hsp.push(['addPrivacyConsentListener', function(consent){
+  if(consent.allowed || (consent.categories && consent.categories.analytics)){
+    hsLoadGtm();
+  }
+}]);
+
+</script>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    <link rel="canonical" href="index.html">
+
+<script type="application/ld+json">
+{
+"@context" : "http://schema.org",
+"@type" : "WebSite",
+"name" : "magicplan",
+"url" : "https://www.magicplan.app/"
+}
+</script>
+<meta property="og:site_name" content="magicplan">
+
+<script id="vtag-ai-js" async src="../r2.leadsy.ai/tag.js" data-pid="10YzmxlBp33rN4ROZ" data-version="062024"></script>
+
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id=' + i + dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M26P32G5');
+</script>
+<!-- End Google Tag Manager -->
+<meta property="og:url" content="index.html">
+<meta name="twitter:card" content="summary">
+<meta http-equiv="content-language" content="en">
+
+
+
+
+
+
+    
+    
+  <meta name="generator" content="HubSpot"></head>
+  <body>
+<!--  Added by GoogleTagManager integration -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M26P32G5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    <div class="body-wrapper   hs-content-id-185340352636 hs-site-page page  
+    pwr-v--46 line-numbers" data-aos-global-disable="phone" data-aos-global-offset="64" data-aos-global-delay="50" data-aos-global-duration="380">
+      
+        <div id="hs_cos_wrapper_page_settings" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"></div> 
+      
+
+      
+
+      
+        <div data-global-resource-path="POWER x magicplan main website/templates/partials/header.html"><header class="header">
+
+    
+    <a href="#main-content" class="pwr-header__skip">Skip to content</a><div class="header__container"><div id="hs_cos_wrapper_header_page" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div id="pwr-header-top" class="pwr-header-top vanilla  pwr-header-top--flip-order   pwr--light   ">
+  <div class="pwr-header-top__content-wrapper page-center pwr--clearfix"><div class="pwr-header-top__menu  pwr-js-menu"><span id="hs_cos_wrapper_header_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_header_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="100001491370" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://help.magicplan.app" role="menuitem">Customer Support</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="contact.html" role="menuitem">Contact Us</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="tel:+18337502616" role="menuitem">833-750-2616</a></li>
+ </ul>
+</div></span></div></div>
+</div>
+
+<div id="pwr-js-burger" class="pwr-burger vanilla pwr--light  ">
+  <a href="#" id="pwr-js-burger__trigger-close" aria-label="Close" burger menu” class="pwr-burger__trigger-close vanilla">
+    <span class="pwr-burger__icon-close"></span>Close
+  </a>
+          
+          <div class="pwr-burger__menu pwr-js-menu pwr-scroll-shadow__wrapper pwr-scroll-shadow__wrapper--vert pwr-scroll-shadow__root pwr-scroll-shadow__root--vert"><span id="hs_cos_wrapper_header_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_header_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-vertical" role="navigation" data-sitemap-name="default" data-menu-id="107176816016" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Features</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="sketches.html" role="menuitem">Sketches</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="visual-documentation.html" role="menuitem">Photos</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="sops.html" role="menuitem">SOPs</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="equipment.html" role="menuitem">Equipment Placement</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="360-tours.html" role="menuitem">360º Panoramas</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="features.html" role="menuitem">Explore all of our features -&gt;</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Industries</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="industries/restoration.html" role="menuitem">Restoration</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="industries/remodeling.html" role="menuitem">Remodeling</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="industries/inspection.html" role="menuitem">Inspection</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Teams</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="field-teams.html" role="menuitem">Field teams</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="admin-teams.html" role="menuitem">Admin teams</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Resources</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://help.magicplan.app" role="menuitem">Help Center</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="magicplanacademy.html" role="menuitem">Academy</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.youtube.com/@magicplan/streams" role="menuitem">Webinars</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://community.magicplan.app/" role="menuitem">Community</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="integrations.html" role="menuitem">Integrations &amp; API Documentation</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://blog.magicplan.app" role="menuitem">Blog</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="events.html" role="menuitem">Events</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="pricing.html" role="menuitem">Pricing</a></li>
+ </ul>
+</div></span></div><div class="pwr-burger-bottom-bar"><div class="pwr-burger-bottom-bar__item pwr-cta pwr-cta--custom-02  ">
+      <a class="cta_button" href="https://cloud.magicplan.app/login" rel="noopener" target="_blank" title="Button LOGIN">LOGIN</a>                    
+    </div><div class="pwr-burger-bottom-bar__item pwr-cta pwr-cta--primary-solid  ">  
+      <a class="cta_button" href="talk-to-sales.html" rel="noopener" target="_blank" title="Button TALK TO SALES">TALK TO SALES</a>                    
+    </div></div>
+</div><div id="pwr-header-fixed__spacer" class="pwr-header-fixed__spacer vanilla"></div><div id="pwr-header-fixed" class="pwr-header vanilla pwr-header-fixed pwr-header--blurry pwr--light  pwr-header--light-on-scroll   " data-mm-anim-fot-reveal="true" data-mm-anim-slide="true" data-mm-anim-fade="true">
+  <div class="page-center pwr-header--padding">
+    <div class="pwr-header-full pwr--clearfix">
+      <div class="pwr-header-logo pwr-header-logo--has-sticky"><a href="index.html" aria-label="Back to Home"><img src="hubfs/magicplan_logo_light_bg.svg" alt="magicplan logo" class="pwr-header-logo__img" width="300" height="63"></a><a href="index.html" aria-label="Back to Home"><img src="hubfs/magicplan_logo_light_bg.svg" alt="magicplan logo" class="pwr-header-logo__img--sticky" width="1100" height="230" fetchpriority="low" decoding="async"></a></div><div id="pwr-js-header__menu" class="pwr-header__menu pwr-header__menu--narrow-32  pwr-header__menu--adv-mega-menu pwr-header__menu--dropdown " style="left: 13.5%;"><div class="pwr-js-menu"><span id="hs_cos_wrapper_header_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_header_page_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="84704338442" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Solutions</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="mobile-field-reporting-solution.html" role="menuitem">Report</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="talk-to-sales.html" role="menuitem">Talk to Sales</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Resources</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://help.magicplan.app" role="menuitem">Help Center</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.youtube.com/@magicplan/streams" role="menuitem">Webinars</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://community.magicplan.app/" role="menuitem">Community</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://blog.magicplan.app" role="menuitem">Blog</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="events.html" role="menuitem">Events</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="pricing.html" role="menuitem">Pricing</a></li>
+ </ul>
+</div></span></div></div><div id="pwr-js-header-right-bar" class="pwr-header-right-bar "><div class="pwr-header-right-bar__item pwr-header-right-bar__cta pwr-cta pwr-cta--custom-02  ">
+            <a class="cta_button" href="https://cloud.magicplan.app/login" rel="noopener" target="_blank" title="Button LOGIN">LOGIN</a>                    
+          </div><div class="pwr-header-right-bar__item pwr-header-right-bar__cta pwr-header-right-bar__cta--second pwr-cta pwr-cta--primary-solid  ">
+          <a class="cta_button" href="talk-to-sales.html" rel="noopener" target="_blank" title="Button TALK TO SALES">TALK TO SALES</a>                    
+        </div></div><a href="#" id="pwr-js-burger__trigger-open" aria-label="”Open" burger menu” class="pwr-burger__trigger-open vanilla  pwr-burger__trigger-open--mobile-only">
+        <div class="pwr-burger__icon-open">
+          <span></span>
+        </div>
+      </a></div>
+  </div><div class="pwr-header-advanced-mms"><div class="pwr-header-advanced-mm pwr-header-advanced-mm--custom-width pwr-header-advanced-mm--shadow pwr-header-advanced-mm--border-radius  pwr--relative" data-target="1" style="max-width: 680px;">
+                    <div class="pwr-adc pwr-adc--border-top pwr--light lazyload" style="">
+                        
+                        <div class="pwr-adc__wrapper"><div class="pwr-adc-main  pwr--relative"><div class="pwr-adc__cols pwr-adc-main__cols   pwr--relative">
+	<div class="pwr-adc__col pwr-adc__col--width-6 pwr-adc__col--border-right  pwr--align-fcol-t   pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-1-1-1 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small  pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--spacer "><div class="pwr-adc-content__spacer" style="height: 4px;"></div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #9a9a9a;"><strong>OUR FEATURES</strong></span></div></div></div><a href="sketches.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-2 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">SKETCHES</div></div></a><a href="visual-documentation.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-3 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">VISUAL DOCUMENTATION</div></div></a><a href="360-tours.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-4 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">360º TOURS</div></div></a><a href="sops.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-5 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">SOPs</div></div></a><a href="estimate.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-6 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">ESTIMATES</div></div></a><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-1-1-7 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--button "><div class="pwr-adc-content__button pwr-cta pwr-cta--link pwr-cta--large">
+            <a class="cta_button" href="features.html" title="Button Explore all of our features">Explore all of our features</a>                    
+        </div></div></div></div>								
+	</div>
+	<div class="pwr-adc__col pwr-adc__col--width-6   pwr--align-fcol-t   pwr--relative lazyload" style="background-color: rgba(250, 250, 250, 1.0); ">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-1-2-1 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--spacer "><div class="pwr-adc-content__spacer" style="height: 4px;"></div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #9a9a9a;"><strong>INDUSTRIES</strong></span></div></div></div><a href="industries/restoration.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-2 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">RESTORATION</div></div></a><a href="industries/remodeling.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-3 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">REMODELING</div></div></a><a href="industries/inspection.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-4 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">INSPECTION</div></div></a><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-1-2-5 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--spacer "><div class="pwr-adc-content__spacer" style="height: 4px;"></div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #9a9a9a;"><strong>TEAMS</strong></span></div></div></div><a href="field-teams.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-6 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">FIELD TEAMS</div></div></a><a href="admin-teams.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-7 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">ADMIN TEAMS</div></div></a></div>								
+	</div></div>
+                            </div></div>
+                    </div>				
+                </div><div class="pwr-header-advanced-mm pwr-header-advanced-mm--custom-width pwr-header-advanced-mm--shadow pwr-header-advanced-mm--border-radius  pwr--relative" data-target="2" style="max-width: 450px;">
+                    <div class="pwr-adc  pwr--light lazyload" style="">
+                        
+                        <div class="pwr-adc__wrapper"><div class="pwr-adc-main  pwr--relative"><div class="pwr-adc__cols pwr-adc-main__cols  pwr--relative">
+	<div class="pwr-adc__col pwr-adc__col--width-12 pwr-adc__col--border- pwr--light    pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-2-1-1 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small  pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #9a9a9a;"><strong>RESOURCES</strong></span></div></div></div><a href="https://help.magicplan.app/" rel="noopener" target="_blank" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-2-1-2 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">HELP CENTER</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #666666;">How-to articles, guides, and product updates.</span></div></div></a><a href="magicplanacademy.html" rel="noopener" target="_blank" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-2-1-3 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">ACADEMY</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #666666;">Premium courses, certifications, and strategies.</span></div></div></a><a href="https://community.magicplan.app/c/webinar?sort=asc" target="_blank" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-2-1-4 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">WEBINARS</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #656565;">Live and on-demand webinars.</span></div></div></a><a href="https://community.magicplan.app" rel="noopener" target="_blank" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-2-1-5 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">COMMUNITY</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><p style="font-size: 14px;"><span style="color: #656565;">Connect with other magicplan users.</span></p></div></div></a></div>								
+	</div></div>
+                            </div><div class="pwr-adc-sub pwr-adc-sub--border-bottom    pwr--light pwr--relative lazyload" style="background-color: rgba(229, 239, 252, 1.0); ">
+                
+
+                <div class=" pwr--relative">
+                    <div class="pwr-adc__cols pwr-adc-sub__cols    pwr--relative">
+    <div class="pwr-adc__col pwr-adc__col--width-12 pwr--align-l pwr--relative lazyload" style="">
+        <div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><p style="text-align: center;"><strong><span style="color: #0099ee;"><a href="integrations.html" rel="noopener" style="color: #0099ee;">INTEGRATIONS &amp; API DOCUMENTATION</a></span></strong></p></div></div></div></div>	
+                </div>
+
+            </div></div>
+                    </div>				
+                </div></div></div></div></div>
+
+    <div class="container-fluid header-bottom__container">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+
+</header></div>
+      
+
+      <main id="main-content" class="body-container-wrapper">
+    <div class="body-container"><div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 dnd_area-row-0-max-width-section-centering dnd_area-row-0-margin dnd-section dnd_area-row-0-padding">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column cell_17377520685623-hidden" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17377520685626" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+    
+    
+    
+<div class="pwr-sec-mockup pwr-sec-mockup--mockup-bottom vanilla   pwr--light pwr--sec-padding-t-sm pwr--padding-b-0 pwr--margin-t-0 pwr--margin-b-0    lazyload" tmp-data-aos="fade-in" tmp-data-aos-delay="50" style="">
+    
+    
+
+    
+    
+
+    <div class="">
+    <div class="page-center">
+      <div class="pwr-sec-mockup__content pwr-sec-mockup__content--center " style="width: 40%;" data-pwr-mh="sec-mockup-content-height"><span class="pwr-sec__title-intro pwr-sec-mockup__title-intro " tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        <div style="display: inline-block; padding: 8px 15px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9; font-size: 16px; font-weight: 500; text-align: center; color: #3A3A3C;">    <b>App Store ★★★★★4.7</b> (128k)</div></span><h1 class="pwr-sec__title pwr-heading-style--default pwr-sec-mockup__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Your crew’s field app. Your company’s brain.</h1><span class="pwr-rich-text pwr-sec__desc pwr-sec-mockup__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        <p><span>The tool restoration teams use to sketch, snap, scope, and get paid&nbsp;— all in one place.</span></p></span><div class="pwr-cta-container pwr-sec-mockup__cta-container pwr--clearfix" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <div class="pwr--neg-margin-lr-10"><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--regular-solid pwr-cta--long"><span id="hs_cos_wrapper_module_17377520685626_name" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style="" data-hs-cos-general-type="widget" data-hs-cos-type="cta"><div class="hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-182932458148" style="max-width:100%; max-height:100%; width:160px;height:45.546875px" data-hubspot-wrapper-cta-id="182932458148">
+  <a href="https://www.magicplan.app/hs/cta/wi/redirect?encryptedPayload=AVxigLLMtbvcu%2FNLE%2B3PPCr6NkDUWJuFpBU0b6Pbm1TDH4jeXtCgMa5NTsSXowOqtXEWSD%2B83bdkPwE6qqSH1hWkA6w4AyrSq7fwDaJb1%2F%2FvD7p1RwoVUDE%2BRc4MhTCDnyNHOrVc6AXV1TDEX24ALtzehozVKTsy%2Fnu1RqCnRaeWzyx8893Q7w1jAS6q7JvOpsg2MguvHhU0EA%3D%3D&amp;webInteractiveContentId=182932458148&amp;portalId=6852598" target="_blank" rel="noopener">
+    <img alt="<img src=&quot;/hubfs/mac-os.png&quot; alt=&quot;magicplan app store&quot; style=&quot;width: 15px; height: 15px; padding-right: 2px; padding-top: 3px;&quot;>  App Store" loading="lazy" src="../no-cache.hubspot.com/cta/default/6852598/interactive-182932458148.png" style="height: 100%; width: 100%; object-fit: fill" onerror="this.style.display='none'">
+  </a>
+</div>
+</span></div><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--regular-solid pwr-cta--long"><span id="hs_cos_wrapper_module_17377520685626_name" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style="" data-hs-cos-general-type="widget" data-hs-cos-type="cta"><div class="hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-182931616345" style="max-width:100%; max-height:100%; width:160px;height:47.546875px" data-hubspot-wrapper-cta-id="182931616345">
+  <a href="https://www.magicplan.app/hs/cta/wi/redirect?encryptedPayload=AVxigLLzngpip0Vl2h5kHTokMIVk9QeR7cZbvRgGjFLdLwmhClo5%2BSV82qfCrOUeQLoAxJpDFeVpQyvOpq45molUJHxPR44ZPXuN9ZdN1DBvkKn%2FGNbiJD6VmVafwItgR58Vgf9qTJ13no8KcDTRHj1AQhKfdRkt8WtS83N7%2FzJw%2FFDMh86GRxZ8DP%2FIer%2B0Otqjw1xb97CI0NPnet5le7Dpj7u7patzK1Xb&amp;webInteractiveContentId=182931616345&amp;portalId=6852598" target="_blank" rel="noopener">
+    <img alt="<img src=&quot;/hubfs/playstore_logo.png&quot; alt=&quot;magicplan app play store&quot; style=&quot;width: 15px; height: 15px; padding-right: 5px;&quot;>  Google Play" loading="lazy" src="../no-cache.hubspot.com/cta/default/6852598/interactive-182931616345.png" style="height: 100%; width: 100%; object-fit: fill" onerror="this.style.display='none'">
+  </a>
+</div>
+</span></div></div>
+          </div></div>
+    </div>
+  </div>
+  <div class="pwr-sec-mockup__mockup-wrapper pwr-sec-mockup__mockup-wrapper--center page-center pwr--relative pwr--clearfix" data-pwr-mh="sec-mockup-content-height">
+    <div class="pwr-sec-mockup__mockup pwr-sec-mockup__mockup--desktop-align-center pwr-sec-mockup__mockup--mobile-align-center pwr-sec-mockup__mockup--not-fw " style="width: 100%;max-width: 2000px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-ratio-box" style="padding-bottom: calc(0.4854574299312533 * 100%);">
+
+            <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/magicplan_app_iphone_screens_desktop.webp?width=300&amp;name=magicplan_app_iphone_screens_desktop.webp.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/magicplan_app_iphone_screens_desktop.webp?width=300&amp;name=magicplan_app_iphone_screens_desktop.webp.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/magicplan_app_iphone_screens_desktop.webp?width=575&amp;name=magicplan_app_iphone_screens_desktop.webp.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/magicplan_app_iphone_screens_desktop.webp?width=767&amp;name=magicplan_app_iphone_screens_desktop.webp.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/magicplan_app_iphone_screens_desktop.webp?width=991&amp;name=magicplan_app_iphone_screens_desktop.webp.png 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/magicplan_app_iphone_screens_desktop.webp?width=1199&amp;name=magicplan_app_iphone_screens_desktop.webp.png 1199w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/magicplan_app_iphone_screens_desktop.webp?width=1891&amp;name=magicplan_app_iphone_screens_desktop.webp.png 1891w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-mockup__mockup-img" alt="magicplan app iphone screens with floor plan sketch, photos of water mitigation site, site assessment for, photo documentation gallery and files in the files manager" style="object-fit: cover;"></div></div> 
+  </div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 dnd_area-row-1-padding dnd-section dnd_area-row-1-margin dnd_area-row-1-force-full-width-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17377520777835" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+    
+    
+    
+
+<div class="pwr-sec-testimonials vanilla pwr-sec-testimonials--style-multiple pwr--dark pwr--padding-t-0 pwr--padding-b-0 pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: transparent; ">
+    
+    
+
+    
+    
+
+  <div class="page-center pwr--relative"></div>
+    
+    
+    
+    <div class=" pwr--relative">
+        <div class="pwr-sec-testimonials__slider  pwr--relative " data-multiple="true" data-loop="true" data-autoplay="true" data-reverse-transition="false" data-autoplay-timeout="3000" data-nav-arrows="false" data-nav-bullets="false">
+            <div class="pwr-swiper  pwr-content-hor-mask-wrapper pwr-content-hor-mask">
+                <div class="swiper-wrapper ">
+                    
+                    <div class="swiper-slide">
+                        <div class="pwr-testimonial pwr-testimonial--style-multiple pwr--colored-box pwr--light " style="background-color: rgba(250, 250, 250, 1.0)" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-testimonial__author"><div class="pwr-avatar pwr-avatar--valign pwr-testimonial__avatar">
+                                    <div class="pwr-avatar__round pwr-avatar__small">
+                                      <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Belfor%201x1.png?width=300&amp;name=Belfor%201x1.png.jpeg" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Belfor%201x1.png?width=300&amp;name=Belfor%201x1.png.jpeg 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Belfor%201x1.png?width=575&amp;name=Belfor%201x1.png.jpeg 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Belfor%201x1.png?width=767&amp;name=Belfor%201x1.png.jpeg 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Belfor%201x1.png?width=991&amp;name=Belfor%201x1.png.jpeg 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Belfor%201x1.png?width=1199&amp;name=Belfor%201x1.png.jpeg 1199w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Belfor%201x1?width=1200&amp;name=Belfor%201x1.png 1200w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-avatar__img" alt="Belfor" width="70" style="aspect-ratio: 1.0; ">
+                                    </div>
+                                </div><div class="pwr-testimonial__info">
+                                    <span class="pwr-testimonial__name pwr-testimonial__name--has-job-desc">Laars Diehl</span><span class="pwr-testimonial__job-title">Belfor Germany</span></div>
+                            </div><div class="pwr-rich-text pwr-testimonial__quote"><p>"With consistent use, all work is completed on-site with magicplan, eliminating the old method of initial paper-based work on-site followed by additional work in the office. We are always evolving, and magicplan has emerged as our preferred tool for conducting damage assessments across all scenarios."</p></div></div>
+                    </div><div class="swiper-slide">
+                        <div class="pwr-testimonial pwr-testimonial--style-multiple pwr--colored-box pwr--light " style="background-color: rgba(250, 250, 250, 1.0)" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-testimonial__author"><div class="pwr-avatar pwr-avatar--valign pwr-testimonial__avatar">
+                                    <div class="pwr-avatar__round pwr-avatar__small">
+                                      <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Website/Website%20Assets/testimonial-discreet-picture?width=300&amp;name=testimonial-discreet-picture.jpeg" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Website/Website%20Assets/testimonial-discreet-picture?width=300&amp;name=testimonial-discreet-picture.jpeg 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Website/Website%20Assets/testimonial-discreet-picture?width=575&amp;name=testimonial-discreet-picture.jpeg 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Website/Website%20Assets/testimonial-discreet-picture?width=600&amp;name=testimonial-discreet-picture.jpeg 600w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-avatar__img" alt="testimonial-discreet-picture" width="70" style="aspect-ratio: 1.0; ">
+                                    </div>
+                                </div><div class="pwr-testimonial__info">
+                                    <span class="pwr-testimonial__name pwr-testimonial__name--has-job-desc">Josh Winton</span><span class="pwr-testimonial__job-title">Discreet Restoration</span></div>
+                            </div><div class="pwr-rich-text pwr-testimonial__quote"><p>"Being able to create an estimate immediately following the production of a floor plan, all within the same app, makes magicplan a must-have for my company. "</p></div></div>
+                    </div><div class="swiper-slide">
+                        <div class="pwr-testimonial pwr-testimonial--style-multiple pwr--colored-box pwr--light " style="background-color: rgba(250, 250, 250, 1.0)" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-testimonial__author"><div class="pwr-avatar pwr-avatar--valign pwr-testimonial__avatar">
+                                    <div class="pwr-avatar__round pwr-avatar__small">
+                                      <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/crown-email?width=300&amp;name=crown-email.jpg" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/crown-email?width=300&amp;name=crown-email.jpg 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/crown-email?width=400&amp;name=crown-email.jpg 400w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-avatar__img" alt="crown-email" width="70" style="aspect-ratio: 1.0; ">
+                                    </div>
+                                </div><div class="pwr-testimonial__info">
+                                    <span class="pwr-testimonial__name pwr-testimonial__name--has-job-desc">Jeremy Newman</span><span class="pwr-testimonial__job-title">Crown Restoration</span></div>
+                            </div><div class="pwr-rich-text pwr-testimonial__quote"><p>"Having the estimating built in makes everything a lot quicker because we don’t have to switch between systems. So, we can create an invoice right there at the job site, and we actually use that document to bill for the work we do.<span>"</span></p></div></div>
+                    </div><div class="swiper-slide">
+                        <div class="pwr-testimonial pwr-testimonial--style-multiple pwr--colored-box pwr--light " style="background-color: rgba(250, 250, 250, 1.0)" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-testimonial__author"><div class="pwr-avatar pwr-avatar--valign pwr-testimonial__avatar">
+                                    <div class="pwr-avatar__round pwr-avatar__small">
+                                      <img data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ian_facts-1?width=70&amp;name=ian_facts-1.png 1x, ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ian_facts-1?width=105&amp;name=ian_facts-1.png 1.5x" class="lazyload pwr-avatar__img" alt="ian_facts-1" width="70" style="aspect-ratio: 1.0; ">
+                                    </div>
+                                </div><div class="pwr-testimonial__info">
+                                    <span class="pwr-testimonial__name pwr-testimonial__name--has-job-desc">Ian Elmer</span><span class="pwr-testimonial__job-title">All About That Basement</span></div>
+                            </div><div class="pwr-rich-text pwr-testimonial__quote"><p>"magicplan has everything we could ask for. It's intuitive, user friendly, fast, and mobile. We can conduct site inspections and provide an estimate before departing from the customer."</p></div></div>
+                    </div><div class="swiper-slide">
+                        <div class="pwr-testimonial pwr-testimonial--style-multiple pwr--colored-box pwr--light " style="background-color: rgba(250, 250, 250, 1.0)" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-testimonial__author"><div class="pwr-avatar pwr-avatar--valign pwr-testimonial__avatar">
+                                    <div class="pwr-avatar__round pwr-avatar__small">
+                                      <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ASA-MMP%20Instagram.png?width=300&amp;name=ASA-MMP%20Instagram.png.jpeg" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ASA-MMP%20Instagram.png?width=300&amp;name=ASA-MMP%20Instagram.png.jpeg 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ASA-MMP%20Instagram.png?width=575&amp;name=ASA-MMP%20Instagram.png.jpeg 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ASA-MMP%20Instagram?width=767&amp;name=ASA-MMP%20Instagram.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ASA-MMP%20Instagram?width=991&amp;name=ASA-MMP%20Instagram.png 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/ASA-MMP%20Instagram?width=1080&amp;name=ASA-MMP%20Instagram.png 1080w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-avatar__img" alt="ASA-MMP Construction Partners" width="70" style="aspect-ratio: 1.0; ">
+                                    </div>
+                                </div><div class="pwr-testimonial__info">
+                                    <span class="pwr-testimonial__name pwr-testimonial__name--has-job-desc">Leo Almony</span><span class="pwr-testimonial__job-title">ASA-MMP Construction Partners</span></div>
+                            </div><div class="pwr-rich-text pwr-testimonial__quote"><p>“Before, it would take me anywhere from 10 to 15 minutes to recreate a sketch for a typical job. But now, instead of wasting time trying to recreate each sketch, I can just start working on my estimate.”</p></div></div>
+                    </div></div>
+            </div></div>
+        
+    </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-5 dnd_area-row-2-padding dnd_area-row-2-max-width-section-centering dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17377520866955" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+    
+    
+    
+<div class="pwr-sec-image-boxes  pwr-js-masonry vanilla pwr--light  pwr--padding-t-0 pwr--padding-b-0 pwr--margin-t-0 pwr--margin-b-0    lazyload" style="">
+   
+   
+
+   
+   <div class="page-center pwr--relative">
+   <div class="row-fluid">
+     <div class="pwr-sec-image-boxes__intro-sec pwr-sec__intro-sec  pwr-sec-image-boxes__intro-sec--centered pwr--align-c"><span class="pwr-sec__title-intro pwr--margin-centered pwr-sec__title-intro--narrow pwr-sec-image-boxes__title-intro" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+           MULTI-USER COLLABORATION
+       </span><h2 class="pwr-sec__title pwr-heading-style--h1 pwr-sec__title--narrow pwr-sec-image-boxes__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">One job. One file. One team.</h2><div class="pwr-rich-text pwr-sec__desc pwr-sec-image-boxes__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+         <p>The smartest way to get work done on-site and in the office.</p>
+       </div></div>
+   </div>
+ </div><div class="page-center pwr--relative">
+   <div class="row-fluid ">
+     <div class="span12">
+        
+        
+        <div class="pwr-sec-image-boxes__container  pwr-js-masonry__container pwr--neg-margin-lr-10 pwr-js-masonry__container--no-gutter   pwr-sec-image-boxes__container--centered pwr--align-c pwr--clearfix "><a href="field-teams.html" class="pwr-image-box pwr-image-box--2cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-touch-btn-container " tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/teams_section_field.webp?width=300&amp;name=teams_section_field.webp.jpeg" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/teams_section_field.webp?width=300&amp;name=teams_section_field.webp.jpeg 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/teams_section_field.webp?width=575&amp;name=teams_section_field.webp.jpeg 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/teams_section_field.webp?width=720&amp;name=teams_section_field.webp.jpeg 720w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-background-img" alt="Field technician in construction site wearing a cap, glasses and blue jeans shirt." style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front  pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title">Field Team</span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__title">Field Team</span><span class="pwr-image-box__more-link"><span class="pwr-image-box__icon pwr-image-box__icon--no-text"><span id="hs_cos_wrapper_module_17377520866955_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="arrow-right1_layer"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a><a href="admin-teams.html" class="pwr-image-box pwr-image-box--2cols pwr-js-masonry__item 
+    pwr-image-box--one-by-one pwr-image-box--is-link pwr-touch-btn-container " tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-category="">
+ <div class="pwr-3D-box">
+   <div class="pwr-image-box__img pwr-3D-box__sensor pwr-3D-box--shaddow-on-hover">
+     <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/teams_section_admin.webp?width=300&amp;name=teams_section_admin.webp.jpeg" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/teams_section_admin.webp?width=300&amp;name=teams_section_admin.webp.jpeg 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/teams_section_admin.webp?width=575&amp;name=teams_section_admin.webp.jpeg 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/teams_section_admin.webp?width=720&amp;name=teams_section_admin.webp.jpeg 720w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-background-img" alt="Restoration project manager in the office wearing glasses, white t-shirt and blue jeans shirt " style="object-fit: cover;object-position: center;"><div class="pwr-image-box__overlay "></div>
+     <div class="pwr-image-box__front  pwr-3D-box__info-box">
+       <span class="pwr-image-box__intro"></span>
+       <span class="pwr-image-box__title">Admin Team</span></div>
+     <div class="pwr-image-box__back pwr-3D-box__info-box"><span class="pwr-image-box__title">Admin Team</span><span class="pwr-image-box__more-link"><span class="pwr-image-box__icon pwr-image-box__icon--no-text"><span id="hs_cos_wrapper_module_17377520866955_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="arrow-right2_layer"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></g></svg></span></span></span></div>
+   </div>
+ </div>
+</a></div>
+     
+     </div>    
+   </div>
+  
+  
+ </div>
+
+   
+   
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-section dnd_area-row-3-padding dnd_area-row-3-background-layers dnd_area-row-3-background-color dnd_area-row-3-force-full-width-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17377521044315" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><!-- templateType: none -->
+
+
+    
+    
+    
+
+
+    
+
+
+<div class="pwr-bento-grid pwr-adc vanilla pwr-adc__height-mode--   pwr--sec-padding-b-lg pwr--margin-t-0 pwr--margin-b-0 pwr-bento-grid--with-intro pwr--dark
+     " tmp-data-aos="fade-in" tmp-data-aos-delay="50" style="background-color: transparent; ">
+    
+    
+
+    
+    <div class="page-center pwr--relative pwr--align-c">
+        <div class="pwr-bento-grid__intro-sec pwr-sec__intro-sec"><h2 class="pwr-sec__title pwr-heading-style--h1  pwr-bento-grid__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Documentation that makes your estimates bulletproof</h2><span class="pwr-rich-text pwr-sec__desc pwr-bento-grid__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <span>Nothing gets missed. Nothing gets pushed back.</span></span></div>
+    </div><div class="pwr-adc__wrapper"><div class="pwr-adc-main page-center" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr--relative ">
+	<div class="pwr-adc__col pwr--dark    pwr--relative lazyload" style="">
+        
+
+        <div class="pwr-adc__content-wrappers  pwr-grid--auto-fill-gaps "><a href="sketches.html" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--ix-0-1-1 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--border-radius 
+                            pwr--align-fcol-m pwr--align-fcol-t-b pwr--align-fcol-m-b pwr--align-c pwr--align-t-c pwr--align-m-c pwr--relative lazyload " style="
+        background-color: rgba(255, 255, 255, 1.0); 
+    padding: 40px 40px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-index="1" data-colspan="4" data-rowspan="2">
+                    
+
+                    <div class="pwr-adc-content pwr-adc-content--intro-title " style="margin-bottom: 20px;">
+        
+        <span class="pwr-adc-content__intro-title pwr-adc-content__intro-title--bg-color pwr-adc-content__intro-title---1-1-1">INSTANT SKETCHES</span></div><div class="pwr-adc-content pwr-adc-content--title " style="margin-bottom: 30px;">
+        <div class="pwr-adc-content__title pwr-adc-content__title---1-1-2" style="font-size: max(var(--fs-min), calc(35px * var(--adv-fs-factor, 1) ) ); line-height: 1.1428571428571428em;">Sketch the property while you walk</div></div><div class="pwr-adc-content pwr-adc-content--image "><div class="pwr-adc-content__image-wrapper"><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/sketch_01.webp?width=300&amp;name=sketch_01.webp.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/sketch_01.webp?width=300&amp;name=sketch_01.webp.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/sketch_01.webp?width=575&amp;name=sketch_01.webp.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/sketch_01.webp?width=767&amp;name=sketch_01.webp.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/sketch_01.webp?width=991&amp;name=sketch_01.webp.png 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/sketch_01.webp?width=1199&amp;name=sketch_01.webp.png 1199w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/sketch_01.webp?width=2000&amp;name=sketch_01.webp.png 2000w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/sketch_01.webp?width=2004&amp;name=sketch_01.webp.png 2004w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-adc-content__image---1-1-3 pwr--align-div-c pwr--align-div-t-c pwr--align-div-m-c" alt="Iphone 16 with floor plan sketch on magicplan app with annotation icons" width="2004" style="aspect-ratio: 0.500374531835206; "></div></div></a><a href="visual-documentation.html" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--ix-0-1-2 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--border-radius 
+                            pwr--align-fcol-m pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-c pwr--align-t-c pwr--align-m-c pwr--light pwr--relative lazyload " style="
+        background-color: rgba(255, 255, 255, 1.0); 
+    padding: 0px 30px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-index="2" data-colspan="5" data-rowspan="1">
+                    
+
+                    <div class="pwr-adc-content pwr-adc-content--spacer "><div class="pwr-adc-content__spacer" style="height: calc(35px * var(--adv-sp-factor,1));"></div></div><div class="pwr-adc-content pwr-adc-content--intro-title " style="margin-bottom: 20px;">
+        
+        <span class="pwr-adc-content__intro-title pwr-adc-content__intro-title--bg-color pwr-adc-content__intro-title---1-2-2">VISUAL DOCUMENTATION</span></div><div class="pwr-adc-content pwr-adc-content--title ">
+        <div class="pwr-adc-content__title pwr-adc-content__title---1-2-3" style="font-size: max(var(--fs-min), calc(35px * var(--adv-fs-factor, 1) ) ); line-height: 1.1428571428571428em;">Every photo, video, and 360 in one clean file</div></div><div class="pwr-adc-content pwr-adc-content--image "><div class="pwr-adc-content__image-wrapper"><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/photos.webp?width=300&amp;name=photos.webp.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/photos.webp?width=300&amp;name=photos.webp.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/photos.webp?width=575&amp;name=photos.webp.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/photos.webp?width=767&amp;name=photos.webp.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/photos.webp?width=991&amp;name=photos.webp.png 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/photos.webp?width=1199&amp;name=photos.webp.png 1199w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/photos.webp?width=2000&amp;name=photos.webp.png 2000w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-adc-content__image---1-2-4 pwr--align-div-l pwr--align-div-t-l pwr--align-div-m-l" alt="Restoration contractor holding phone taking photos of water damage site in a water mitigation restoration job" width="2000" style="aspect-ratio: 1.5003750937734435; "></div></div></a><a href="notes.html" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--ix-0-1-3 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--border-radius 
+                            pwr--align-fcol-b pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-c pwr--align-t-c pwr--align-m-c pwr--light pwr--relative lazyload " style="
+        background-color: rgba(255, 255, 255, 1.0); 
+    padding: 0px 20px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-index="3" data-colspan="3" data-rowspan="1">
+                    
+
+                    <div class="pwr-adc-content pwr-adc-content--spacer "><div class="pwr-adc-content__spacer" style="height: calc(35px * var(--adv-sp-factor,1));"></div></div><div class="pwr-adc-content pwr-adc-content--intro-title " style="margin-bottom: 20px;">
+        
+        <span class="pwr-adc-content__intro-title pwr-adc-content__intro-title--bg-color pwr-adc-content__intro-title---1-3-2">JOB NOTES</span></div><div class="pwr-adc-content pwr-adc-content--title ">
+        <div class="pwr-adc-content__title pwr-adc-content__title---1-3-3" style="font-size: max(var(--fs-min), calc(35px * var(--adv-fs-factor, 1) ) ); line-height: 1.1428571428571428em;">Add notes for better context</div></div><div class="pwr-adc-content pwr-adc-content--image "><div class="pwr-adc-content__image-wrapper"><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/notes_01.webp?width=300&amp;name=notes_01.webp.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/notes_01.webp?width=300&amp;name=notes_01.webp.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/notes_01.webp?width=575&amp;name=notes_01.webp.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/notes_01.webp?width=767&amp;name=notes_01.webp.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/notes_01.webp?width=991&amp;name=notes_01.webp.png 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/notes_01.webp?width=1199&amp;name=notes_01.webp.png 1199w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/notes_01.webp?width=2000&amp;name=notes_01.webp.png 2000w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-adc-content__image---1-3-4 pwr--align-div-c pwr--align-div-t-c pwr--align-div-m-c" alt="Notes icons for site assessments with sticky note, x, text box and more in the magicplan app" width="2000" style="aspect-ratio: 1.0; "></div></div></a><a href="sops.html" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--ix-0-1-4 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--border-radius 
+                            pwr--align-fcol-m pwr--align-fcol-t-m pwr--align-fcol-m-m pwr--align-c pwr--align-t-c pwr--align-m-c pwr--light pwr--relative lazyload " style="
+        background-color: rgba(255, 255, 255, 1.0); 
+    padding: 35px 30px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-index="4" data-colspan="5" data-rowspan="1">
+                    
+
+                    <div class="pwr-adc-content pwr-adc-content--intro-title " style="margin-bottom: 20px;">
+        
+        <span class="pwr-adc-content__intro-title pwr-adc-content__intro-title--bg-color pwr-adc-content__intro-title---1-4-1">FORMS &amp; CHECKLISTS</span></div><div class="pwr-adc-content pwr-adc-content--title ">
+        <div class="pwr-adc-content__title pwr-adc-content__title---1-4-2" style="font-size: max(var(--fs-min), calc(35px * var(--adv-fs-factor, 1) ) ); line-height: 1.1428571428571428em;">Consistent documentation everytime</div></div><div class="pwr-adc-content pwr-adc-content--image " style="margin-bottom: 20px;"><div class="pwr-adc-content__image-wrapper"><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/forms.webp?width=300&amp;name=forms.webp.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/forms.webp?width=300&amp;name=forms.webp.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/forms.webp?width=575&amp;name=forms.webp.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/forms.webp?width=767&amp;name=forms.webp.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/forms.webp?width=991&amp;name=forms.webp.png 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/forms.webp?width=1199&amp;name=forms.webp.png 1199w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/forms.webp?width=2000&amp;name=forms.webp.png 2000w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/forms.webp?width=3000&amp;name=forms.webp.png 3000w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-adc-content__image---1-4-3 pwr--align-div-c pwr--align-div-t-c pwr--align-div-m-c" alt="iPad with form of withe assessment with sketch, photos and drying equipment documentation for water mitigation job" width="3000" style="aspect-ratio: 1.5; "></div></div></a><a href="360-tours.html" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--ix-0-1-5 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--border-radius 
+                            pwr--align-fcol-m pwr--align-fcol-t-m pwr--align-fcol-m-m pwr--align-c pwr--align-t-c pwr--align-m-c pwr--light pwr--relative lazyload " style="
+        background-color: rgba(255, 255, 255, 1.0); 
+    padding: 0px 30px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-index="5" data-colspan="3" data-rowspan="1">
+                    
+
+                    <div class="pwr-adc-content pwr-adc-content--spacer "><div class="pwr-adc-content__spacer" style="height: calc(35px * var(--adv-sp-factor,1));"></div></div><div class="pwr-adc-content pwr-adc-content--intro-title " style="margin-bottom: 20px;">
+        
+        <span class="pwr-adc-content__intro-title pwr-adc-content__intro-title--bg-color pwr-adc-content__intro-title---1-5-2">360° TOURS</span></div><div class="pwr-adc-content pwr-adc-content--title ">
+        <div class="pwr-adc-content__title pwr-adc-content__title---1-5-3" style="font-size: max(var(--fs-min), calc(35px * var(--adv-fs-factor, 1) ) ); line-height: 1.1428571428571428em;">Document the full scope of  any space </div></div><div class="pwr-adc-content pwr-adc-content--image "><div class="pwr-adc-content__image-wrapper" style="margin-bottom: -0px;"><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/virtual-tours_01.webp?width=300&amp;name=virtual-tours_01.webp.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/virtual-tours_01.webp?width=300&amp;name=virtual-tours_01.webp.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/virtual-tours_01.webp?width=575&amp;name=virtual-tours_01.webp.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/virtual-tours_01.webp?width=767&amp;name=virtual-tours_01.webp.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/virtual-tours_01.webp?width=991&amp;name=virtual-tours_01.webp.png 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/virtual-tours_01.webp?width=1199&amp;name=virtual-tours_01.webp.png 1199w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/virtual-tours_01.webp?width=2000&amp;name=virtual-tours_01.webp.png 2000w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-adc-content__image---1-5-4 pwr--align-div-l pwr--align-div-t-l pwr--align-div-m-l" alt="Virtual tours with iphone 16 pro and ricoh360 camera to create 360 panoramas" width="2000" style="aspect-ratio: 1.0; "></div></div></a></div>								
+	</div> 
+
+                
+
+            </div>
+            
+        </div></div>
+
+    
+    
+
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-9 dnd_area-row-4-hidden dnd-section dnd_area-row-4-padding">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-10 cell_17377522285003-row-0-vertical-alignment dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell cell_17377522285005-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17377522285007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+ 
+    
+    
+    
+ 
+ <div class="pwr-sec-images vanilla pwr-sec-images--with-intro pwr-sec-images--full-width pwr--light pwr--sec-padding-t-md pwr--padding-b-0 pwr--sec-margin-t-sm pwr--margin-b-0    lazyload" style="background-color: transparent; ">
+     
+     
+ 
+     
+     <div class="page-center pwr--relative pwr--align-c">
+         <div class="pwr-sec-images__intro-sec pwr-sec__intro-sec"><span class="pwr-sec__title-intro pwr--margin-centered pwr-sec__title-intro--narrow pwr-sec-images__title-intro" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+             INTEGRATIONS
+         </span><h2 class="pwr-sec__title pwr-heading-style--h1 pwr-sec__title--narrow pwr-sec-images__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Integrate with your workflow</h2><span class="pwr-rich-text pwr-sec__desc pwr-sec-images__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+             <p>Send your sketches and photos to multiple tools and connect with a wide range of devices.</p>
+         </span></div>
+     </div><div class="pwr-sec-images__content-wrapper  pwr--relative">
+        
+        
+        
+        
+         <div class="pwr-sec-images__slider" data-multiple="true" data-nr-elements="5" data-loop="true" data-autoplay="false" data-reverse-transition="false" data-autoplay-timeout="5000" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-swiper ">
+                 <div class="swiper-wrapper "><div class="swiper-slide"><a class="pwr-sec-images__slide-link-wrapper " href="integrations/xactimate.html"><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Verisk-Xactimate-logo?width=300&amp;name=Verisk-Xactimate-logo.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Verisk-Xactimate-logo?width=300&amp;name=Verisk-Xactimate-logo.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Verisk-Xactimate-logo?width=575&amp;name=Verisk-Xactimate-logo.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Verisk-Xactimate-logo?width=767&amp;name=Verisk-Xactimate-logo.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Verisk-Xactimate-logo?width=800&amp;name=Verisk-Xactimate-logo.png 800w " data-sizes="auto" data-maxRetina="1.5" class="lazyload " alt="Verisk Xactimate logo - magicplan integration" width="800" style="aspect-ratio: 1.0; "></a></div><div class="swiper-slide"><a class="pwr-sec-images__slide-link-wrapper " href="integrations/cotality.html"><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/cotality.webp?width=300&amp;name=cotality.webp.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/cotality.webp?width=300&amp;name=cotality.webp.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/cotality.webp?width=575&amp;name=cotality.webp.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/cotality.webp?width=767&amp;name=cotality.webp.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/cotality.webp?width=800&amp;name=cotality.webp.png 800w " data-sizes="auto" data-maxRetina="1.5" class="lazyload " alt="Cotality logo - former corelogic/symbility - magicplan integration" width="800" style="aspect-ratio: 1.0; "></a></div><div class="swiper-slide"><a class="pwr-sec-images__slide-link-wrapper " href="tramex-integration.html"><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/magicplan_tramex_meters_integration.webp?width=300&amp;name=magicplan_tramex_meters_integration.webp.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/magicplan_tramex_meters_integration.webp?width=300&amp;name=magicplan_tramex_meters_integration.webp.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/magicplan_tramex_meters_integration.webp?width=575&amp;name=magicplan_tramex_meters_integration.webp.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/magicplan_tramex_meters_integration.webp?width=767&amp;name=magicplan_tramex_meters_integration.webp.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/magicplan_tramex_meters_integration.webp?width=800&amp;name=magicplan_tramex_meters_integration.webp.png 800w " data-sizes="auto" data-maxRetina="1.5" class="lazyload " alt="Tramex meters logo - magicplan integration" width="800" style="aspect-ratio: 1.0; "></a></div><div class="swiper-slide"><a class="pwr-sec-images__slide-link-wrapper " href="ricoh.html"><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Ricoh360-logo.webp?width=300&amp;name=Ricoh360-logo.webp.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Ricoh360-logo.webp?width=300&amp;name=Ricoh360-logo.webp.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Ricoh360-logo.webp?width=575&amp;name=Ricoh360-logo.webp.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Ricoh360-logo.webp?width=767&amp;name=Ricoh360-logo.webp.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Ricoh360-logo.webp?width=800&amp;name=Ricoh360-logo.webp.png 800w " data-sizes="auto" data-maxRetina="1.5" class="lazyload " alt="Ricoh360 logo - magicplan integration" width="800" style="aspect-ratio: 1.0; "></a></div><div class="swiper-slide"><a class="pwr-sec-images__slide-link-wrapper " href="integrations.html"><img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Integrations%EF%B9%96more?width=300&amp;name=Integrations%EF%B9%96more.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Integrations%EF%B9%96more?width=300&amp;name=Integrations%EF%B9%96more.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Integrations%EF%B9%96more?width=575&amp;name=Integrations%EF%B9%96more.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Integrations%EF%B9%96more?width=767&amp;name=Integrations%EF%B9%96more.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/Integrations%EF%B9%96more?width=800&amp;name=Integrations%EF%B9%96more.png 800w " data-sizes="auto" data-maxRetina="1.5" class="lazyload " alt="More integrations symbol icon magicplan integrations" width="800" style="aspect-ratio: 1.0; "></a></div></div>
+             </div></div></div>
+ 
+     
+     
+ </div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-12 dnd_area-row-5-hidden dnd-section dnd_area-row-5-max-width-section-centering dnd_area-row-5-padding">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17377522471625" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+    
+    
+    
+<div class="pwr-sec-mockup pwr-sec-mockup--mockup-bottom vanilla   pwr--light     pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: transparent; ">
+    
+    
+
+    
+    
+
+    <div class="">
+    <div class="page-center">
+      <div class="pwr-sec-mockup__content pwr-sec-mockup__content--center " style="width: 40%;" data-pwr-mh="sec-mockup-content-height"><span class="pwr-sec__title-intro pwr-sec-mockup__title-intro " tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        BUILT-IN ESTIMATING SOLUTION</span><h2 class="pwr-sec__title pwr-heading-style--h1 pwr-sec-mockup__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Take control of <br>your estimates</h2><span class="pwr-rich-text pwr-sec__desc pwr-sec-mockup__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+        <p>magicplan helps you create your own estimates, backed by real job data.</p></span><div class="pwr-cta-container pwr-sec-mockup__cta-container pwr--clearfix" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <div class="pwr--neg-margin-lr-10"><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--regular-solid pwr-cta--long">
+                <a href="estimate.html" class="pwr-cta_button " role="button">See how it works →</a>
+              </div></div>
+          </div></div>
+    </div>
+  </div>
+  <div class="pwr-sec-mockup__mockup-wrapper pwr-sec-mockup__mockup-wrapper--center  pwr--relative pwr--clearfix" data-pwr-mh="sec-mockup-content-height">
+    <div class="pwr-sec-mockup__mockup pwr-sec-mockup__mockup--desktop-align-center pwr-sec-mockup__mockup--mobile-align-center  " style="width: 100vw;max-width: 1200px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-ratio-box" style="padding-bottom: calc(0.6175 * 100%);">
+
+            <img data-src="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/estimator_01-1.webp?width=300&amp;name=estimator_01-1.webp.png" data-srcset="../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/estimator_01-1.webp?width=300&amp;name=estimator_01-1.webp.png 300w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/estimator_01-1.webp?width=575&amp;name=estimator_01-1.webp.png 575w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/estimator_01-1.webp?width=767&amp;name=estimator_01-1.webp.png 767w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/estimator_01-1.webp?width=991&amp;name=estimator_01-1.webp.png 991w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/estimator_01-1.webp?width=1199&amp;name=estimator_01-1.webp.png 1199w , ../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/estimator_01-1.webp?width=2000&amp;name=estimator_01-1.webp.png 2000w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-mockup__mockup-img" alt="magicplan estimator with line items breakdown for a water mitigation restoration job with an opening statement and detail costs with a reconstruction site background on computer" style="object-fit: cover;"></div></div> 
+  </div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-14 dnd_area-row-6-padding dnd-section dnd_area-row-6-force-full-width-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-15 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17377520413245" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+    
+    
+    
+
+<div class="pwr-sec-simple-list-items vanilla  pwr-js-masonry pwr--light pwr--sec-padding-t-sm pwr--sec-padding-b-sm pwr--margin-t-0 pwr--margin-b-0 pwr--align-c    lazyload" style="background-color: transparent; ">
+    
+    
+
+    
+    <div class="page-center pwr--relative">
+    <div class="pwr-sec-simple-list-items__intro-sec pwr-sec__intro-sec"><span class="pwr-sec__title-intro pwr--margin-centered pwr-sec__title-intro--narrow pwr-sec-simple-list-items__title-intro" tmp-data-aos="fade-in" tmp-data-aos-delay="50">      
+        TESTIMONIALS
+      </span><h2 class="pwr-sec__title pwr-heading-style--h1 pwr-sec__title--narrow pwr-sec-simple-list-items__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">More than 23 million downloads.</h2><span class="pwr-rich-text pwr-sec__desc pwr-sec-simple-list-items__desc" tmp-data-aos="fade-in" tmp-data-aos-delay="50">      
+        <p>Used by professionals around the world.</p>
+      </span></div>
+  </div><div class="page-center pwr--relative">
+    <div class="row-fluid ">
+      <div class="span12">
+          
+          
+          <div class=" pwr-js-masonry__container pwr-sec-simple-list-items__container pwr--clearfix">
+        <div class="pwr-simple-list-item pwr-simple-list-item--box-style pwr-js-masonry__item pwr--colored-box " tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-category="">
+  <div class="pwr-simple-list-item__front pwr--colored-box pwr--light" style="background-color: rgba(250, 250, 250, 1.0)">
+    <h2 class="pwr-simple-list-item__title pwr--toc-ignore"></h2><span class="pwr-rich-text pwr-simple-list-item__desc"><h5>Tomwade17</h5>
+<span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star3_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star4_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star5_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star6_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star7_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span>
+<p style="font-size: 12px; line-height: 0.5;">12/20/2023</p>
+<h5 style="line-height: 1.25;">Great tool</h5>
+<p style="line-height: 1.25;">Awsome for estimates save time and looks professional.</p></span></div>
+</div><div class="pwr-simple-list-item pwr-simple-list-item--box-style pwr-js-masonry__item pwr--colored-box " tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-category="">
+  <div class="pwr-simple-list-item__front pwr--colored-box pwr--light" style="background-color: rgba(250, 250, 250, 1.0)">
+    <h2 class="pwr-simple-list-item__title pwr--toc-ignore"></h2><span class="pwr-rich-text pwr-simple-list-item__desc"><h5>DevilDuck72</h5>
+<h5><span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star8_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star9_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star10_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star11_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star12_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span></h5>
+<p style="font-size: 12px; line-height: 0.5;">05/13/2023</p>
+<h5 style="line-height: 1.25;">Easy To Use and Keeps Getting Better</h5>
+<p style="line-height: 1.25;">I’ve been using this app for years. They’ve never failed to update it for the new IOS. The capture is great &amp; intuitive. Drafting is easy. Each update makes the app that much better.</p></span></div>
+</div><div class="pwr-simple-list-item pwr-simple-list-item--box-style pwr-js-masonry__item pwr--colored-box " tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-category="">
+  <div class="pwr-simple-list-item__front pwr--colored-box pwr--light" style="background-color: rgba(250, 250, 250, 1.0)">
+    <h2 class="pwr-simple-list-item__title pwr--toc-ignore"></h2><span class="pwr-rich-text pwr-simple-list-item__desc"><h5>KBCinc</h5>
+<h5><span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star13_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star14_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star15_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star16_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star17_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span></h5>
+<p style="font-size: 12px; line-height: 0.5;">02/16/2023</p>
+<h5 style="line-height: 1.25;">InLOVE</h5>
+<p style="line-height: 1.25;">So excited to use this app!! The controls are intuitive. The plans are easy to create, objects are easy to place. I will use this to create plans for full kitchen and bath remodels. I think this will make estimating a lot easier for us as well.</p></span></div>
+</div><div class="pwr-simple-list-item pwr-simple-list-item--box-style pwr-js-masonry__item pwr--colored-box " tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-category="">
+  <div class="pwr-simple-list-item__front pwr--colored-box pwr--light" style="background-color: rgba(250, 250, 250, 1.0)">
+    <h2 class="pwr-simple-list-item__title pwr--toc-ignore"></h2><span class="pwr-rich-text pwr-simple-list-item__desc"><h5>719809</h5>
+<h5><span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star18_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star19_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star20_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star21_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star22_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span></h5>
+<p style="font-size: 12px; line-height: 0.5;">01/06/2024</p>
+<h5 style="line-height: 1.25;">Absolutely fantastic App for planing room furnishings</h5>
+<p style="line-height: 1.25;">Absolutely fantastic App for planing room furnishings especially with the LiDAR cameras on iPhone Pro or iPad Pro.</p></span></div>
+</div><div class="pwr-simple-list-item pwr-simple-list-item--box-style pwr-js-masonry__item pwr--colored-box " tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-category="">
+  <div class="pwr-simple-list-item__front pwr--colored-box pwr--light" style="background-color: rgba(250, 250, 250, 1.0)">
+    <h2 class="pwr-simple-list-item__title pwr--toc-ignore"></h2><span class="pwr-rich-text pwr-simple-list-item__desc"><h5>Ben.Zoh</h5>
+<h5><span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star23_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star24_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star25_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star26_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star27_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span></h5>
+<p style="font-size: 12px; line-height: 0.5;">02/25/2024</p>
+<h5 style="line-height: 1.25;">Even the free version is great</h5>
+<p style="line-height: 1.25;">I love this app and have watched it grow over the years. We recently had a flood from frozen pipes, it helped tremendously.</p></span></div>
+</div><div class="pwr-simple-list-item pwr-simple-list-item--box-style pwr-js-masonry__item pwr--colored-box " tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-category="">
+  <div class="pwr-simple-list-item__front pwr--colored-box pwr--light" style="background-color: rgba(250, 250, 250, 1.0)">
+    <h2 class="pwr-simple-list-item__title pwr--toc-ignore"></h2><span class="pwr-rich-text pwr-simple-list-item__desc"><h5>QueenMcGhee</h5>
+<h5><span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star28_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star29_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star30_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star31_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star32_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span></h5>
+<p style="font-size: 12px; line-height: 0.5;">03/27/2023</p>
+<h5 style="line-height: 1.25;">Simply The Easiest Floor Plan Site To Maneuver&nbsp;</h5>
+<p style="line-height: 1.25;">This is by far the easiest site to maneuver. I haven’t found another that so easily brings all your thoughts and designs to life while offering three different views and multiple planning options.</p></span></div>
+</div><div class="pwr-simple-list-item pwr-simple-list-item--box-style pwr-js-masonry__item pwr--colored-box " tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-category="">
+  <div class="pwr-simple-list-item__front pwr--colored-box pwr--light" style="background-color: rgba(250, 250, 250, 1.0)">
+    <h2 class="pwr-simple-list-item__title pwr--toc-ignore"></h2><span class="pwr-rich-text pwr-simple-list-item__desc"><h5>PVS64</h5>
+<h5><span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star33_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star34_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star35_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star36_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star37_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span></h5>
+<p style="font-size: 12px; line-height: 0.5;">02/14/2023</p>
+<h5 style="line-height: 1.25;">Very easy to use</h5>
+<p style="line-height: 1.25;">I'm building a new house and was looking for an app to help with floor planning. This app was easy to use and did a great job helping me plan the space. I'm using the free version and have plenty of functionality.</p></span></div>
+</div><div class="pwr-simple-list-item pwr-simple-list-item--box-style pwr-js-masonry__item pwr--colored-box " tmp-data-aos="fade-in" tmp-data-aos-delay="50" data-category="">
+  <div class="pwr-simple-list-item__front pwr--colored-box pwr--light" style="background-color: rgba(250, 250, 250, 1.0)">
+    <h2 class="pwr-simple-list-item__title pwr--toc-ignore"></h2><span class="pwr-rich-text pwr-simple-list-item__desc"><h5>thedronecoach.com</h5>
+<h5><span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star38_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star39_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star40_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star41_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span> <span data-hs-icon-hubl="true" style="display: inline-block; fill: #0099EE;"><span id="hs_cos_wrapper_module_17377520413245_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" height="14" aria-hidden="true"><g id="Star42_layer"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /></g></svg></span></span></h5>
+<p style="font-size: 12px; line-height: 0.5;">04/20/2024<br><br></p>
+<h5 style="line-height: 1.25;">Magicplan better than all others!</h5>
+<p style="line-height: 1.25;">I downloaded and tried many LiDAR floor plan creation apps and Magicplan is the best. Using iPhone 14 Pro Max, it measured brilliantly and adding colour to rooms was a breeze. They give you two free floor plan spaces so you can relax and thoroughly get to know the app well.<br><br></p></span></div>
+</div></div>
+        
+      </div>    
+    </div>
+    
+  </div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-16 dnd_area-row-7-background-layers dnd_area-row-7-vertical-alignment dnd-section dnd_area-row-7-background-image dnd_area-row-7-force-full-width-section dnd_area-row-7-padding">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column cell_17377522667563-vertical-alignment" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-17 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17377522667565" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+    
+    
+    
+<div class="pwr-sec-mockup pwr-sec-mockup--mockup-bottom vanilla   pwr--light pwr--padding-t-0 pwr--padding-b-0 pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: transparent; ">
+    
+    
+
+    
+    
+
+    <div class="">
+    <div class="page-center">
+      <div class="pwr-sec-mockup__content pwr-sec-mockup__content--center " style="width: 60%;" data-pwr-mh="sec-mockup-content-height"><h2 class="pwr-sec__title pwr-heading-style--h1 pwr-sec-mockup__title" tmp-data-aos="fade-in" tmp-data-aos-delay="50">Download now<br> to get started!</h2><div class="pwr-cta-container pwr-sec-mockup__cta-container pwr--clearfix" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <div class="pwr--neg-margin-lr-10"><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--regular-solid pwr-cta--large"><span id="hs_cos_wrapper_module_17377522667565_name" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style="" data-hs-cos-general-type="widget" data-hs-cos-type="cta"><div class="hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-182932458148" style="max-width:100%; max-height:100%; width:160px;height:45.546875px" data-hubspot-wrapper-cta-id="182932458148">
+  <a href="https://www.magicplan.app/hs/cta/wi/redirect?encryptedPayload=AVxigLLMtbvcu%2FNLE%2B3PPCr6NkDUWJuFpBU0b6Pbm1TDH4jeXtCgMa5NTsSXowOqtXEWSD%2B83bdkPwE6qqSH1hWkA6w4AyrSq7fwDaJb1%2F%2FvD7p1RwoVUDE%2BRc4MhTCDnyNHOrVc6AXV1TDEX24ALtzehozVKTsy%2Fnu1RqCnRaeWzyx8893Q7w1jAS6q7JvOpsg2MguvHhU0EA%3D%3D&amp;webInteractiveContentId=182932458148&amp;portalId=6852598" target="_blank" rel="noopener">
+    <img alt="<img src=&quot;/hubfs/mac-os.png&quot; alt=&quot;magicplan app store&quot; style=&quot;width: 15px; height: 15px; padding-right: 2px; padding-top: 3px;&quot;>  App Store" loading="lazy" src="../no-cache.hubspot.com/cta/default/6852598/interactive-182932458148.png" style="height: 100%; width: 100%; object-fit: fill" onerror="this.style.display='none'">
+  </a>
+</div>
+</span></div><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--regular-solid pwr-cta--large"><span id="hs_cos_wrapper_module_17377522667565_name" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style="" data-hs-cos-general-type="widget" data-hs-cos-type="cta"><div class="hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-182931616345" style="max-width:100%; max-height:100%; width:160px;height:47.546875px" data-hubspot-wrapper-cta-id="182931616345">
+  <a href="https://www.magicplan.app/hs/cta/wi/redirect?encryptedPayload=AVxigLLzngpip0Vl2h5kHTokMIVk9QeR7cZbvRgGjFLdLwmhClo5%2BSV82qfCrOUeQLoAxJpDFeVpQyvOpq45molUJHxPR44ZPXuN9ZdN1DBvkKn%2FGNbiJD6VmVafwItgR58Vgf9qTJ13no8KcDTRHj1AQhKfdRkt8WtS83N7%2FzJw%2FFDMh86GRxZ8DP%2FIer%2B0Otqjw1xb97CI0NPnet5le7Dpj7u7patzK1Xb&amp;webInteractiveContentId=182931616345&amp;portalId=6852598" target="_blank" rel="noopener">
+    <img alt="<img src=&quot;/hubfs/playstore_logo.png&quot; alt=&quot;magicplan app play store&quot; style=&quot;width: 15px; height: 15px; padding-right: 5px;&quot;>  Google Play" loading="lazy" src="../no-cache.hubspot.com/cta/default/6852598/interactive-182931616345.png" style="height: 100%; width: 100%; object-fit: fill" onerror="this.style.display='none'">
+  </a>
+</div>
+</span></div></div>
+          </div></div>
+    </div>
+  </div>
+  <div class="pwr-sec-mockup__mockup-wrapper pwr-sec-mockup__mockup-wrapper--center  pwr--relative pwr--clearfix" data-pwr-mh="sec-mockup-content-height">
+    <div class="pwr-sec-mockup__mockup pwr-sec-mockup__mockup--desktop-align-center pwr-sec-mockup__mockup--mobile-align-center  " style="width: 100vw;max-width: 300px;" tmp-data-aos="fade-in" tmp-data-aos-delay="50"><div class="pwr-ratio-box" style="padding-bottom: calc(0 * 100%);">
+
+            </div></div> 
+  </div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-18 dnd-section dnd_area-row-8-margin dnd_area-row-8-padding">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-19 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget widget_1737752281480-hidden widget_1737752281480-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1737752281480" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+    
+
+
+
+
+
+
+  
+
+
+
+<span id="hs_cos_wrapper_widget_1737752281480_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><img src="hubfs/download_magicplan_qrcode.svg" class="hs-image-widget " width="300" height="300" style="max-width: 100%; height: auto;" alt="download_magicplan_qrcode" title="download_magicplan_qrcode" loading="lazy"></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div></div>
+</main>
+
+      
+        <div data-global-resource-path="POWER x magicplan main website/templates/partials/footer.html"><footer class="footer"><div class="container-fluid footer-top__container">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+
+	<div class="footer__container"><div id="hs_cos_wrapper_footer_page" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+    
+
+<div class="pwr-footer vanilla pwr-footer-advanced  pwr--light  lazyload" style="background-color: rgba(238, 238, 238, 1.0); ">
+  
+
+  
+  
+    
+
+    
+
+    <div class="pwr-footer__content pwr-adc pwr--light">
+        <div class="pwr-adc__wrapper"><div class="pwr-adc-main page-center pwr--padding-t-0 pwr--padding-b-0">
+                
+                
+                
+                <div class="pwr-adc__cols pwr-adc-main__cols   pwr--relative">
+                    
+                    
+                    
+                        
+	<div class="pwr-adc__col pwr-adc__col--width-4   pwr--align-fcol-t pwr--align-fcol-t-t  pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-0-1-1   pwr--align-fcol-t pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-l pwr--align-t-l pwr--align-m-l  pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--logo pwr-footer__logo pwr-footer__logo--large"><a href="index.html"><img src="hubfs/magicplan_logo_200x50.svg" alt="magicplan_logo_200x50" width="133" height="32"></a></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><p style="font-size: 14px; font-family: Inter, Arial, Helvetica, sans-serif; line-height: 1.75;">With magicplan, restorers capture what counts instantly. Create real-time floor plans with your mobile device - no processing time for the fastest claim submissions.</p></div></div></div></div>								
+	</div>
+                    
+                
+                    
+                    
+                    
+                        
+	<div class="pwr-adc__col pwr-adc__col--width-2   pwr--align-fcol-t pwr--align-fcol-t-t  pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-0-2-1   pwr--align-fcol-t pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-l pwr--align-t-l pwr--align-m-l  pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">RESOURCES</div></div><div class="pwr-adc-content pwr-adc-content--menu "><div class="pwr-adc-content__menu pwr-js-menu"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-vertical" role="navigation" data-sitemap-name="default" data-menu-id="84488216487" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://help.magicplan.app/" role="menuitem">Help Center</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="integrations.html" role="menuitem">Integrations</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://apidocs.magicplan.app/" role="menuitem" target="_blank" rel="noopener">API Docs</a></li>
+ </ul>
+</div></span></div></div></div></div>								
+	</div>
+                    
+                
+                    
+                    
+                    
+                        
+	<div class="pwr-adc__col pwr-adc__col--width-2   pwr--align-fcol-t pwr--align-fcol-t-t  pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-0-3-1   pwr--align-fcol-t pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-l pwr--align-t-l pwr--align-m-l  pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">COMPANY</div></div><div class="pwr-adc-content pwr-adc-content--menu "><div class="pwr-adc-content__menu pwr-js-menu"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-vertical" role="navigation" data-sitemap-name="default" data-menu-id="84487672667" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="about.html" role="menuitem">About us</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="contact.html" role="menuitem">Contact us</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="careers.html" role="menuitem">Careers</a></li>
+ </ul>
+</div></span></div></div></div></div>								
+	</div>
+                    
+                
+                    
+                    
+                    
+                        
+	<div class="pwr-adc__col pwr-adc__col--width-4   pwr--align-fcol-t pwr--align-fcol-t-t  pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-0-4-1   pwr--align-fcol-t pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-l pwr--align-t-l pwr--align-m-l  pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">WANT TO LEARN MORE?</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text">Schedule a call with a member of our sales team and learn what magicplan can do for your business.</div></div><div class="pwr-adc-content pwr-adc-content--cta "><div class="pwr-adc-content__cta pwr-cta pwr-cta--primary-solid  "><span id="hs_cos_wrapper_footer_page_cta_name" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style="" data-hs-cos-general-type="widget" data-hs-cos-type="cta"><div class="hs-web-interactive-inline" style="" data-hubspot-wrapper-cta-id="167697367671"> 
+ <style data-hubspot-cta-style="hs-inline-web-interactive-167697367671">a.hs-inline-web-interactive-167697367671 {
+    -webkit-font-smoothing: antialiased !important;cursor: pointer !important;-moz-user-select: none !important;-webkit-user-select: none !important;-o-user-select: none !important;user-select: none !important;display: inline-block !important;font-weight: normal !important;text-align: center !important;text-decoration: none !important;-moz-transition: all .4s ease !important;-webkit-transition: all .4s ease !important;-o-transition: all .4s ease !important;background: #0099EE !important;border-radius: 6px !important;border-width: 0px !important;color: #FFFFFF !important;font-family: sans-serif !important;height: auto !important;transition: all .4s ease !important;padding:6px 19px;text-shadow: none !important;width: auto !important;font-size: 24px !important;line-height: 1.5em !important;
+  }
+
+  a.hs-inline-web-interactive-167697367671:hover {
+    background: #0099EE !important;color: rgb(242, 242, 242) !important;
+  }
+
+  a.hs-inline-web-interactive-167697367671:active {
+    background: #0099EE !important;color: rgb(242, 242, 242) !important;
+  }
+
+  a.hs-inline-web-interactive-167697367671:active:hover {
+    background: #0099EE !important;color: rgb(242, 242, 242) !important;
+  }
+
+</style> 
+ <a href="talk-to-sales%EF%B9%96hsCtaAttrib=167697367671.html" target="_blank" class="hs-inline-web-interactive-167697367671   " data-hubspot-cta-id="167697367671"> <span style="font-size: 14px;"><strong>TALK TO SALES</strong></span> </a> 
+</div></span></div></div></div></div>								
+	</div>
+                    
+                
+                </div>
+            </div>
+                
+        
+        
+        
+    
+        <div class="pwr-adc-sub pwr-adc-sub--border-none pwr-adc-sub--content-width  pwr--padding-t-0 pwr--sec-padding-b-sm pwr--light pwr--relative lazyload" style="">
+            
+
+            <div class="page-center pwr--relative">
+                <div class="pwr-adc__cols pwr-adc-sub__cols  pwr--align-frow-m    pwr--relative">
+                    
+                    
+                        
+    <div class="pwr-adc__col pwr-adc__col--width-8 pwr--align-l pwr--relative lazyload" style="">
+        <div class="pwr-adc-content pwr-adc-content--menu "><div class="pwr-adc-content__menu pwr-js-menu"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="84483248486" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="javascript:;" role="menuitem">© 2025 magicplan</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://help.magicplan.app/legal-privacy" role="menuitem" target="_blank" rel="noopener">Legal</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://help.magicplan.app/privacy-app" role="menuitem" target="_blank" rel="noopener">Privacy Policy</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="imprint.html" role="menuitem">Imprint</a></li>
+ </ul>
+</div></span></div></div></div>
+                    
+                
+                    
+                    
+                        
+    <div class="pwr-adc__col pwr-adc__col--width-4 pwr--align-l pwr--relative lazyload" style="">
+        <div class="pwr-adc-content pwr-adc-content--social-icons pwr-footer-company-info__icons"><a href="https://www.facebook.com/magicplan/" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon facebook-square"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="facebook-square43_layer"><path d="M448 80v352c0 26.5-21.5 48-48 48h-85.3V302.8h60.6l8.7-67.6h-69.3V192c0-19.6 5.4-32.9 33.5-32.9H384V98.7c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9H184v67.6h60.9V480H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48z" /></g></svg></span></a><a href="https://www.instagram.com/magicplan_app/" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon instagram"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="instagram44_layer"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" /></g></svg></span></a><a href="https://www.youtube.com/channel/UCqmjz2x7NffJRMg4mmeDTvg" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon youtube"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" aria-hidden="true"><g id="youtube45_layer"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" /></g></svg></span></a><a href="https://twitter.com/magicplan" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon twitter"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="twitter46_layer"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" /></g></svg></span></a><a href="https://www.linkedin.com/company/magicplanapp" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon linkedin"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="linkedin47_layer"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></g></svg></span></a></div></div>
+                    
+                
+                </div>	
+            </div>
+
+        </div>
+    
+            </div>
+    </div>
+
+
+  
+
+</div></div></div>
+
+    <div class="container-fluid footer-bottom__container">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+        
+</footer></div>
+      
+    </div>
+    
+<!-- HubSpot performance collection script -->
+<script defer src="hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
+
+        <script>
+            function isElementUnderViewport(el) {
+                var rect = el.getBoundingClientRect();
+                var windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+                return (rect.top >= windowHeight);
+            }
+            document.addEventListener("DOMContentLoaded", () => {
+                document.querySelectorAll('[tmp-data-aos]').forEach((elem) => {
+                    if (isElementUnderViewport(elem)) {
+                        elem.setAttribute("data-aos", elem.getAttribute("tmp-data-aos"))
+                        elem.setAttribute("data-aos-delay", elem.getAttribute("tmp-data-aos-delay"))
+                        elem.removeAttribute('tmp-data-aos');
+                        elem.removeAttribute('tmp-data-aos-delay');
+                    }
+                });
+                if(typeof AOS !== 'undefined') {
+                    AOS.refreshHard();
+                }
+            });
+        </script>
+    
+<script defer src="hubfs/hub_generated/template_assets/1/82656084152/1763437150295/template_pwr.min.js"></script>
+<script src="hubfs/hub_generated/template_assets/1/83100446469/1763437142433/template_child.min.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+<script defer fetchpriority="low" src="hubfs/hub_generated/template_assets/1/108197159255/1763437162671/template_pwr-burger.min.js"></script>
+<script defer fetchpriority="low" src="hubfs/hub_generated/template_assets/1/108196628002/1763437146447/template_scroll-shadow.min.js"></script>
+<script src="hs/hsstatic/keyboard-accessible-menu-flyouts/static-1.17/bundles/project.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/104112487695/1763437145196/template_advanced-mm-custom.min.js"></script>
+<!-- Start of Web Interactives Embed Code -->
+<script defer src="../js.hubspot.com/web-interactives-embed.js" type="text/javascript" id="hubspot-web-interactives-loader" data-loader="hs-previewer" data-hsjs-portal="6852598" data-hsjs-env="prod" data-hsjs-hublet="na1"></script>
+<!-- End of Web Interactives Embed Code -->
+<script defer src="hubfs/hub_generated/template_assets/1/82658572860/1763437147630/template__swiper-bundle.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/108183947816/1763437157032/template_pwr-swiper.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/82658359960/1763437143954/template_Isotope.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/95056448411/1763437157850/template_fitrows.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/82656408462/1763437155186/template_Packery.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/108183796010/1763437143743/template_pwr-masonry.min.js"></script>
+<script defer src="hubfs/hub_generated/template_assets/1/164978227293/1763437146552/template_pwr-grid.min.js"></script>
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.magicplan.app"]);
+_hsq.push(["setPageId", "185340352636"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 185340352636,
+    "legacyPageId": "185340352636",
+    "contentFolderId": null,
+    "contentGroupId": null,
+    "abTestId": 185340352632,
+    "languageVariantId": 185340352636,
+    "languageCode": "en",
+    
+    
+}]);
+</script>
+
+<script type="text/javascript">
+var hbspt = hbspt || {};
+(hbspt.targetedContentMetadata = hbspt.targetedContentMetadata || []).push(...[]);
+
+var _hsq = _hsq || [];
+_hsq.push(["setTargetedContentMetadata", hbspt.targetedContentMetadata]);
+</script>
+<script type="text/javascript" id="hs-script-loader" async defer src="hs/scriptloader/6852598.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "fe549fb3-8d8b-4fe5-b529-b71eb58db8c7",
+    ticks: 1768640016463,
+    page_id: 185340352636,
+    
+    content_group_id: 0,
+    portal_id: 6852598,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "standard-page",
+    scp_content_type: "",
+    
+    analytics_page_id: "185340352636",
+    category_id: 1,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="hs/hsstatic/HubspotToolsMenu/static-1.432/js/index.js"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M26P32G5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+    
+
+  
+</body></html>

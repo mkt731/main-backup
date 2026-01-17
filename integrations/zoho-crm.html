@@ -1,0 +1,906 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Zoho CRM Integration | magicplan</title>
+    <link rel="shortcut icon" href="../hubfs/favicon-96x96_new.png">
+    <meta name="description" content="Set up an integration, and make magic happen in Zoho CRM. This integration makes it easy to connect magicplan and Zoho CRM. Get started today.">
+
+    <style>@font-face {
+        font-family: "Inter";
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src: url("../_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("../_hcms/googlefonts/Inter/regular.woff") format("woff"),
+             url("../_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("../_hcms/googlefonts/Inter/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Inter";
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+        src: url("../_hcms/googlefonts/Inter/500.woff2") format("woff2"), url("../_hcms/googlefonts/Inter/500.woff") format("woff"),
+             url("../_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("../_hcms/googlefonts/Inter/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Inter";
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+        src: url("../_hcms/googlefonts/Inter/700.woff2") format("woff2"), url("../_hcms/googlefonts/Inter/700.woff") format("woff"),
+             url("../_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("../_hcms/googlefonts/Inter/regular.woff") format("woff");
+    }
+
+            body {
+                font-family: Inter;
+            }
+        @font-face {
+        font-family: "Poppins";
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src: url("../_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("../_hcms/googlefonts/Poppins/regular.woff") format("woff"),
+             url("../_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("../_hcms/googlefonts/Poppins/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Poppins";
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+        src: url("../_hcms/googlefonts/Poppins/500.woff2") format("woff2"), url("../_hcms/googlefonts/Poppins/500.woff") format("woff"),
+             url("../_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("../_hcms/googlefonts/Poppins/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Poppins";
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+        src: url("../_hcms/googlefonts/Poppins/700.woff2") format("woff2"), url("../_hcms/googlefonts/Poppins/700.woff") format("woff"),
+             url("../_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("../_hcms/googlefonts/Poppins/regular.woff") format("woff");
+    }
+@font-face {
+        font-family: "Poppins";
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap;
+        src: url("../_hcms/googlefonts/Poppins/italic.woff2") format("woff2"), url("../_hcms/googlefonts/Poppins/italic.woff") format("woff"),
+             url("../_hcms/googlefonts/Poppins/regular.woff2") format("woff2"), url("../_hcms/googlefonts/Poppins/regular.woff") format("woff");
+    }
+
+            .pwr-header__skip {
+                font-family: Poppins;
+            }</style>
+
+    
+
+    
+
+    
+        
+        
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="../hs/hsstatic/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
+<script>hsjQuery = window['jQuery'];</script>
+    <meta property="og:description" content="Set up an integration, and make magic happen in Zoho CRM. This integration makes it easy to connect magicplan and Zoho CRM. Get started today.">
+    <meta property="og:title" content="Zoho CRM Integration | magicplan">
+    <meta name="twitter:description" content="Set up an integration, and make magic happen in Zoho CRM. This integration makes it easy to connect magicplan and Zoho CRM. Get started today.">
+    <meta name="twitter:title" content="Zoho CRM Integration | magicplan">
+
+    
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "magicplan",
+        "logo": { 
+            "@type": "ImageObject",
+            "url": "https://6852598.fs1.hubspotusercontent-na1.net/hubfs/6852598/Email%20Test/mp_logo_light.png"
+        },
+        "url": "https://www.magicplan.app/integrations/zoho-crm",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Canada",
+            "addressRegion": "Québec",
+            "addressLocality": "Montréal",
+            "postalCode":"H2Y 1V8",
+            "streetAddress": "465 Rue St Jean"
+        },
+        "knowsLanguage": "en"
+    }
+</script>
+    <style>a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="../hubfs/hub_generated/template_assets/1/82659040910/1763437175482/template_pwr.min.css">
+
+        <style>body {
+                margin:0px;
+            }
+            img:not([src]):not([srcset]) {
+                visibility:hidden;
+            }
+        </style>
+    
+<link class="hs-async-css" rel="preload" href="../hubfs/hub_generated/template_assets/1/108199330606/1763437169068/template_pwr-defer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="../hubfs/hub_generated/template_assets/1/108199330606/1763437169068/template_pwr-defer.min.css"></noscript>
+<style>#hs_cos_wrapper_header_page .pwr-header-logo,
+#hs_cos_wrapper_header_page .pwr-header-logo__img {
+  max-width:140px;
+  height:auto;
+}
+
+@media (max-width:575px) {
+  #hs_cos_wrapper_header_page .pwr-header-logo,
+  #hs_cos_wrapper_header_page .pwr-header-logo__img { max-width:140px; }
+}
+
+#hs_cos_wrapper_header_page .pwr-header-logo img { vertical-align:middle; }
+</style>
+<link rel="stylesheet" href="../hubfs/hub_generated/template_assets/1/108183947820/1763437144219/template_pwr-burger.min.css" fetchpriority="low">
+<link rel="stylesheet" href="../hubfs/hub_generated/template_assets/1/108197159258/1763437157608/template_scroll-shadow.min.css" fetchpriority="low">
+<link class="hs-async-css" rel="preload" href="../hubfs/hub_generated/template_assets/1/108197156937/1763437149550/template_advanced-content.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="low">
+<noscript><link rel="stylesheet" href="../hubfs/hub_generated/template_assets/1/108197156937/1763437149550/template_advanced-content.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="../hubfs/hub_generated/template_assets/1/108196992296/1763437171188/template_pwr-sec-txt.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="../hubfs/hub_generated/template_assets/1/108196992296/1763437171188/template_pwr-sec-txt.min.css"></noscript>
+<style>@media (min-width:992px) {
+  #hs_cos_wrapper_dnd_area-module-3 .pwr-sec-mockup__mockup {
+    --margin-center:calc(25.0% - min(960px,50%)/2);
+    --margin-side:calc(50% - min(960px,50%));
+  }
+
+  #hs_cos_wrapper_dnd_area-module-3 .pwr-sec-mockup__mockup--desktop-align-center:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-center); }
+
+  #hs_cos_wrapper_dnd_area-module-3 .pwr-sec-mockup__mockup--desktop-align-right:not(.pwr-sec-mockup__mockup--right) { margin-left:var(--margin-side); }
+
+  #hs_cos_wrapper_dnd_area-module-3 .pwr-sec-mockup__mockup--desktop-align-center.pwr-sec-mockup__mockup--right,
+  #hs_cos_wrapper_dnd_area-module-3 .pwr-sec-mockup--mockup-bottom .pwr-sec-mockup__mockup--desktop-align-center { margin-right:var(--margin-center); }
+
+  #hs_cos_wrapper_dnd_area-module-3 .pwr-sec-mockup__mockup--desktop-align-left.pwr-sec-mockup__mockup--right { margin-right:var(--margin-side); }
+
+  #hs_cos_wrapper_dnd_area-module-3 .pwr-sec-mockup__content { text-align:left; }
+
+  #hs_cos_wrapper_dnd_area-module-3 .pwr-sec-mockup__title-intro {}
+
+  #hs_cos_wrapper_dnd_area-module-3 .pwr-sec-mockup__title-intro--has-background { margin-left:0.825em; }
+}
+
+@media (max-width:991px) {
+  #hs_cos_wrapper_dnd_area-module-3 .pwr-sec-mockup__content { text-align:left; }
+
+  #hs_cos_wrapper_dnd_area-module-3 .pwr-sec-mockup__title-intro {}
+
+  #hs_cos_wrapper_dnd_area-module-3 .pwr-sec-mockup__title-intro--has-background { margin-left:0.825em; }
+}
+</style>
+<link class="hs-async-css" rel="preload" href="../hubfs/hub_generated/template_assets/1/108197336724/1763437148485/template_pwr-sec-mockup.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="../hubfs/hub_generated/template_assets/1/108197336724/1763437148485/template_pwr-sec-mockup.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="../hubfs/hub_generated/template_assets/1/108196628006/1763437165373/template_pwr-social.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="../hubfs/hub_generated/template_assets/1/108196628006/1763437165373/template_pwr-social.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="../hubfs/hub_generated/template_assets/1/108183947819/1763437163514/template_pwr-footer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="low">
+<noscript><link rel="stylesheet" href="../hubfs/hub_generated/template_assets/1/108183947819/1763437163514/template_pwr-footer.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="../hubfs/hub_generated/template_assets/1/108196658562/1763437161454/template_pwr-transitions.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="../hubfs/hub_generated/template_assets/1/108196658562/1763437161454/template_pwr-transitions.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="../hubfs/hub_generated/template_assets/1/82658359966/1763437144110/template_custom-styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="../hubfs/hub_generated/template_assets/1/82658359966/1763437144110/template_custom-styles.min.css"></noscript>
+<link class="hs-async-css" rel="preload" href="../hubfs/hub_generated/template_assets/1/83099875151/1763437143847/template_child.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="../hubfs/hub_generated/template_assets/1/83099875151/1763437143847/template_child.min.css"></noscript>
+<!-- Editor Styles -->
+<style id="hs_editor_style" type="text/css">.dnd_area-row-0-max-width-section-centering > .row-fluid {
+  max-width: 750px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.dnd_area-row-1-max-width-section-centering > .row-fluid {
+  max-width: 1232px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+/* HubSpot Styles (default) */
+.dnd_area-row-0-padding {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+.dnd_area-row-0-background-layers {
+  background-image: linear-gradient(rgba(58, 58, 60, 1), rgba(58, 58, 60, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-1-padding {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+/* HubSpot Styles (mobile) */
+@media (max-width: 767px) {
+  .dnd_area-row-1-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+</style>
+    
+
+    
+<!--  Added by GoogleAnalytics4 integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = true;
+var waitForUpdateMillis = 1000;
+
+
+if (!window._hsGoogleConsentRunOnce) {
+  window._hsGoogleConsentRunOnce = true;
+
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'wait_for_update': waitForUpdateMillis
+  });
+
+  if (useGoogleConsentModeV2) {
+    _hsp.push(['useGoogleConsentModeV2'])
+  } else {
+    _hsp.push(['addPrivacyConsentListener', function(consent){
+      var hasAnalyticsConsent = consent && (consent.allowed || (consent.categories && consent.categories.analytics));
+      var hasAdsConsent = consent && (consent.allowed || (consent.categories && consent.categories.advertisement));
+
+      gtag('consent', 'update', {
+        'ad_storage': hasAdsConsent ? 'granted' : 'denied',
+        'analytics_storage': hasAnalyticsConsent ? 'granted' : 'denied',
+        'ad_user_data': hasAdsConsent ? 'granted' : 'denied',
+        'ad_personalization': hasAdsConsent ? 'granted' : 'denied'
+      });
+    }]);
+  }
+}
+
+gtag('js', new Date());
+gtag('set', 'developer_id.dZTQ1Zm', true);
+gtag('config', 'G-Z9HSFLLP25');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9HSFLLP25"></script>
+
+<!-- /Added by GoogleAnalytics4 integration -->
+
+<!--  Added by GoogleTagManager integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = true;
+var waitForUpdateMillis = 1000;
+
+
+
+var hsLoadGtm = function loadGtm() {
+    if(window._hsGtmLoadOnce) {
+      return;
+    }
+
+    if (useGoogleConsentModeV2) {
+
+      gtag('set','developer_id.dZTQ1Zm',true);
+
+      gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'wait_for_update': waitForUpdateMillis
+      });
+
+      _hsp.push(['useGoogleConsentModeV2'])
+    }
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M26P32G5');
+
+    window._hsGtmLoadOnce = true;
+};
+
+_hsp.push(['addPrivacyConsentListener', function(consent){
+  if(consent.allowed || (consent.categories && consent.categories.analytics)){
+    hsLoadGtm();
+  }
+}]);
+
+</script>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    <link rel="canonical" href="zoho-crm.html">
+
+<script type="application/ld+json">
+{
+"@context" : "http://schema.org",
+"@type" : "WebSite",
+"name" : "magicplan",
+"url" : "https://www.magicplan.app/"
+}
+</script>
+<meta property="og:site_name" content="magicplan">
+
+<script id="vtag-ai-js" async src="../../r2.leadsy.ai/tag.js" data-pid="10YzmxlBp33rN4ROZ" data-version="062024"></script>
+
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id=' + i + dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M26P32G5');
+</script>
+<!-- End Google Tag Manager -->
+<meta property="og:url" content="https://www.magicplan.app/integrations/zoho-crm">
+<meta name="twitter:card" content="summary">
+<meta http-equiv="content-language" content="en">
+
+
+
+
+
+
+    
+    
+  <meta name="generator" content="HubSpot"></head>
+  <body>
+<!--  Added by GoogleTagManager integration -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M26P32G5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    <div class="body-wrapper   hs-content-id-101330444673 hs-site-page page  
+    pwr-v--46 line-numbers" data-aos-global-disable="phone" data-aos-global-offset="64" data-aos-global-delay="50" data-aos-global-duration="380">
+      
+        <div id="hs_cos_wrapper_page_settings" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"></div> 
+      
+
+      
+
+      
+        <div data-global-resource-path="POWER x magicplan main website/templates/partials/header.html"><header class="header">
+
+    
+    <a href="#main-content" class="pwr-header__skip">Skip to content</a><div class="header__container"><div id="hs_cos_wrapper_header_page" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div id="pwr-header-top" class="pwr-header-top vanilla  pwr-header-top--flip-order   pwr--light   ">
+  <div class="pwr-header-top__content-wrapper page-center pwr--clearfix"><div class="pwr-header-top__menu  pwr-js-menu"><span id="hs_cos_wrapper_header_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_header_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="100001491370" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://help.magicplan.app" role="menuitem">Customer Support</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="../contact.html" role="menuitem">Contact Us</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="tel:+18337502616" role="menuitem">833-750-2616</a></li>
+ </ul>
+</div></span></div></div>
+</div>
+
+<div id="pwr-js-burger" class="pwr-burger vanilla pwr--light  ">
+  <a href="#" id="pwr-js-burger__trigger-close" aria-label="Close" burger menu” class="pwr-burger__trigger-close vanilla">
+    <span class="pwr-burger__icon-close"></span>Close
+  </a>
+          
+          <div class="pwr-burger__menu pwr-js-menu pwr-scroll-shadow__wrapper pwr-scroll-shadow__wrapper--vert pwr-scroll-shadow__root pwr-scroll-shadow__root--vert"><span id="hs_cos_wrapper_header_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_header_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-vertical" role="navigation" data-sitemap-name="default" data-menu-id="107176816016" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Features</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../sketches.html" role="menuitem">Sketches</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../visual-documentation.html" role="menuitem">Photos</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../sops.html" role="menuitem">SOPs</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../equipment.html" role="menuitem">Equipment Placement</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../360-tours.html" role="menuitem">360º Panoramas</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../features.html" role="menuitem">Explore all of our features -&gt;</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Industries</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../industries/restoration.html" role="menuitem">Restoration</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../industries/remodeling.html" role="menuitem">Remodeling</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../industries/inspection.html" role="menuitem">Inspection</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Teams</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../field-teams.html" role="menuitem">Field teams</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../admin-teams.html" role="menuitem">Admin teams</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Resources</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://help.magicplan.app" role="menuitem">Help Center</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../magicplanacademy.html" role="menuitem">Academy</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.youtube.com/@magicplan/streams" role="menuitem">Webinars</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://community.magicplan.app/" role="menuitem">Community</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../integrations.html" role="menuitem">Integrations &amp; API Documentation</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://blog.magicplan.app" role="menuitem">Blog</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="../events.html" role="menuitem">Events</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="../pricing.html" role="menuitem">Pricing</a></li>
+ </ul>
+</div></span></div><div class="pwr-burger-bottom-bar"><div class="pwr-burger-bottom-bar__item pwr-cta pwr-cta--custom-02  ">
+      <a class="cta_button" href="https://cloud.magicplan.app/login" rel="noopener" target="_blank" title="Button LOGIN">LOGIN</a>                    
+    </div><div class="pwr-burger-bottom-bar__item pwr-cta pwr-cta--primary-solid  ">  
+      <a class="cta_button" href="../talk-to-sales.html" rel="noopener" target="_blank" title="Button TALK TO SALES">TALK TO SALES</a>                    
+    </div></div>
+</div><div id="pwr-header-fixed__spacer" class="pwr-header-fixed__spacer vanilla"></div><div id="pwr-header-fixed" class="pwr-header vanilla pwr-header-fixed pwr-header--blurry pwr--light  pwr-header--light-on-scroll   " data-mm-anim-fot-reveal="true" data-mm-anim-slide="true" data-mm-anim-fade="true">
+  <div class="page-center pwr-header--padding">
+    <div class="pwr-header-full pwr--clearfix">
+      <div class="pwr-header-logo pwr-header-logo--has-sticky"><a href="../index.html" aria-label="Back to Home"><img src="../hubfs/magicplan_logo_light_bg.svg" alt="magicplan logo" class="pwr-header-logo__img" width="300" height="63"></a><a href="../index.html" aria-label="Back to Home"><img src="../hubfs/magicplan_logo_light_bg.svg" alt="magicplan logo" class="pwr-header-logo__img--sticky" width="1100" height="230" fetchpriority="low" decoding="async"></a></div><div id="pwr-js-header__menu" class="pwr-header__menu pwr-header__menu--narrow-32  pwr-header__menu--adv-mega-menu pwr-header__menu--dropdown " style="left: 13.5%;"><div class="pwr-js-menu"><span id="hs_cos_wrapper_header_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_header_page_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="84704338442" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Solutions</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../mobile-field-reporting-solution.html" role="menuitem">Report</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../talk-to-sales.html" role="menuitem">Talk to Sales</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Resources</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://help.magicplan.app" role="menuitem">Help Center</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.youtube.com/@magicplan/streams" role="menuitem">Webinars</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://community.magicplan.app/" role="menuitem">Community</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://blog.magicplan.app" role="menuitem">Blog</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="../events.html" role="menuitem">Events</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="../pricing.html" role="menuitem">Pricing</a></li>
+ </ul>
+</div></span></div></div><div id="pwr-js-header-right-bar" class="pwr-header-right-bar "><div class="pwr-header-right-bar__item pwr-header-right-bar__cta pwr-cta pwr-cta--custom-02  ">
+            <a class="cta_button" href="https://cloud.magicplan.app/login" rel="noopener" target="_blank" title="Button LOGIN">LOGIN</a>                    
+          </div><div class="pwr-header-right-bar__item pwr-header-right-bar__cta pwr-header-right-bar__cta--second pwr-cta pwr-cta--primary-solid  ">
+          <a class="cta_button" href="../talk-to-sales.html" rel="noopener" target="_blank" title="Button TALK TO SALES">TALK TO SALES</a>                    
+        </div></div><a href="#" id="pwr-js-burger__trigger-open" aria-label="”Open" burger menu” class="pwr-burger__trigger-open vanilla  pwr-burger__trigger-open--mobile-only">
+        <div class="pwr-burger__icon-open">
+          <span></span>
+        </div>
+      </a></div>
+  </div><div class="pwr-header-advanced-mms"><div class="pwr-header-advanced-mm pwr-header-advanced-mm--custom-width pwr-header-advanced-mm--shadow pwr-header-advanced-mm--border-radius  pwr--relative" data-target="1" style="max-width: 680px;">
+                    <div class="pwr-adc pwr-adc--border-top pwr--light lazyload" style="">
+                        
+                        <div class="pwr-adc__wrapper"><div class="pwr-adc-main  pwr--relative"><div class="pwr-adc__cols pwr-adc-main__cols   pwr--relative">
+	<div class="pwr-adc__col pwr-adc__col--width-6 pwr-adc__col--border-right  pwr--align-fcol-t   pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-1-1-1 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small  pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--spacer "><div class="pwr-adc-content__spacer" style="height: 4px;"></div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #9a9a9a;"><strong>OUR FEATURES</strong></span></div></div></div><a href="../sketches.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-2 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">SKETCHES</div></div></a><a href="../visual-documentation.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-3 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">VISUAL DOCUMENTATION</div></div></a><a href="../360-tours.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-4 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">360º TOURS</div></div></a><a href="../sops.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-5 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">SOPs</div></div></a><a href="../estimate.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-1-6 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">ESTIMATES</div></div></a><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-1-1-7 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--button "><div class="pwr-adc-content__button pwr-cta pwr-cta--link pwr-cta--large">
+            <a class="cta_button" href="../features.html" title="Button Explore all of our features">Explore all of our features</a>                    
+        </div></div></div></div>								
+	</div>
+	<div class="pwr-adc__col pwr-adc__col--width-6   pwr--align-fcol-t   pwr--relative lazyload" style="background-color: rgba(250, 250, 250, 1.0); ">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-1-2-1 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--spacer "><div class="pwr-adc-content__spacer" style="height: 4px;"></div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #9a9a9a;"><strong>INDUSTRIES</strong></span></div></div></div><a href="../industries/restoration.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-2 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">RESTORATION</div></div></a><a href="../industries/remodeling.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-3 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">REMODELING</div></div></a><a href="../industries/inspection.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-4 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">INSPECTION</div></div></a><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-1-2-5 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--spacer "><div class="pwr-adc-content__spacer" style="height: 4px;"></div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #9a9a9a;"><strong>TEAMS</strong></span></div></div></div><a href="../field-teams.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-6 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">FIELD TEAMS</div></div></a><a href="../admin-teams.html" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-1-2-7 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">ADMIN TEAMS</div></div></a></div>								
+	</div></div>
+                            </div></div>
+                    </div>				
+                </div><div class="pwr-header-advanced-mm pwr-header-advanced-mm--custom-width pwr-header-advanced-mm--shadow pwr-header-advanced-mm--border-radius  pwr--relative" data-target="2" style="max-width: 450px;">
+                    <div class="pwr-adc  pwr--light lazyload" style="">
+                        
+                        <div class="pwr-adc__wrapper"><div class="pwr-adc-main  pwr--relative"><div class="pwr-adc__cols pwr-adc-main__cols  pwr--relative">
+	<div class="pwr-adc__col pwr-adc__col--width-12 pwr-adc__col--border- pwr--light    pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-2-1-1 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small  pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #9a9a9a;"><strong>RESOURCES</strong></span></div></div></div><a href="https://help.magicplan.app/" rel="noopener" target="_blank" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-2-1-2 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">HELP CENTER</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #666666;">How-to articles, guides, and product updates.</span></div></div></a><a href="../magicplanacademy.html" rel="noopener" target="_blank" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-2-1-3 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">ACADEMY</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #666666;">Premium courses, certifications, and strategies.</span></div></div></a><a href="https://community.magicplan.app/c/webinar?sort=asc" target="_blank" rel="noopener" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-2-1-4 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">WEBINARS</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><span style="color: #656565;">Live and on-demand webinars.</span></div></div></a><a href="https://community.magicplan.app" rel="noopener" target="_blank" class="pwr-adc__content-wrapper pwr-adc__content-wrapper--is-link pwr-adc__content-wrapper--ix-2-1-5 pwr-adc__content-wrapper--padding pwr-adc__content-wrapper--padding-small pwr-adc__content-wrapper--border-radius pwr--align-fcol-t   pwr--align-l    pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">COMMUNITY</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><p style="font-size: 14px;"><span style="color: #656565;">Connect with other magicplan users.</span></p></div></div></a></div>								
+	</div></div>
+                            </div><div class="pwr-adc-sub pwr-adc-sub--border-bottom    pwr--light pwr--relative lazyload" style="background-color: rgba(229, 239, 252, 1.0); ">
+                
+
+                <div class=" pwr--relative">
+                    <div class="pwr-adc__cols pwr-adc-sub__cols    pwr--relative">
+    <div class="pwr-adc__col pwr-adc__col--width-12 pwr--align-l pwr--relative lazyload" style="">
+        <div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><p style="text-align: center;"><strong><span style="color: #0099ee;"><a href="../integrations.html" rel="noopener" style="color: #0099ee;">INTEGRATIONS &amp; API DOCUMENTATION</a></span></strong></p></div></div></div></div>	
+                </div>
+
+            </div></div>
+                    </div>				
+                </div></div></div></div></div>
+
+    <div class="container-fluid header-bottom__container">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+
+</header></div>
+      
+
+      <main id="main-content" class="body-container-wrapper">
+    <div class="body-container"><div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 dnd_area-row-0-max-width-section-centering dnd_area-row-0-background-color dnd_area-row-0-background-layers dnd-section dnd_area-row-0-padding">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_16787064645365" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+    
+    
+    
+<div class="pwr-sec-txt pwr-sec-txt--1col vanilla pwr-mh-group pwr--align-c pwr--dark pwr--sec-padding-t-sm pwr--sec-padding-b-md pwr--margin-t-0 pwr--margin-b-0    lazyload" style="background-color: transparent; ">
+    
+    
+
+    
+    <div class="page-center pwr--relative pwr--clearfix"><div class="pwr-sec-txt__content pwr-sec-txt__content--top  pwr--clearfix "><div class="pwr-rich-text pwr-sec-txt__left" tmp-data-aos="fade-in" tmp-data-aos-delay="50">
+            <p style="line-height: 1.25;"><img src="../hubfs/ZohoCRM_integration_design.svg" alt="magicplan Zoho CRM logos integration" width="200" height="200" loading="lazy" style="height: auto; max-width: 100%; width: 200px; margin: 0px auto 40px; display: block;"></p>
+<h1 style="line-height: 1.5; text-align: center;"><span>Zoho CRM Integration</span></h1>
+<h5 style="line-height: 1.5; text-align: center;"><span>Zoho CRM is a web-based CRM designed to attract, retain, and satisfy customers to grow your business.</span></h5>
+          </div></div>
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 dnd_area-row-1-padding dnd_area-row-1-max-width-section-centering dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-3" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+    
+    
+    
+<div class="pwr-sec-mockup pwr-sec-mockup--mockup-right vanilla pwr-mh-group pwr-sec-mockup--flipped pwr--flip-container pwr--light pwr--sec-padding-t-sm pwr--sec-padding-b-sm pwr--margin-t-0 pwr--margin-b-0    lazyload" style="">
+    
+    
+
+    
+    
+
+    <div class="pwr-sec-mockup__content--pos-vert">
+    <div class="page-center">
+      <div class="pwr-sec-mockup__content pwr-sec-mockup__content--center pwr-sec-mockup__content--left" style="width: 50%;" data-pwr-mh="sec-mockup-content-height"><h2 class="pwr-sec__title pwr-heading-style--default pwr-sec-mockup__title">Integrate with Zoho CRM</h2><span class="pwr-rich-text pwr-sec__desc pwr-sec-mockup__desc">
+        <p style="line-height: 2;"><span>Keeping track of your leads and deals in Zoho CRM while managing projects in magicplan at the same time can be a little overwhelming. With this integration, you’ll automatically create new magicplan projects from Zoho CRM, including all of your customer data. No more double work and less room for error. Plus, you can quickly move files from magicplan to Zoho CRM and set new deal stages.</span></p>
+<div style="line-height: 2;"><strong>Powered by &nbsp;<img src="../hs-fs/hubfs/zapier-logo?width=87&amp;height=40&amp;name=zapier-logo.png" alt="zapier-logo" width="87" height="40" loading="lazy" style="width: 87px; height: auto; max-width: 100%;" srcset="../hs-fs/hubfs/zapier-logo?width=44&amp;height=20&amp;name=zapier-logo.png 44w, ../hs-fs/hubfs/zapier-logo?width=87&amp;height=40&amp;name=zapier-logo.png 87w, ../hs-fs/hubfs/zapier-logo?width=131&amp;height=60&amp;name=zapier-logo.png 131w, ../hs-fs/hubfs/zapier-logo?width=174&amp;height=80&amp;name=zapier-logo.png 174w, ../hs-fs/hubfs/zapier-logo?width=218&amp;height=100&amp;name=zapier-logo.png 218w, ../hs-fs/hubfs/zapier-logo?width=261&amp;height=120&amp;name=zapier-logo.png 261w" sizes="(max-width: 87px) 100vw, 87px"></strong></div>
+<div style="line-height: 2;"><span>&nbsp;</span></div>
+<div style="line-height: 2;"><span><span><span><span><span><span><span><span>•&nbsp;</span></span></span></span></span></span></span></span>Generate magicplan projects with updated Zoho CRM module entries</div>
+<div style="line-height: 2;"><span><span><span><span><span><span><span><span>•&nbsp;</span></span></span></span></span></span></span></span>Add Zoho CRM attachments with new files in magicplan</div>
+<div style="line-height: 2;"><span><span><span><span><span><span>•&nbsp;</span></span></span></span></span></span>Update Zoho CRM module entries with new projects exported in magicplan</div>
+<div style="line-height: 2;"><span></span><span></span><span>•&nbsp;</span>And many more ...</div>
+<p style="text-align: left; line-height: 2;"><strong><a href="../integrations.html" rel="noopener">👈&nbsp;See all integrations</a></strong></p></span><div class="pwr-cta-container pwr-sec-mockup__cta-container pwr--clearfix">
+            <div class="pwr--neg-margin-lr-10"><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--custom-01 pwr-cta--long">
+                <a href="https://zapier.com/apps/magicplan/integrations/zoho-crm" target="_blank" rel="noopener nofollow" class="pwr-cta_button " role="button">Activate Integration</a>
+              </div><div class="pwr-cta-container__cta pwr-sec-mockup__cta pwr-cta pwr-cta--custom-01 pwr-cta--long">
+                <a href="https://help.magicplan.app/using-zapier-integrations-with-magicplan" target="_blank" rel="noopener nofollow" class="pwr-cta_button " role="button">Learn how</a>
+              </div></div>
+          </div></div>
+    </div>
+  </div>
+  <div class="pwr-sec-mockup__mockup-wrapper pwr-sec-mockup__mockup-wrapper--center page-center pwr--relative pwr--clearfix" data-pwr-mh="sec-mockup-content-height">
+    <div class="pwr-sec-mockup__mockup pwr-sec-mockup__mockup--desktop-align-left pwr-sec-mockup__mockup--mobile-align-center pwr-sec-mockup__mockup--right pwr-sec-mockup__mockup--not-fw " style="width: 50%;max-width: 960px;"><div class="pwr-ratio-box" style="padding-bottom: calc(1.2380952380952381 * 100%);">
+
+            <img data-src="../../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/mockup_ZohoCRM_integration%EF%B9%96quality=low&amp;width=300&amp;name=mockup_ZohoCRM_integration.png" data-srcset="../../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/mockup_ZohoCRM_integration%EF%B9%96quality=low&amp;width=300&amp;name=mockup_ZohoCRM_integration.png 300w , ../../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/mockup_ZohoCRM_integration%EF%B9%96quality=low&amp;width=575&amp;name=mockup_ZohoCRM_integration.png 575w , ../../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/mockup_ZohoCRM_integration%EF%B9%96quality=low&amp;width=767&amp;name=mockup_ZohoCRM_integration.png 767w , ../../6852598.fs1.hubspotusercontent-na1.net/hub/6852598/hubfs/mockup_ZohoCRM_integration%EF%B9%96quality=low&amp;width=840&amp;name=mockup_ZohoCRM_integration.png 840w " data-sizes="auto" data-maxRetina="1.5" class="lazyload pwr-sec-mockup__mockup-img" alt="Zoho CRM website home page dashboard integration with magicplan through zapier automation" style="object-fit: cover;"></div></div> 
+  </div>
+    
+    
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div></div>
+</main>
+
+      
+        <div data-global-resource-path="POWER x magicplan main website/templates/partials/footer.html"><footer class="footer"><div class="container-fluid footer-top__container">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+
+	<div class="footer__container"><div id="hs_cos_wrapper_footer_page" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+    
+
+<div class="pwr-footer vanilla pwr-footer-advanced  pwr--light  lazyload" style="background-color: rgba(238, 238, 238, 1.0); ">
+  
+
+  
+  
+    
+
+    
+
+    <div class="pwr-footer__content pwr-adc pwr--light">
+        <div class="pwr-adc__wrapper"><div class="pwr-adc-main page-center pwr--padding-t-0 pwr--padding-b-0">
+                
+                
+                
+                <div class="pwr-adc__cols pwr-adc-main__cols   pwr--relative">
+                    
+                    
+                    
+                        
+	<div class="pwr-adc__col pwr-adc__col--width-4   pwr--align-fcol-t pwr--align-fcol-t-t  pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-0-1-1   pwr--align-fcol-t pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-l pwr--align-t-l pwr--align-m-l  pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--logo pwr-footer__logo pwr-footer__logo--large"><a href="../index.html"><img src="../hubfs/magicplan_logo_200x50.svg" alt="magicplan_logo_200x50" width="133" height="32"></a></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text"><p style="font-size: 14px; font-family: Inter, Arial, Helvetica, sans-serif; line-height: 1.75;">With magicplan, restorers capture what counts instantly. Create real-time floor plans with your mobile device - no processing time for the fastest claim submissions.</p></div></div></div></div>								
+	</div>
+                    
+                
+                    
+                    
+                    
+                        
+	<div class="pwr-adc__col pwr-adc__col--width-2   pwr--align-fcol-t pwr--align-fcol-t-t  pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-0-2-1   pwr--align-fcol-t pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-l pwr--align-t-l pwr--align-m-l  pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">RESOURCES</div></div><div class="pwr-adc-content pwr-adc-content--menu "><div class="pwr-adc-content__menu pwr-js-menu"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-vertical" role="navigation" data-sitemap-name="default" data-menu-id="84488216487" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://help.magicplan.app/" role="menuitem">Help Center</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="../integrations.html" role="menuitem">Integrations</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://apidocs.magicplan.app/" role="menuitem" target="_blank" rel="noopener">API Docs</a></li>
+ </ul>
+</div></span></div></div></div></div>								
+	</div>
+                    
+                
+                    
+                    
+                    
+                        
+	<div class="pwr-adc__col pwr-adc__col--width-2   pwr--align-fcol-t pwr--align-fcol-t-t  pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-0-3-1   pwr--align-fcol-t pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-l pwr--align-t-l pwr--align-m-l  pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">COMPANY</div></div><div class="pwr-adc-content pwr-adc-content--menu "><div class="pwr-adc-content__menu pwr-js-menu"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-vertical" role="navigation" data-sitemap-name="default" data-menu-id="84487672667" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="../about.html" role="menuitem">About us</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="../contact.html" role="menuitem">Contact us</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="../careers.html" role="menuitem">Careers</a></li>
+ </ul>
+</div></span></div></div></div></div>								
+	</div>
+                    
+                
+                    
+                    
+                    
+                        
+	<div class="pwr-adc__col pwr-adc__col--width-4   pwr--align-fcol-t pwr--align-fcol-t-t  pwr--relative lazyload" style="">
+        
+
+		<div class="pwr-adc__content-wrappers"><div class="pwr-adc__content-wrapper  pwr-adc__content-wrapper--ix-0-4-1   pwr--align-fcol-t pwr--align-fcol-t-t pwr--align-fcol-m-t pwr--align-l pwr--align-t-l pwr--align-m-l  pwr--relative lazyload" style="">
+                <div class="pwr-adc-content pwr-adc-content--title "><div class="pwr-adc-content__title">WANT TO LEARN MORE?</div></div><div class="pwr-adc-content pwr-adc-content--text "><div class="pwr-adc-content__text pwr-rich-text">Schedule a call with a member of our sales team and learn what magicplan can do for your business.</div></div><div class="pwr-adc-content pwr-adc-content--cta "><div class="pwr-adc-content__cta pwr-cta pwr-cta--primary-solid  "><span id="hs_cos_wrapper_footer_page_cta_name" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style="" data-hs-cos-general-type="widget" data-hs-cos-type="cta"><div class="hs-web-interactive-inline" style="" data-hubspot-wrapper-cta-id="167697367671"> 
+ <style data-hubspot-cta-style="hs-inline-web-interactive-167697367671">a.hs-inline-web-interactive-167697367671 {
+    -webkit-font-smoothing: antialiased !important;cursor: pointer !important;-moz-user-select: none !important;-webkit-user-select: none !important;-o-user-select: none !important;user-select: none !important;display: inline-block !important;font-weight: normal !important;text-align: center !important;text-decoration: none !important;-moz-transition: all .4s ease !important;-webkit-transition: all .4s ease !important;-o-transition: all .4s ease !important;background: #0099EE !important;border-radius: 6px !important;border-width: 0px !important;color: #FFFFFF !important;font-family: sans-serif !important;height: auto !important;transition: all .4s ease !important;padding:6px 19px;text-shadow: none !important;width: auto !important;font-size: 24px !important;line-height: 1.5em !important;
+  }
+
+  a.hs-inline-web-interactive-167697367671:hover {
+    background: #0099EE !important;color: rgb(242, 242, 242) !important;
+  }
+
+  a.hs-inline-web-interactive-167697367671:active {
+    background: #0099EE !important;color: rgb(242, 242, 242) !important;
+  }
+
+  a.hs-inline-web-interactive-167697367671:active:hover {
+    background: #0099EE !important;color: rgb(242, 242, 242) !important;
+  }
+
+</style> 
+ <a href="../talk-to-sales%EF%B9%96hsCtaAttrib=167697367671.html" target="_blank" class="hs-inline-web-interactive-167697367671   " data-hubspot-cta-id="167697367671"> <span style="font-size: 14px;"><strong>TALK TO SALES</strong></span> </a> 
+</div></span></div></div></div></div>								
+	</div>
+                    
+                
+                </div>
+            </div>
+                
+        
+        
+        
+    
+        <div class="pwr-adc-sub pwr-adc-sub--border-none pwr-adc-sub--content-width  pwr--padding-t-0 pwr--sec-padding-b-sm pwr--light pwr--relative lazyload" style="">
+            
+
+            <div class="page-center pwr--relative">
+                <div class="pwr-adc__cols pwr-adc-sub__cols  pwr--align-frow-m    pwr--relative">
+                    
+                    
+                        
+    <div class="pwr-adc__col pwr-adc__col--width-8 pwr--align-l pwr--relative lazyload" style="">
+        <div class="pwr-adc-content pwr-adc-content--menu "><div class="pwr-adc-content__menu pwr-js-menu"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_page_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="84483248486" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="javascript:;" role="menuitem">© 2025 magicplan</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://help.magicplan.app/legal-privacy" role="menuitem" target="_blank" rel="noopener">Legal</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://help.magicplan.app/privacy-app" role="menuitem" target="_blank" rel="noopener">Privacy Policy</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="../imprint.html" role="menuitem">Imprint</a></li>
+ </ul>
+</div></span></div></div></div>
+                    
+                
+                    
+                    
+                        
+    <div class="pwr-adc__col pwr-adc__col--width-4 pwr--align-l pwr--relative lazyload" style="">
+        <div class="pwr-adc-content pwr-adc-content--social-icons pwr-footer-company-info__icons"><a href="https://www.facebook.com/magicplan/" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon facebook-square"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="facebook-square1_layer"><path d="M448 80v352c0 26.5-21.5 48-48 48h-85.3V302.8h60.6l8.7-67.6h-69.3V192c0-19.6 5.4-32.9 33.5-32.9H384V98.7c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9H184v67.6h60.9V480H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48z" /></g></svg></span></a><a href="https://www.instagram.com/magicplan_app/" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon instagram"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="instagram2_layer"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" /></g></svg></span></a><a href="https://www.youtube.com/channel/UCqmjz2x7NffJRMg4mmeDTvg" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon youtube"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" aria-hidden="true"><g id="youtube3_layer"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" /></g></svg></span></a><a href="https://twitter.com/magicplan" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon twitter"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="twitter4_layer"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" /></g></svg></span></a><a href="https://www.linkedin.com/company/magicplanapp" target="_blank" rel="nofollow" class="pwr-social-icon pwr-adc-content__social-icon" aria-label="Social Icon linkedin"><span id="hs_cos_wrapper_footer_page_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="linkedin5_layer"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></g></svg></span></a></div></div>
+                    
+                
+                </div>	
+            </div>
+
+        </div>
+    
+            </div>
+    </div>
+
+
+  
+
+</div></div></div>
+
+    <div class="container-fluid footer-bottom__container">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+        
+</footer></div>
+      
+    </div>
+    
+<!-- HubSpot performance collection script -->
+<script defer src="../hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
+
+        <script>
+            function isElementUnderViewport(el) {
+                var rect = el.getBoundingClientRect();
+                var windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+                return (rect.top >= windowHeight);
+            }
+            document.addEventListener("DOMContentLoaded", () => {
+                document.querySelectorAll('[tmp-data-aos]').forEach((elem) => {
+                    if (isElementUnderViewport(elem)) {
+                        elem.setAttribute("data-aos", elem.getAttribute("tmp-data-aos"))
+                        elem.setAttribute("data-aos-delay", elem.getAttribute("tmp-data-aos-delay"))
+                        elem.removeAttribute('tmp-data-aos');
+                        elem.removeAttribute('tmp-data-aos-delay');
+                    }
+                });
+                if(typeof AOS !== 'undefined') {
+                    AOS.refreshHard();
+                }
+            });
+        </script>
+    
+<script defer src="../hubfs/hub_generated/template_assets/1/82656084152/1763437150295/template_pwr.min.js"></script>
+<script src="../hubfs/hub_generated/template_assets/1/83100446469/1763437142433/template_child.min.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="../hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+<script defer fetchpriority="low" src="../hubfs/hub_generated/template_assets/1/108197159255/1763437162671/template_pwr-burger.min.js"></script>
+<script defer fetchpriority="low" src="../hubfs/hub_generated/template_assets/1/108196628002/1763437146447/template_scroll-shadow.min.js"></script>
+<script src="../hs/hsstatic/keyboard-accessible-menu-flyouts/static-1.17/bundles/project.js"></script>
+<script defer src="../hubfs/hub_generated/template_assets/1/104112487695/1763437145196/template_advanced-mm-custom.min.js"></script>
+<!-- Start of Web Interactives Embed Code -->
+<script defer src="../../js.hubspot.com/web-interactives-embed.js" type="text/javascript" id="hubspot-web-interactives-loader" data-loader="hs-previewer" data-hsjs-portal="6852598" data-hsjs-env="prod" data-hsjs-hublet="na1"></script>
+<!-- End of Web Interactives Embed Code -->
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.magicplan.app\/integrations\/zoho-crm"]);
+_hsq.push(["setPageId", "101330444673"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 101330444673,
+    "legacyPageId": "101330444673",
+    "contentFolderId": null,
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 101330444673,
+    "languageCode": "en",
+    
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="../hs/scriptloader/6852598.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "d946443a-ae9f-4cda-8fe9-b2b138f5c219",
+    ticks: 1767777515240,
+    page_id: 101330444673,
+    
+    content_group_id: 0,
+    portal_id: 6852598,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "standard-page",
+    scp_content_type: "",
+    
+    analytics_page_id: "101330444673",
+    category_id: 1,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="../hs/hsstatic/HubspotToolsMenu/static-1.432/js/index.js"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M26P32G5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+    
+
+  
+</body></html>
